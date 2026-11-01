@@ -5,7 +5,7 @@
     "passed": 70
   },
   "javascript_tests": {
-    "passed": 20
+    "passed": 21
   },
   "hosted_mode_offline_reproduction": "passed; VERCEL=1 and Python networking blocked",
   "source_sha256": {
@@ -14,13 +14,37 @@
     ".python-version": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d",
     ".vercelignore": "c6c0fe4687ff942c3c008892ff442efc74fb25ed180f08863a8a5db587aa7a2d",
     "requirements.txt": "fce6f69e4cb233b869e68c59248ba5e9486a4cbfd6fa3658502037a74f5a380a",
-    "tests/test_hosting.py": "8968e9f59e2c058b6aa24cb8c687c61891be3545e47c266e62d64ee46ef3bddc"
+    "tests/test_hosting.py": "8968e9f59e2c058b6aa24cb8c687c61891be3545e47c266e62d64ee46ef3bddc",
+    "static/dashboard.js": "755ab8a20f8ca5f4f1a5aae014c03626eb7c3346aa80f9226d8f79dd56762960"
   },
-  "deployment_status": "pending Vercel CLI login; not yet deployed",
+  "deployment_status": "READY",
   "limitations": [
     "Caches are instance-local and ephemeral",
     "Public deployment starts without Gemini API key",
     "Fresh Git-only deployments need private saved-data preparation",
     "Live Yahoo retrieval can fail or exceed hosted time limits"
+  ],
+  "production_url": "https://finalitics-dashboard.vercel.app",
+  "deployment_id": "dpl_45NDcBuQEykzAkQvSzGr7vUu5JvU",
+  "live_api_checks": {
+    "home": 200,
+    "health": 200,
+    "home_preview": 200,
+    "saved_calculation": 200,
+    "unconfigured_gemini_graceful": 200,
+    "invalid_weights": 400,
+    "raw_prices_path": 404
+  },
+  "browser_checks": [
+    "saved example renders 739 dates and verified metrics",
+    "desktop overview at 1440x1000",
+    "mobile comparison and risk at390x844",
+    "resizing preserves report after browser warning fix",
+    "99% allocation disables Calculate with explicit explanation",
+    "manual Reset then Calculate recovers from invalid totals"
+  ],
+  "browser_limitations": [
+    "print not verified",
+    "live Yahoo retrieval not verified"
   ]
 }

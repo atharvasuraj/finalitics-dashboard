@@ -1,3 +1,5 @@
+Live demo: [finalitics-dashboard.vercel.app](https://finalitics-dashboard.vercel.app) · hosted on Vercel Hobby; Gemini is unconfigured on the public demo.
+
 # Finalitics — your portfolio lab
 
 Start with an interactive home page, then build your mix → explore the results → request AI interpretation. The portfolio workspace has a live allocation ring, a guided saved example, equal-weight shortcut and focused Overview, Risk & allocation, Compare mixes and AI views.
@@ -60,7 +62,7 @@ python scripts/verify_dashboard.py
 python scripts/verify_snapshot.py --output /tmp/foundation-check.json
 ```
 
-Current revamp totals: **70 Python checks and 20 JavaScript checks passed**. Node 20+ is needed only for JavaScript regression checks. Financial/API tests block Python networking; the offline dashboard reproduction additionally needs the already cached TCS/Infosys 2021–2023 example (instructions in QUICKSTART). Browser verification of this revamp is **pending permission**; it is not screenshot-validated. Older screenshots and the [final polish record](docs/FINAL_POLISH.md) describe earlier interfaces. See the [current evidence record](docs/INTERFACE_REVAMP.md). Original numerical calculations and saved data are unchanged.
+Current revamp totals: **70 Python checks and 21 JavaScript checks passed**. Node 20+ is needed only for JavaScript regression checks. Financial/API tests block Python networking; the offline dashboard reproduction additionally needs the already cached TCS/Infosys 2021–2023 example (instructions in QUICKSTART). Production browser checks cover the home preview, saved calculation, comparison and risk tabs, invalid totals, and desktop/mobile resizing. New screenshots are in docs/evidence/live-*.jpg. Print and live Yahoo retrieval have not been verified on Vercel. Older screenshots and the [final polish record](docs/FINAL_POLISH.md) describe earlier interfaces. See the [current evidence record](docs/INTERFACE_REVAMP.md). Original numerical calculations and saved data are unchanged.
 
 ## History and credit
 
