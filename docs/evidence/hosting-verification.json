@@ -1,0 +1,26 @@
+{
+  "verified_at_utc": "2026-11-01T05:14:21.198928+00:00",
+  "revision_tested": "c3f61ba01acf1918066ec4ae98ba16bca6986096",
+  "python_tests": {
+    "passed": 70
+  },
+  "javascript_tests": {
+    "passed": 20
+  },
+  "hosted_mode_offline_reproduction": "passed; VERCEL=1 and Python networking blocked",
+  "source_sha256": {
+    "app.py": "c1ed14fdfffa3ab42a90ce23c2140235e25fee92325a8fbb19a34cdb76eb644c",
+    "vercel.json": "3d27d335a2857a25c20e9ce52abc3b6669052f4c02e3fc00af0ad42db0fb2b8a",
+    ".python-version": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d",
+    ".vercelignore": "c6c0fe4687ff942c3c008892ff442efc74fb25ed180f08863a8a5db587aa7a2d",
+    "requirements.txt": "fce6f69e4cb233b869e68c59248ba5e9486a4cbfd6fa3658502037a74f5a380a",
+    "tests/test_hosting.py": "8968e9f59e2c058b6aa24cb8c687c61891be3545e47c266e62d64ee46ef3bddc"
+  },
+  "deployment_status": "pending Vercel CLI login; not yet deployed",
+  "limitations": [
+    "Caches are instance-local and ephemeral",
+    "Public deployment starts without Gemini API key",
+    "Fresh Git-only deployments need private saved-data preparation",
+    "Live Yahoo retrieval can fail or exceed hosted time limits"
+  ]
+}

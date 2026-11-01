@@ -1,8 +1,8 @@
 {
-  "verified_at_utc": "2026-11-01T05:02:25.365116+00:00",
+  "verified_at_utc": "2026-11-01T05:13:42.928415+00:00",
   "network": "Python DNS/TCP blocked before app import",
   "source_sha256": {
-    "app.py": "c64c3461462d2a235f6e9e227b9e5ee6ea93c887861e7efff171f65ea665ded5",
+    "app.py": "c1ed14fdfffa3ab42a90ce23c2140235e25fee92325a8fbb19a34cdb76eb644c",
     "portfolio.py": "ebc0df98321abe0ae293d50937d2eb494a36e881b8174053e21c7c2fd2fb9d31",
     "market.py": "5475646e51c281f28a3b76fdd99b4e61dc66f2f658808d4c8e907066d84db4ea",
     "dashboard.py": "b7989c300ef642820b6c7ac8e66ee5c05fb59b43f985f6d2dfbb11ee7a826e3e",
