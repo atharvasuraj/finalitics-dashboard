@@ -1,0 +1,77 @@
+{
+  "fund_0": {
+    "fund_id": "f00000qsdn",
+    "holdingList": [
+      {"security_name": "Reliance Industries Ltd", "weighting": 8.5, "type": "equity"},
+      {"security_name": "HDFC Bank Ltd", "weighting": 7.2, "type": "equity"},
+      {"security_name": "Infosys Ltd", "weighting": 6.8, "type": "equity"},
+      {"security_name": "TCS Ltd", "weighting": 6.1, "type": "equity"},
+      {"security_name": "ITC Ltd", "weighting": 5.9, "type": "equity"},
+      {"security_name": "Bharti Airtel Ltd", "weighting": 4.8, "type": "equity"},
+      {"security_name": "Kotak Mahindra Bank Ltd", "weighting": 4.2, "type": "equity"},
+      {"security_name": "HUL Ltd", "weighting": 3.9, "type": "equity"},
+      {"security_name": "ICICI Bank Ltd", "weighting": 3.7, "type": "equity"},
+      {"security_name": "Bajaj Finance Ltd", "weighting": 3.5, "type": "equity"}
+    ]
+  },
+  "fund_1": {
+    "fund_id": "f00000rsln",
+    "holdingList": [
+      {"security_name": "HDFC Bank Ltd", "weighting": 9.1, "type": "equity"},
+      {"security_name": "ICICI Bank Ltd", "weighting": 7.8, "type": "equity"},
+      {"security_name": "Reliance Industries Ltd", "weighting": 7.3, "type": "equity"},
+      {"security_name": "Bajaj Finance Ltd", "weighting": 6.5, "type": "equity"},
+      {"security_name": "Asian Paints Ltd", "weighting": 5.2, "type": "equity"},
+      {"security_name": "Nestlé India Ltd", "weighting": 4.9, "type": "equity"},
+      {"security_name": "Kotak Mahindra Bank Ltd", "weighting": 4.6, "type": "equity"},
+      {"security_name": "Maruti Suzuki India Ltd", "weighting": 4.1, "type": "equity"},
+      {"security_name": "TCS Ltd", "weighting": 3.8, "type": "equity"},
+      {"security_name": "Titan Company Ltd", "weighting": 3.2, "type": "equity"}
+    ]
+  },
+  "fund_2": {
+    "fund_id": "f00000tsop",
+    "holdingList": [
+      {"security_name": "Microsoft Corp", "weighting": 4.2, "type": "equity"},
+      {"security_name": "Apple Inc", "weighting": 3.8, "type": "equity"},
+      {"security_name": "Amazon Inc", "weighting": 3.5, "type": "equity"},
+      {"security_name": "Alphabet Inc", "weighting": 3.1, "type": "equity"},
+      {"security_name": "HDFC Bank Ltd", "weighting": 2.8, "type": "equity"},
+      {"security_name": "Taiwan Semiconductor", "weighting": 2.5, "type": "equity"},
+      {"security_name": "Meta Platforms Inc", "weighting": 2.3, "type": "equity"},
+      {"security_name": "Tesla Inc", "weighting": 2.1, "type": "equity"},
+      {"security_name": "Nvidia Corp", "weighting": 1.9, "type": "equity"},
+      {"security_name": "Berkshire Hathaway", "weighting": 1.8, "type": "equity"}
+    ]
+  },
+  "fund_3": {
+    "fund_id": "f00000uvwx",
+    "holdingList": [
+      {"security_name": "SBI Bank", "weighting": 8.2, "type": "equity"},
+      {"security_name": "Reliance Industries Ltd", "weighting": 7.9, "type": "equity"},
+      {"security_name": "Larsen & Toubro Ltd", "weighting": 6.4, "type": "equity"},
+      {"security_name": "HDFC Bank Ltd", "weighting": 5.8, "type": "equity"},
+      {"security_name": "Bajaj Finserv Ltd", "weighting": 5.1, "type": "equity"},
+      {"security_name": "Power Grid Corp", "weighting": 4.7, "type": "equity"},
+      {"security_name": "NTPC Ltd", "weighting": 4.3, "type": "equity"},
+      {"security_name": "Coal India Ltd", "weighting": 3.9, "type": "equity"},
+      {"security_name": "Indian Oil Corp", "weighting": 3.6, "type": "equity"},
+      {"security_name": "ONGC Ltd", "weighting": 3.2, "type": "equity"}
+    ]
+  },
+  "fund_4": {
+    "fund_id": "f00000yzab",
+    "holdingList": [
+      {"security_name": "HDFC Bank Ltd", "weighting": 10.2, "type": "equity"},
+      {"security_name": "Infosys Ltd", "weighting": 8.7, "type": "equity"},
+      {"security_name": "TCS Ltd", "weighting": 8.1, "type": "equity"},
+      {"security_name": "Reliance Industries Ltd", "weighting": 7.4, "type": "equity"},
+      {"security_name": "ICICI Bank Ltd", "weighting": 6.9, "type": "equity"},
+      {"security_name": "Wipro Ltd", "weighting": 5.8, "type": "equity"},
+      {"security_name": "HCL Technologies Ltd", "weighting": 5.2, "type": "equity"},
+      {"security_name": "Tech Mahindra Ltd", "weighting": 4.6, "type": "equity"},
+      {"security_name": "Bajaj Finance Ltd", "weighting": 4.1, "type": "equity"},
+      {"security_name": "Kotak Mahindra Bank Ltd", "weighting": 3.8, "type": "equity"}
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Mutual Fund Allocation Table</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f8f9fa; margin: 0; padding: 0; }
+        .container { max-width: 800px; margin: 40px auto; background: white; border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); padding: 30px; }
+        h2 { color: #2c3e50; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+        th { background: #f1f3f6; }
+        tr:nth-child(even) { background: #f9f9f9; }
+        .back-btn { margin-top: 30px; padding: 10px 24px; background: #3498db; color: white; border: none; border-radius: 6px; cursor: pointer; }
+        .back-btn:hover { background: #217dbb; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Personal Mutual Fund Allocation Table</h2>
+        {% if allocations %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Stock</th>
+                    <th>Amount (₹)</th>
+                    <th>Percentage (%)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for a in allocations %}
+                <tr>
+                    <td>{{ a.symbol }}</td>
+                    <td>{{ "{:,.2f}".format(a.amount) }}</td>
+                    <td>{{ "{:.2f}".format(a.percentage) }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <p>No allocation data available.</p>
+        {% endif %}
+        <button class="back-btn" onclick="window.location.href='/'">Back to Home</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,382 @@
+{
+  "verified_at_utc": "2026-11-01T05:02:25.365116+00:00",
+  "network": "Python DNS/TCP blocked before app import",
+  "source_sha256": {
+    "app.py": "c64c3461462d2a235f6e9e227b9e5ee6ea93c887861e7efff171f65ea665ded5",
+    "portfolio.py": "ebc0df98321abe0ae293d50937d2eb494a36e881b8174053e21c7c2fd2fb9d31",
+    "market.py": "5475646e51c281f28a3b76fdd99b4e61dc66f2f658808d4c8e907066d84db4ea",
+    "dashboard.py": "b7989c300ef642820b6c7ac8e66ee5c05fb59b43f985f6d2dfbb11ee7a826e3e",
+    "interpretation.py": "5594099c698c25b8e08575efed48c91935a92d0bd2f47cfc586c1e25bcffa46b",
+    "static/dashboard.js": "9443a3a2e3135c533e280f9af51dced2ab51cb9a7782bca81b3bd2082b47297d",
+    "static/home.js": "aecf50e53dfe6d5c3714913f37c946b16c0e83373c7de857328636e86de76211",
+    "static/home.css": "1466b498f331d25f83c7e96d5ec51837b2420408d7e765f29918c653e88abe6d",
+    "templates/home.html": "73a3bc1d7a51043420834bb10af5ec8644f577b4aea359c7fc20c9dd1a9d6319",
+    "static/dashboard_state.js": "495ed7831203bad4ab223c709702afe7876f94ffc0688f8f9e76fbad6a7fdd55",
+    "static/dashboard.css": "0cc7730fc195407aa81decae4f281a3711b5b044e4f88401b8208a61a53bf791",
+    "templates/dashboard.html": "7034b1112b051e28bef16778d08617bd8160ee1c2ff6539818176dddd30cbc9a",
+    "requirements-ai.txt": "7f52c54d708276987585518cd903f9df7468b871e3329f1b152f5f93cb20684e",
+    "requirements-lock.txt": "aa85443bf840f0f8db37a52d0329cea8d9d525a90b551e552dbd0e8d1886fca8"
+  },
+  "results": {
+    "saved": {
+      "request": {
+        "source": "saved",
+        "current": [
+          {
+            "symbol": "RELIANCE",
+            "weight": 40
+          },
+          {
+            "symbol": "HDFCBANK",
+            "weight": 30
+          },
+          {
+            "symbol": "INFY",
+            "weight": 30
+          }
+        ],
+        "alternative": [
+          {
+            "symbol": "RELIANCE",
+            "weight": 20
+          },
+          {
+            "symbol": "HDFCBANK",
+            "weight": 40
+          },
+          {
+            "symbol": "INFY",
+            "weight": 40
+          }
+        ]
+      },
+      "period": {
+        "end": "2024-12-31",
+        "observations": 739,
+        "start": "2022-01-03"
+      },
+      "metrics": {
+        "alternative": {
+          "annualized_volatility": 0.17010272825138065,
+          "cagr": 0.04289854614971311,
+          "max_drawdown": 0.19414654328809844,
+          "total_return": 0.1339367742991131
+        },
+        "benchmark": {
+          "annualized_volatility": 0.12570638551121247,
+          "cagr": 0.11543893582101061,
+          "max_drawdown": 0.15734991594297287,
+          "total_return": 0.38669253108202195
+        },
+        "current": {
+          "annualized_volatility": 0.1703055831047704,
+          "cagr": 0.040810615609649936,
+          "max_drawdown": 0.16878973498657635,
+          "total_return": 0.12715682778667747
+        }
+      },
+      "coverage": {
+        "HDFCBANK.NS": {
+          "end": "2024-12-31",
+          "observations": 739,
+          "start": "2022-01-03"
+        },
+        "INFY.NS": {
+          "end": "2024-12-31",
+          "observations": 739,
+          "start": "2022-01-03"
+        },
+        "NIFTYBEES.NS": {
+          "end": "2024-12-31",
+          "observations": 739,
+          "start": "2022-01-03"
+        },
+        "RELIANCE.NS": {
+          "end": "2024-12-31",
+          "observations": 739,
+          "start": "2022-01-03"
+        }
+      },
+      "excluded_dates": {
+        "HDFCBANK.NS": 0,
+        "INFY.NS": 0,
+        "NIFTYBEES.NS": 0,
+        "RELIANCE.NS": 0
+      },
+      "provenance": {
+        "HDFCBANK.NS": {
+          "adjustment": "Provider dividend/split-adjusted closing-price return proxy; no additional adjustment or dividend cash flows added.",
+          "coverage": {
+            "HDFCBANK.NS": {
+              "end": "2024-12-31",
+              "observations": 739,
+              "start": "2022-01-03"
+            },
+            "INFY.NS": {
+              "end": "2024-12-31",
+              "observations": 739,
+              "start": "2022-01-03"
+            },
+            "RELIANCE.NS": {
+              "end": "2024-12-31",
+              "observations": 739,
+              "start": "2022-01-03"
+            }
+          },
+          "currency": "INR",
+          "exchange_timezone": "Asia/Kolkata",
+          "parameters": {
+            "actions": true,
+            "auto_adjust": false,
+            "back_adjust": false,
+            "interval": "1d",
+            "keepna": true,
+            "prepost": false,
+            "repair": false,
+            "rounding": false
+          },
+          "price_field": "Adj Close",
+          "provider": "Yahoo Finance",
+          "requested_end_exclusive": "2025-01-01",
+          "requested_start": "2022-01-01",
+          "retrieved_at_utc": "2026-10-31T08:05:54.783819+00:00",
+          "schema_version": 1,
+          "sha256": "6b1277ad97d9590c41b794caddee1496e12a7100bca96aba5a7864620a700aab",
+          "source_url": "https://finance.yahoo.com/",
+          "symbols": [
+            "RELIANCE.NS",
+            "HDFCBANK.NS",
+            "INFY.NS"
+          ],
+          "yfinance_version": "1.7.0"
+        },
+        "INFY.NS": {
+          "adjustment": "Provider dividend/split-adjusted closing-price return proxy; no additional adjustment or dividend cash flows added.",
+          "coverage": {
+            "HDFCBANK.NS": {
+              "end": "2024-12-31",
+              "observations": 739,
+              "start": "2022-01-03"
+            },
+            "INFY.NS": {
+              "end": "2024-12-31",
+              "observations": 739,
+              "start": "2022-01-03"
+            },
+            "RELIANCE.NS": {
+              "end": "2024-12-31",
+              "observations": 739,
+              "start": "2022-01-03"
+            }
+          },
+          "currency": "INR",
+          "exchange_timezone": "Asia/Kolkata",
+          "parameters": {
+            "actions": true,
+            "auto_adjust": false,
+            "back_adjust": false,
+            "interval": "1d",
+            "keepna": true,
+            "prepost": false,
+            "repair": false,
+            "rounding": false
+          },
+          "price_field": "Adj Close",
+          "provider": "Yahoo Finance",
+          "requested_end_exclusive": "2025-01-01",
+          "requested_start": "2022-01-01",
+          "retrieved_at_utc": "2026-10-31T08:05:54.783819+00:00",
+          "schema_version": 1,
+          "sha256": "6b1277ad97d9590c41b794caddee1496e12a7100bca96aba5a7864620a700aab",
+          "source_url": "https://finance.yahoo.com/",
+          "symbols": [
+            "RELIANCE.NS",
+            "HDFCBANK.NS",
+            "INFY.NS"
+          ],
+          "yfinance_version": "1.7.0"
+        },
+        "NIFTYBEES.NS": {
+          "cache_hit": true,
+          "currency": "INR",
+          "price_field": "Adj Close",
+          "provider": "Yahoo Finance",
+          "request": [
+            "NIFTYBEES.NS",
+            "2022-01-01",
+            "2024-12-31"
+          ],
+          "retrieved_at_utc": "2026-10-31T08:38:04.437262+00:00",
+          "sha256": "963c0f6a0f81fec92b9b0f5d92b285827b67b538620a608d5268f9ac43cfc7fe",
+          "yfinance_version": "1.7.0"
+        },
+        "RELIANCE.NS": {
+          "adjustment": "Provider dividend/split-adjusted closing-price return proxy; no additional adjustment or dividend cash flows added.",
+          "coverage": {
+            "HDFCBANK.NS": {
+              "end": "2024-12-31",
+              "observations": 739,
+              "start": "2022-01-03"
+            },
+            "INFY.NS": {
+              "end": "2024-12-31",
+              "observations": 739,
+              "start": "2022-01-03"
+            },
+            "RELIANCE.NS": {
+              "end": "2024-12-31",
+              "observations": 739,
+              "start": "2022-01-03"
+            }
+          },
+          "currency": "INR",
+          "exchange_timezone": "Asia/Kolkata",
+          "parameters": {
+            "actions": true,
+            "auto_adjust": false,
+            "back_adjust": false,
+            "interval": "1d",
+            "keepna": true,
+            "prepost": false,
+            "repair": false,
+            "rounding": false
+          },
+          "price_field": "Adj Close",
+          "provider": "Yahoo Finance",
+          "requested_end_exclusive": "2025-01-01",
+          "requested_start": "2022-01-01",
+          "retrieved_at_utc": "2026-10-31T08:05:54.783819+00:00",
+          "schema_version": 1,
+          "sha256": "6b1277ad97d9590c41b794caddee1496e12a7100bca96aba5a7864620a700aab",
+          "source_url": "https://finance.yahoo.com/",
+          "symbols": [
+            "RELIANCE.NS",
+            "HDFCBANK.NS",
+            "INFY.NS"
+          ],
+          "yfinance_version": "1.7.0"
+        }
+      },
+      "foundation_metrics_unchanged": true,
+      "gemini_status": "unavailable"
+    },
+    "custom": {
+      "request": {
+        "source": "historical",
+        "start": "2021-01-01",
+        "end": "2023-12-31",
+        "current": [
+          {
+            "symbol": "TCS",
+            "weight": 60
+          },
+          {
+            "symbol": "INFY",
+            "weight": 40
+          }
+        ],
+        "alternative": [
+          {
+            "symbol": "TCS",
+            "weight": 40
+          },
+          {
+            "symbol": "INFY",
+            "weight": 60
+          }
+        ]
+      },
+      "period": {
+        "end": "2023-12-29",
+        "observations": 741,
+        "start": "2021-01-01"
+      },
+      "metrics": {
+        "alternative": {
+          "annualized_volatility": 0.2122703685731233,
+          "cagr": 0.1016037600543469,
+          "max_drawdown": 0.2975204912523749,
+          "total_return": 0.3355026571742874
+        },
+        "benchmark": {
+          "annualized_volatility": 0.1347963594749749,
+          "cagr": 0.1707890659415201,
+          "max_drawdown": 0.161077914408712,
+          "total_return": 0.6022596921921768
+        },
+        "current": {
+          "annualized_volatility": 0.20504047771699369,
+          "cagr": 0.10522913666045941,
+          "max_drawdown": 0.2665723931117774,
+          "total_return": 0.34868601470411487
+        }
+      },
+      "coverage": {
+        "INFY.NS": {
+          "end": "2023-12-29",
+          "observations": 741,
+          "start": "2021-01-01"
+        },
+        "NIFTYBEES.NS": {
+          "end": "2023-12-29",
+          "observations": 741,
+          "start": "2021-01-01"
+        },
+        "TCS.NS": {
+          "end": "2023-12-29",
+          "observations": 741,
+          "start": "2021-01-01"
+        }
+      },
+      "excluded_dates": {
+        "INFY.NS": 0,
+        "NIFTYBEES.NS": 0,
+        "TCS.NS": 0
+      },
+      "provenance": {
+        "INFY.NS": {
+          "cache_hit": true,
+          "currency": "INR",
+          "price_field": "Adj Close",
+          "provider": "Yahoo Finance",
+          "request": [
+            "INFY.NS",
+            "2021-01-01",
+            "2023-12-31"
+          ],
+          "retrieved_at_utc": "2026-10-31T08:41:04.718027+00:00",
+          "sha256": "74df4be4185c6f96740e315eb688134c356f6fc67f21e4ca44ad9e131aa720bb",
+          "yfinance_version": "1.7.0"
+        },
+        "NIFTYBEES.NS": {
+          "cache_hit": true,
+          "currency": "INR",
+          "price_field": "Adj Close",
+          "provider": "Yahoo Finance",
+          "request": [
+            "NIFTYBEES.NS",
+            "2021-01-01",
+            "2023-12-31"
+          ],
+          "retrieved_at_utc": "2026-10-31T08:41:04.853038+00:00",
+          "sha256": "c0e395732d5f24fad287f034a0da968cbbe163ba0cc42150108d6604c47ee840",
+          "yfinance_version": "1.7.0"
+        },
+        "TCS.NS": {
+          "cache_hit": true,
+          "currency": "INR",
+          "price_field": "Adj Close",
+          "provider": "Yahoo Finance",
+          "request": [
+            "TCS.NS",
+            "2021-01-01",
+            "2023-12-31"
+          ],
+          "retrieved_at_utc": "2026-10-31T08:41:05.136536+00:00",
+          "sha256": "5721289b0845aa66ce05d9314211890ee7b62640222916942f03484c93116643",
+          "yfinance_version": "1.7.0"
+        }
+      }
+    }
+  }
+}

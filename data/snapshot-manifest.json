@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "provider": "Yahoo Finance",
+  "source_url": "https://finance.yahoo.com/",
+  "symbols": [
+    "RELIANCE.NS",
+    "HDFCBANK.NS",
+    "INFY.NS"
+  ],
+  "currency": "INR",
+  "exchange_timezone": "Asia/Kolkata",
+  "price_field": "Adj Close",
+  "adjustment": "Provider dividend/split-adjusted closing-price return proxy; no additional adjustment or dividend cash flows added.",
+  "requested_start": "2022-01-01",
+  "requested_end_exclusive": "2025-01-01",
+  "retrieved_at_utc": "2026-10-31T08:05:54.783819+00:00",
+  "yfinance_version": "1.7.0",
+  "parameters": {
+    "interval": "1d",
+    "auto_adjust": false,
+    "back_adjust": false,
+    "actions": true,
+    "repair": false,
+    "keepna": true,
+    "rounding": false,
+    "prepost": false
+  },
+  "coverage": {
+    "HDFCBANK.NS": {
+      "start": "2022-01-03",
+      "end": "2024-12-31",
+      "observations": 739
+    },
+    "INFY.NS": {
+      "start": "2022-01-03",
+      "end": "2024-12-31",
+      "observations": 739
+    },
+    "RELIANCE.NS": {
+      "start": "2022-01-03",
+      "end": "2024-12-31",
+      "observations": 739
+    }
+  },
+  "sha256": "6b1277ad97d9590c41b794caddee1496e12a7100bca96aba5a7864620a700aab"
+}

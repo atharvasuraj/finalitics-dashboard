@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Offerings - Finalitics Platform</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .nav-btn {
+            background: #27ae60;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 0 10px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .nav-btn:hover {
+            background: #219a52;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(39, 174, 96, 0.3);
+        }
+
+        .main-content {
+            padding: 40px;
+        }
+
+        .intro-section {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 15px;
+        }
+
+        .intro-section h2 {
+            color: #2c3e50;
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .intro-section p {
+            color: #6c757d;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .market-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .summary-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border-left: 5px solid #3498db;
+        }
+
+        .summary-card h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+
+        .summary-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #3498db;
+        }
+
+        .baskets-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 30px;
+        }
+
+        .basket-card {
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .basket-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .basket-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .basket-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .risk-badge {
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .risk-low {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .risk-medium {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .risk-high {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .basket-description {
+            color: #6c757d;
+            font-size: 1rem;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .basket-strategy {
+            color: #495057;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .basket-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .metric {
+            text-align: center;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .metric-label {
+            font-size: 0.8rem;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+
+        .metric-value {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .stocks-list {
+            max-height: 200px;
+            overflow-y: auto;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 10px;
+            background: #f8f9fa;
+        }
+
+        .stock-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .stock-item:last-child {
+            border-bottom: none;
+        }
+
+        .stock-name {
+            font-weight: 500;
+            color: #2c3e50;
+        }
+
+        .stock-sector {
+            font-size: 0.8rem;
+            color: #6c757d;
+        }
+
+        .stock-return {
+            font-weight: bold;
+            color: #27ae60;
+        }
+
+        .stock-return.negative {
+            color: #e74c3c;
+        }
+
+        .invest-btn {
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        .invest-btn:hover {
+            background: linear-gradient(135deg, #2980b9 0%, #3498db 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+        }
+
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: center;
+            border: 1px solid #f5c6cb;
+        }
+
+        .refresh-btn {
+            background: #17a2b8;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .refresh-btn:hover {
+            background: #138496;
+        }
+
+        @media (max-width: 768px) {
+            .baskets-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .basket-metrics {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .market-summary {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Stock Offerings</h1>
+            <p>by KVAGI - AI-Powered Stock Basket Recommendations</p>
+            <div class="nav-buttons" style="margin-top: 20px;">
+                <button class="nav-btn" onclick="window.location.href='/'">
+                    📊 Portfolio Analysis
+                </button>
+                <button class="nav-btn" onclick="window.location.href='/stock-offerings-page'">
+                    🚀 Stock Offerings
+                </button>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="intro-section">
+                <h2>🎯 Smart Stock Baskets</h2>
+                <p>Discover professionally curated stock baskets from NIFTY 100 companies. Our AI analyzes returns, volatility, PE ratios, and other key metrics to create diversified investment opportunities tailored to your risk profile.</p>
+            </div>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Analyzing NIFTY 100 stocks and creating basket offerings...</p>
+            </div>
+
+            <div id="errorMessage" class="error" style="display: none;">
+                <h3>❌ Error Loading Data</h3>
+                <p id="errorText"></p>
+                <button class="refresh-btn" onclick="loadStockOfferings()">🔄 Retry</button>
+            </div>
+
+            <div id="stockOfferings" style="display: none;">
+                <div class="market-summary" id="marketSummary">
+                    <!-- Market summary will be populated here -->
+                </div>
+
+                <div class="baskets-container" id="basketsContainer">
+                    <!-- Baskets will be populated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Load stock offerings when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            loadStockOfferings();
+        });
+
+        function loadStockOfferings() {
+            const loading = document.getElementById('loading');
+            const errorMessage = document.getElementById('errorMessage');
+            const stockOfferings = document.getElementById('stockOfferings');
+            
+            loading.style.display = 'block';
+            errorMessage.style.display = 'none';
+            stockOfferings.style.display = 'none';
+
+            fetch('/stock-offerings')
+                .then(response => response.json())
+                .then(data => {
+                    loading.style.display = 'none';
+                    
+                    if (data.error) {
+                        showError(data.error);
+                    } else {
+                        displayStockOfferings(data);
+                    }
+                })
+                .catch(error => {
+                    loading.style.display = 'none';
+                    showError('Failed to load stock offerings. Please check your internet connection and try again.');
+                    console.error('Error:', error);
+                });
+        }
+
+        function showError(message) {
+            const errorMessage = document.getElementById('errorMessage');
+            const errorText = document.getElementById('errorText');
+            
+            errorText.textContent = message;
+            errorMessage.style.display = 'block';
+        }
+
+        function displayStockOfferings(data) {
+            displayMarketSummary(data.market_summary, data.total_stocks_analyzed);
+            displayBaskets(data.baskets);
+            document.getElementById('stockOfferings').style.display = 'block';
+        }
+
+        function displayMarketSummary(summary, totalStocks) {
+            const summaryContainer = document.getElementById('marketSummary');
+            
+            const summaryHTML = `
+                <div class="summary-card">
+                    <h3>📈 Stocks Analyzed</h3>
+                    <div class="summary-value">${totalStocks}</div>
+                </div>
+                <div class="summary-card">
+                    <h3>🏭 Sectors Covered</h3>
+                    <div class="summary-value">${summary.sectors_analyzed}</div>
+                </div>
+                <div class="summary-card">
+                    <h3>📊 Avg PE Ratio</h3>
+                    <div class="summary-value">${summary.avg_pe_ratio.toFixed(2)}</div>
+                </div>
+                <div class="summary-card">
+                    <h3>💰 Avg Dividend Yield</h3>
+                    <div class="summary-value">${summary.avg_dividend_yield.toFixed(2)}%</div>
+                </div>
+            `;
+            
+            summaryContainer.innerHTML = summaryHTML;
+        }
+
+        function displayBaskets(baskets) {
+            const basketsContainer = document.getElementById('basketsContainer');
+            
+            let basketsHTML = '';
+            
+            Object.entries(baskets).forEach(([name, basket]) => {
+                const riskClass = `risk-${basket.risk_level.toLowerCase()}`;
+                const stocksHTML = basket.stocks.map(stock => `
+                    <div class="stock-item">
+                        <div>
+                            <div class="stock-name">${stock.symbol}</div>
+                            <div class="stock-sector">${stock.csv_industry}</div>
+                        </div>
+                        <div class="stock-return ${stock.annual_return < 0 ? 'negative' : ''}">
+                            ${stock.annual_return.toFixed(1)}%
+                        </div>
+                    </div>
+                `).join('');
+                
+                basketsHTML += `
+                    <div class="basket-card">
+                        <div class="basket-header">
+                            <div class="basket-title">${name}</div>
+                            <div class="risk-badge ${riskClass}">${basket.risk_level} Risk</div>
+                        </div>
+                        <div class="basket-description">${basket.description}</div>
+                        <div class="basket-strategy">${basket.strategy}</div>
+                        
+                        <div class="basket-metrics">
+                            <div class="metric">
+                                <div class="metric-label">Avg Return</div>
+                                <div class="metric-value">${basket.avg_return}%</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-label">Volatility</div>
+                                <div class="metric-value">${basket.avg_volatility}%</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-label">PE Ratio</div>
+                                <div class="metric-value">${basket.avg_pe}</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-label">Min Investment</div>
+                                <div class="metric-value">${basket.min_investment}</div>
+                            </div>
+                        </div>
+                        
+                        <div class="stocks-list">
+                            ${stocksHTML}
+                        </div>
+                        
+                        <button class="invest-btn" onclick="investInBasket('${name}')">
+                            💼 Invest in ${name}
+                        </button>
+                    </div>
+                `;
+            });
+            
+            basketsContainer.innerHTML = basketsHTML;
+        }
+
+        function investInBasket(basketName) {
+            // This would typically integrate with a trading platform
+            alert(`🚀 Investment feature for "${basketName}" is coming soon! 
+            
+This would typically:
+• Open investment interface
+• Show detailed analysis
+• Allow portfolio allocation
+• Execute trades through broker integration
+            
+Stay tuned for the full implementation!`);
+        }
+    </script>
+</body>
+</html>

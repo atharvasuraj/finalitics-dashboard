@@ -1,0 +1,4842 @@
+{
+  "fund_0": {
+    "fund_id": "F00000GV5I",
+    "holdingList": [
+      {
+        "security_name": "Larsen & Toubro Ltd",
+        "weighting": 6.23,
+        "type": "equity"
+      },
+      {
+        "security_name": "NTPC Ltd",
+        "weighting": 5.71,
+        "type": "equity"
+      },
+      {
+        "security_name": "Reliance Industries Ltd",
+        "weighting": 5.25,
+        "type": "equity"
+      },
+      {
+        "security_name": "Vedanta Ltd",
+        "weighting": 3.82,
+        "type": "equity"
+      },
+      {
+        "security_name": "Lloyds Metals & Energy Ltd",
+        "weighting": 3.73,
+        "type": "equity"
+      },
+      {
+        "security_name": "Hero MotoCorp Ltd",
+        "weighting": 3.54,
+        "type": "equity"
+      },
+      {
+        "security_name": "Manorama Industries Ltd",
+        "weighting": 2.82,
+        "type": "equity"
+      },
+      {
+        "security_name": "Eris Lifesciences Ltd Registered Shs",
+        "weighting": 2.79,
+        "type": "equity"
+      },
+      {
+        "security_name": "Oil India Ltd",
+        "weighting": 2.49,
+        "type": "equity"
+      },
+      {
+        "security_name": "Acutaas Chemicals Ltd",
+        "weighting": 2.31,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bharti Airtel Ltd",
+        "weighting": 2.28,
+        "type": "equity"
+      },
+      {
+        "security_name": "Gabriel India Ltd",
+        "weighting": 2.1,
+        "type": "equity"
+      },
+      {
+        "security_name": "TD Power Systems Ltd",
+        "weighting": 1.95,
+        "type": "equity"
+      },
+      {
+        "security_name": "Quadrant Future Tek Ltd",
+        "weighting": 1.94,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bharat Dynamics Ltd Ordinary Shares",
+        "weighting": 1.89,
+        "type": "equity"
+      },
+      {
+        "security_name": "Oberoi Realty Ltd",
+        "weighting": 1.79,
+        "type": "equity"
+      },
+      {
+        "security_name": "Samvardhana Motherson International Ltd",
+        "weighting": 1.77,
+        "type": "equity"
+      },
+      {
+        "security_name": "Quality Power Electrical Equipments Ltd",
+        "weighting": 1.63,
+        "type": "equity"
+      },
+      {
+        "security_name": "Carraro India Ltd",
+        "weighting": 1.61,
+        "type": "equity"
+      },
+      {
+        "security_name": "Supreme Industries Ltd",
+        "weighting": 1.58,
+        "type": "equity"
+      },
+      {
+        "security_name": "Senco Gold Ltd",
+        "weighting": 1.53,
+        "type": "equity"
+      },
+      {
+        "security_name": "PCBL Chemical Ltd",
+        "weighting": 1.39,
+        "type": "equity"
+      },
+      {
+        "security_name": "PSP Projects Ltd",
+        "weighting": 1.38,
+        "type": "equity"
+      },
+      {
+        "security_name": "Swan Energy Ltd",
+        "weighting": 1.35,
+        "type": "equity"
+      },
+      {
+        "security_name": "Deepak Nitrite Ltd",
+        "weighting": 1.34,
+        "type": "equity"
+      },
+      {
+        "security_name": "Sterling and Wilson Renewable Energy Ltd",
+        "weighting": 1.34,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bharat Electronics Ltd",
+        "weighting": 1.31,
+        "type": "equity"
+      },
+      {
+        "security_name": "SJS Enterprises Ltd",
+        "weighting": 1.3,
+        "type": "equity"
+      },
+      {
+        "security_name": "Endurance Technologies Ltd",
+        "weighting": 1.26,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bayer CropScience Ltd",
+        "weighting": 1.21,
+        "type": "equity"
+      },
+      {
+        "security_name": "Wockhardt Ltd",
+        "weighting": 1.18,
+        "type": "equity"
+      },
+      {
+        "security_name": "Dr Reddy's Laboratories Ltd",
+        "weighting": 1.08,
+        "type": "equity"
+      },
+      {
+        "security_name": "Ceigall India Ltd",
+        "weighting": 1.03,
+        "type": "equity"
+      },
+      {
+        "security_name": "Jindal Stainless Ltd",
+        "weighting": 1.0,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bansal Wire Industries Ltd",
+        "weighting": 0.99,
+        "type": "equity"
+      },
+      {
+        "security_name": "Ashok Leyland Ltd",
+        "weighting": 0.99,
+        "type": "equity"
+      },
+      {
+        "security_name": "HEG Ltd",
+        "weighting": 0.99,
+        "type": "equity"
+      },
+      {
+        "security_name": "Stylam Industries Ltd",
+        "weighting": 0.98,
+        "type": "equity"
+      },
+      {
+        "security_name": "Aditya Birla Real Estate Ltd",
+        "weighting": 0.96,
+        "type": "equity"
+      },
+      {
+        "security_name": "JK Cement Ltd",
+        "weighting": 0.96,
+        "type": "equity"
+      },
+      {
+        "security_name": "Indus Towers Ltd Ordinary Shares",
+        "weighting": 0.94,
+        "type": "equity"
+      },
+      {
+        "security_name": "Kalpataru Projects International Ltd",
+        "weighting": 0.92,
+        "type": "equity"
+      },
+      {
+        "security_name": "Triveni Turbine Ltd",
+        "weighting": 0.92,
+        "type": "equity"
+      },
+      {
+        "security_name": "Vinati Organics Ltd",
+        "weighting": 0.92,
+        "type": "equity"
+      },
+      {
+        "security_name": "NTPC Green Energy Ltd",
+        "weighting": 0.9,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tega Industries Ltd",
+        "weighting": 0.87,
+        "type": "equity"
+      },
+      {
+        "security_name": "Brigade Enterprises Ltd",
+        "weighting": 0.78,
+        "type": "equity"
+      },
+      {
+        "security_name": "Kross Ltd",
+        "weighting": 0.68,
+        "type": "equity"
+      },
+      {
+        "security_name": "Aurobindo Pharma Ltd",
+        "weighting": 0.67,
+        "type": "equity"
+      },
+      {
+        "security_name": "UNO Minda Ltd",
+        "weighting": 0.65,
+        "type": "equity"
+      },
+      {
+        "security_name": "KNR Constructions Ltd",
+        "weighting": 0.63,
+        "type": "equity"
+      },
+      {
+        "security_name": "Shanthi Gears Ltd",
+        "weighting": 0.63,
+        "type": "equity"
+      },
+      {
+        "security_name": "Emami Ltd",
+        "weighting": 0.58,
+        "type": "equity"
+      },
+      {
+        "security_name": "Siemens Ltd",
+        "weighting": 0.55,
+        "type": "equity"
+      },
+      {
+        "security_name": "Ratnamani Metals & Tubes Ltd",
+        "weighting": 0.54,
+        "type": "equity"
+      },
+      {
+        "security_name": "Galaxy Surfactants Ltd",
+        "weighting": 0.49,
+        "type": "equity"
+      },
+      {
+        "security_name": "Linde India Ltd",
+        "weighting": 0.45,
+        "type": "equity"
+      },
+      {
+        "security_name": "Siemens Engy Ind",
+        "weighting": 0.42,
+        "type": "equity"
+      },
+      {
+        "security_name": "Sobha Ltd",
+        "weighting": 0.41,
+        "type": "equity"
+      },
+      {
+        "security_name": "Dixon Technologies (India) Ltd",
+        "weighting": 0.37,
+        "type": "equity"
+      },
+      {
+        "security_name": "Steelcast Ltd",
+        "weighting": 0.23,
+        "type": "equity"
+      },
+      {
+        "security_name": "ITD Cementation India Ltd",
+        "weighting": 0.01,
+        "type": "equity"
+      },
+      {
+        "security_name": "364 DTB 15012026",
+        "weighting": 0.03,
+        "type": "bond"
+      }
+    ]
+  },
+  "fund_1": {
+    "fund_id": "F00000OVQ2",
+    "holdingList": [
+      {
+        "security_name": "LIC Housing Finance Ltd",
+        "weighting": 6.25,
+        "type": "bond"
+      },
+      {
+        "security_name": "Export Import Bank Of India",
+        "weighting": 5.0,
+        "type": "bond"
+      },
+      {
+        "security_name": "08.31 Wb SDL 2025",
+        "weighting": 3.76,
+        "type": "bond"
+      },
+      {
+        "security_name": "Hdb Financial Services Limited",
+        "weighting": 3.75,
+        "type": "bond"
+      },
+      {
+        "security_name": "India (Republic of)",
+        "weighting": 1.24,
+        "type": "bond"
+      }
+    ]
+  },
+  "fund_2": {
+    "fund_id": "F00000PCZ0",
+    "holdingList": [
+      {
+        "security_name": "7.18% Govt Stock 2033",
+        "weighting": 8.36,
+        "type": "bond"
+      },
+      {
+        "security_name": "Power Finance Corporation Limited",
+        "weighting": 5.47,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.1% Govt Stock 2034",
+        "weighting": 4.53,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Housing Bank",
+        "weighting": 3.63,
+        "type": "bond"
+      },
+      {
+        "security_name": "Indian Oil Corporation Limited",
+        "weighting": 3.14,
+        "type": "bond"
+      },
+      {
+        "security_name": "Power Grid Corporation Of India Limited",
+        "weighting": 2.99,
+        "type": "bond"
+      },
+      {
+        "security_name": "HDFC Bank Limited",
+        "weighting": 2.54,
+        "type": "bond"
+      },
+      {
+        "security_name": "Rec Limited",
+        "weighting": 2.52,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.59% Govt Stock 2031",
+        "weighting": 2.48,
+        "type": "bond"
+      },
+      {
+        "security_name": "State Bank Of India",
+        "weighting": 2.31,
+        "type": "bond"
+      },
+      {
+        "security_name": "Small Industries Development Bank Of India",
+        "weighting": 2.25,
+        "type": "bond"
+      },
+      {
+        "security_name": "Rural Electrification Corporation Limited",
+        "weighting": 2.15,
+        "type": "bond"
+      },
+      {
+        "security_name": "6.99% Govt Stock 2034",
+        "weighting": 2.14,
+        "type": "bond"
+      },
+      {
+        "security_name": "LIC Housing Finance Ltd",
+        "weighting": 2.06,
+        "type": "bond"
+      },
+      {
+        "security_name": "Small Industries Development Bank Of India",
+        "weighting": 2.05,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Bank For Agriculture And Rural Development",
+        "weighting": 1.81,
+        "type": "bond"
+      },
+      {
+        "security_name": "Punjab National Bank",
+        "weighting": 1.77,
+        "type": "bond"
+      },
+      {
+        "security_name": "Power Finance Corporation Limited",
+        "weighting": 1.68,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Bank For Agriculture And Rural Development",
+        "weighting": 1.66,
+        "type": "bond"
+      },
+      {
+        "security_name": "Export Import Bank Of India",
+        "weighting": 1.65,
+        "type": "bond"
+      },
+      {
+        "security_name": "Power Finance Corporation Limited",
+        "weighting": 1.64,
+        "type": "bond"
+      },
+      {
+        "security_name": "REC Ltd. 0.0637%",
+        "weighting": 1.61,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Bank For Financing Infrastructure And Development",
+        "weighting": 1.6,
+        "type": "bond"
+      },
+      {
+        "security_name": "Union Bank Of India",
+        "weighting": 1.59,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Bank For Agriculture And Rural Development",
+        "weighting": 1.48,
+        "type": "bond"
+      },
+      {
+        "security_name": "HDFC Bank Limited",
+        "weighting": 1.34,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Housing Bank",
+        "weighting": 1.31,
+        "type": "bond"
+      },
+      {
+        "security_name": "Power Grid Corporation Of India Limited",
+        "weighting": 1.28,
+        "type": "bond"
+      },
+      {
+        "security_name": "HDFC Bank Limited",
+        "weighting": 1.26,
+        "type": "bond"
+      },
+      {
+        "security_name": "Food Corporation Of India",
+        "weighting": 1.25,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.81% Govt Stock 2033",
+        "weighting": 1.25,
+        "type": "bond"
+      },
+      {
+        "security_name": "Nuclear Power Corporation Of India Limited",
+        "weighting": 1.24,
+        "type": "bond"
+      },
+      {
+        "security_name": "Small Industries Development Bank Of India",
+        "weighting": 1.24,
+        "type": "bond"
+      },
+      {
+        "security_name": "Small Industries Development Bank Of India",
+        "weighting": 1.24,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Bank For Agriculture And Rural Development",
+        "weighting": 1.24,
+        "type": "bond"
+      },
+      {
+        "security_name": "HDFC Bank Limited",
+        "weighting": 1.17,
+        "type": "bond"
+      },
+      {
+        "security_name": "Rural Electrification Corporation Limited",
+        "weighting": 1.01,
+        "type": "bond"
+      },
+      {
+        "security_name": "Rec Limited",
+        "weighting": 0.96,
+        "type": "bond"
+      },
+      {
+        "security_name": "HDFC Bank Limited",
+        "weighting": 0.85,
+        "type": "bond"
+      },
+      {
+        "security_name": "Food Corporation Of India",
+        "weighting": 0.83,
+        "type": "bond"
+      },
+      {
+        "security_name": "Indian Railway Finance Corporation Limited",
+        "weighting": 0.83,
+        "type": "bond"
+      },
+      {
+        "security_name": "HDFC Bank Limited",
+        "weighting": 0.83,
+        "type": "bond"
+      },
+      {
+        "security_name": "Indian Railway Finance Corporation Limited",
+        "weighting": 0.83,
+        "type": "bond"
+      },
+      {
+        "security_name": "Small Industries Development Bank Of India",
+        "weighting": 0.82,
+        "type": "bond"
+      },
+      {
+        "security_name": "HDFC Bank Limited",
+        "weighting": 0.82,
+        "type": "bond"
+      },
+      {
+        "security_name": "Mahanagar Telephone Nigam Limited",
+        "weighting": 0.79,
+        "type": "bond"
+      },
+      {
+        "security_name": "HDFC Bank Limited",
+        "weighting": 0.76,
+        "type": "bond"
+      },
+      {
+        "security_name": "Small Industries Development Bank Of India",
+        "weighting": 0.74,
+        "type": "bond"
+      },
+      {
+        "security_name": "Maharashtra (Government of) 0.0763%",
+        "weighting": 0.66,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Bank For Agriculture And Rural Development",
+        "weighting": 0.61,
+        "type": "bond"
+      },
+      {
+        "security_name": "Dme Development Limited",
+        "weighting": 0.52,
+        "type": "bond"
+      },
+      {
+        "security_name": "Dme Development Limited",
+        "weighting": 0.52,
+        "type": "bond"
+      },
+      {
+        "security_name": "Dme Development Limited",
+        "weighting": 0.51,
+        "type": "bond"
+      },
+      {
+        "security_name": "Dme Development Limited",
+        "weighting": 0.51,
+        "type": "bond"
+      },
+      {
+        "security_name": "Dme Development Limited",
+        "weighting": 0.51,
+        "type": "bond"
+      },
+      {
+        "security_name": "Dme Development Limited",
+        "weighting": 0.51,
+        "type": "bond"
+      },
+      {
+        "security_name": "Dme Development Limited",
+        "weighting": 0.51,
+        "type": "bond"
+      },
+      {
+        "security_name": "Dme Development Limited",
+        "weighting": 0.51,
+        "type": "bond"
+      },
+      {
+        "security_name": "Dme Development Limited",
+        "weighting": 0.51,
+        "type": "bond"
+      },
+      {
+        "security_name": "Dme Development Limited",
+        "weighting": 0.51,
+        "type": "bond"
+      },
+      {
+        "security_name": "Gujarat (Government of) 0.0742%",
+        "weighting": 0.51,
+        "type": "bond"
+      },
+      {
+        "security_name": "Rural Electrification Corporation Limited",
+        "weighting": 0.41,
+        "type": "bond"
+      },
+      {
+        "security_name": "Rec Limited",
+        "weighting": 0.41,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Bank For Agriculture And Rural Development",
+        "weighting": 0.16,
+        "type": "bond"
+      },
+      {
+        "security_name": "Rec Limited",
+        "weighting": 0.09,
+        "type": "bond"
+      },
+      {
+        "security_name": "Mahanagar Telephone Nigam Limited",
+        "weighting": 0.08,
+        "type": "bond"
+      },
+      {
+        "security_name": "Power Finance Corporation Limited",
+        "weighting": 0.04,
+        "type": "bond"
+      },
+      {
+        "security_name": "Power Finance Corporation Limited",
+        "weighting": 0.02,
+        "type": "bond"
+      },
+      {
+        "security_name": "06.46 GJ Sdl 2030",
+        "weighting": 0.01,
+        "type": "bond"
+      }
+    ]
+  },
+  "fund_3": {
+    "fund_id": "F00000PDTP",
+    "holdingList": [
+      {
+        "security_name": "08.37 Tn SDL 2028dec",
+        "weighting": 5.91,
+        "type": "bond"
+      },
+      {
+        "security_name": "HDFC Bank Limited",
+        "weighting": 5.75,
+        "type": "bond"
+      },
+      {
+        "security_name": "Indian Railway Finance Corporation Limited",
+        "weighting": 5.65,
+        "type": "bond"
+      },
+      {
+        "security_name": "Small Industries Development Bank Of India",
+        "weighting": 5.65,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Bank For Agriculture And Rural Development",
+        "weighting": 5.64,
+        "type": "bond"
+      },
+      {
+        "security_name": "Kotak Mahindra Prime Limited",
+        "weighting": 5.63,
+        "type": "bond"
+      },
+      {
+        "security_name": "Rec Limited",
+        "weighting": 5.63,
+        "type": "bond"
+      },
+      {
+        "security_name": "Grasim Industries Ltd",
+        "weighting": 5.62,
+        "type": "bond"
+      },
+      {
+        "security_name": "LIC Housing Finance Ltd",
+        "weighting": 5.62,
+        "type": "bond"
+      },
+      {
+        "security_name": "Export Import Bank Of India",
+        "weighting": 5.58,
+        "type": "bond"
+      },
+      {
+        "security_name": "Bajaj Housing Finance Limited",
+        "weighting": 5.57,
+        "type": "bond"
+      },
+      {
+        "security_name": "Power Finance Corporation Limited",
+        "weighting": 5.55,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.1% Govt Stock 2034",
+        "weighting": 4.62,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.18% Govt Stock 2037",
+        "weighting": 4.61,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.32% Govt Stock 2030",
+        "weighting": 3.49,
+        "type": "bond"
+      },
+      {
+        "security_name": "Bajaj Finance Limited",
+        "weighting": 2.25,
+        "type": "bond"
+      },
+      {
+        "security_name": "6.79% Govt Stock 2034",
+        "weighting": 1.14,
+        "type": "bond"
+      },
+      {
+        "security_name": "Bajaj Finance Limited",
+        "weighting": 1.11,
+        "type": "bond"
+      },
+      {
+        "security_name": "Treasury Bills",
+        "weighting": 0.43,
+        "type": "bond"
+      },
+      {
+        "security_name": "07.86 KA Sdl 2027",
+        "weighting": 0.06,
+        "type": "bond"
+      }
+    ]
+  },
+  "fund_4": {
+    "fund_id": "F00000SQO0",
+    "holdingList": [
+      {
+        "security_name": "Reliance Industries Ltd",
+        "weighting": 8.92,
+        "type": "equity"
+      },
+      {
+        "security_name": "Infosys Ltd",
+        "weighting": 4.23,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tata Consultancy Services Ltd",
+        "weighting": 4.14,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bharat Petroleum Corp Ltd",
+        "weighting": 3.9,
+        "type": "equity"
+      },
+      {
+        "security_name": "Narayana Hrudayalaya Ltd",
+        "weighting": 3.73,
+        "type": "equity"
+      },
+      {
+        "security_name": "Polycab India Ltd",
+        "weighting": 3.33,
+        "type": "equity"
+      },
+      {
+        "security_name": "Hindustan Unilever Ltd",
+        "weighting": 3.02,
+        "type": "equity"
+      },
+      {
+        "security_name": "Mahindra & Mahindra Ltd",
+        "weighting": 2.98,
+        "type": "equity"
+      },
+      {
+        "security_name": "Asian Paints Ltd",
+        "weighting": 2.54,
+        "type": "equity"
+      },
+      {
+        "security_name": "Oil & Natural Gas Corp Ltd",
+        "weighting": 2.49,
+        "type": "equity"
+      },
+      {
+        "security_name": "Marico Ltd",
+        "weighting": 2.4,
+        "type": "equity"
+      },
+      {
+        "security_name": "Oracle Financial Services Software Ltd",
+        "weighting": 2.36,
+        "type": "equity"
+      },
+      {
+        "security_name": "Larsen & Toubro Ltd",
+        "weighting": 2.35,
+        "type": "equity"
+      },
+      {
+        "security_name": "Astral Ltd",
+        "weighting": 2.26,
+        "type": "equity"
+      },
+      {
+        "security_name": "Coal India Ltd",
+        "weighting": 2.1,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tata Consumer Products Ltd",
+        "weighting": 1.99,
+        "type": "equity"
+      },
+      {
+        "security_name": "Colgate-Palmolive (India) Ltd",
+        "weighting": 1.94,
+        "type": "equity"
+      },
+      {
+        "security_name": "Voltas Ltd",
+        "weighting": 1.88,
+        "type": "equity"
+      },
+      {
+        "security_name": "Cipla Ltd",
+        "weighting": 1.86,
+        "type": "equity"
+      },
+      {
+        "security_name": "DLF Ltd",
+        "weighting": 1.8,
+        "type": "equity"
+      },
+      {
+        "security_name": "GlaxoSmithKline Pharmaceuticals Ltd",
+        "weighting": 1.77,
+        "type": "equity"
+      },
+      {
+        "security_name": "Gujarat Narmada Valley Fertilizers & Chemicals Ltd",
+        "weighting": 1.77,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tata Technologies Ltd",
+        "weighting": 1.75,
+        "type": "equity"
+      },
+      {
+        "security_name": "Endurance Technologies Ltd",
+        "weighting": 1.62,
+        "type": "equity"
+      },
+      {
+        "security_name": "Computer Age Management Services Ltd Ordinary Shares",
+        "weighting": 1.6,
+        "type": "equity"
+      },
+      {
+        "security_name": "Container Corporation of India Ltd",
+        "weighting": 1.56,
+        "type": "equity"
+      },
+      {
+        "security_name": "HCL Technologies Ltd",
+        "weighting": 1.48,
+        "type": "equity"
+      },
+      {
+        "security_name": "Castrol India Ltd",
+        "weighting": 1.41,
+        "type": "equity"
+      },
+      {
+        "security_name": "BEML Ltd",
+        "weighting": 1.41,
+        "type": "equity"
+      },
+      {
+        "security_name": "Aurobindo Pharma Ltd",
+        "weighting": 1.4,
+        "type": "equity"
+      },
+      {
+        "security_name": "Nestle India Ltd",
+        "weighting": 1.35,
+        "type": "equity"
+      },
+      {
+        "security_name": "Hindalco Industries Ltd",
+        "weighting": 1.28,
+        "type": "equity"
+      },
+      {
+        "security_name": "Dr Reddy's Laboratories Ltd",
+        "weighting": 1.27,
+        "type": "equity"
+      },
+      {
+        "security_name": "ACC Ltd",
+        "weighting": 1.24,
+        "type": "equity"
+      },
+      {
+        "security_name": "Mahanagar Gas Ltd",
+        "weighting": 1.23,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tejas Networks Ltd",
+        "weighting": 1.13,
+        "type": "equity"
+      },
+      {
+        "security_name": "Petronet LNG Ltd",
+        "weighting": 1.11,
+        "type": "equity"
+      },
+      {
+        "security_name": "Laurus Labs Ltd",
+        "weighting": 0.98,
+        "type": "equity"
+      },
+      {
+        "security_name": "Grasim Industries Ltd",
+        "weighting": 0.9,
+        "type": "equity"
+      },
+      {
+        "security_name": "Samvardhana Motherson International Ltd",
+        "weighting": 0.82,
+        "type": "equity"
+      },
+      {
+        "security_name": "Alembic Pharmaceuticals Ltd",
+        "weighting": 0.66,
+        "type": "equity"
+      },
+      {
+        "security_name": "National Aluminium Co Ltd",
+        "weighting": 0.66,
+        "type": "equity"
+      },
+      {
+        "security_name": "Godrej Consumer Products Ltd",
+        "weighting": 0.62,
+        "type": "equity"
+      },
+      {
+        "security_name": "Wipro Ltd",
+        "weighting": 0.58,
+        "type": "equity"
+      },
+      {
+        "security_name": "L&T Technology Services Ltd",
+        "weighting": 0.58,
+        "type": "equity"
+      },
+      {
+        "security_name": "Cyient Ltd",
+        "weighting": 0.44,
+        "type": "equity"
+      },
+      {
+        "security_name": "Cera Sanitaryware Ltd",
+        "weighting": 0.44,
+        "type": "equity"
+      },
+      {
+        "security_name": "Voltamp Transformers Ltd",
+        "weighting": 0.37,
+        "type": "equity"
+      },
+      {
+        "security_name": "Divi's Laboratories Ltd",
+        "weighting": 0.37,
+        "type": "equity"
+      },
+      {
+        "security_name": "Engineers India Ltd",
+        "weighting": 0.37,
+        "type": "equity"
+      }
+    ]
+  },
+  "fund_5": {
+    "fund_id": "F00000UET9",
+    "holdingList": [
+      {
+        "security_name": "Small Industries Development Bank of India",
+        "weighting": 2.82,
+        "type": "bond"
+      },
+      {
+        "security_name": "364 Days Tbill Red 12-03-2026",
+        "weighting": 2.64,
+        "type": "bond"
+      },
+      {
+        "security_name": "364 Days Tbill Mat 200226",
+        "weighting": 2.21,
+        "type": "bond"
+      },
+      {
+        "security_name": "364 DTB 27022026",
+        "weighting": 2.2,
+        "type": "bond"
+      },
+      {
+        "security_name": "364 DTB 19mar2026",
+        "weighting": 1.98,
+        "type": "bond"
+      },
+      {
+        "security_name": "08.00 Tn SDL 2025",
+        "weighting": 1.85,
+        "type": "bond"
+      },
+      {
+        "security_name": "364 Days Tbill (Md 05/03/2026)",
+        "weighting": 1.76,
+        "type": "bond"
+      },
+      {
+        "security_name": "Small Industries Development Bank of India",
+        "weighting": 1.75,
+        "type": "bond"
+      },
+      {
+        "security_name": "HDFC Bank Ltd.",
+        "weighting": 0.87,
+        "type": "bond"
+      },
+      {
+        "security_name": "08.51 HR Sdl 2026",
+        "weighting": 0.42,
+        "type": "bond"
+      },
+      {
+        "security_name": "08.42 KL Sdl 2026",
+        "weighting": 0.33,
+        "type": "bond"
+      },
+      {
+        "security_name": "08.49 KL Sdl 2026",
+        "weighting": 0.28,
+        "type": "bond"
+      },
+      {
+        "security_name": "08.39 AP Sdl 2026",
+        "weighting": 0.28,
+        "type": "bond"
+      },
+      {
+        "security_name": "08.29 AP Sdl 2026",
+        "weighting": 0.28,
+        "type": "bond"
+      },
+      {
+        "security_name": "08.55 RJ Sdl 2026",
+        "weighting": 0.23,
+        "type": "bond"
+      },
+      {
+        "security_name": "08.69 KL Sdl 2026",
+        "weighting": 0.23,
+        "type": "bond"
+      },
+      {
+        "security_name": "08.32 CG Sdl 2026",
+        "weighting": 0.23,
+        "type": "bond"
+      }
+    ]
+  },
+  "fund_6": {
+    "fund_id": "F00000Z7KW",
+    "holdingList": [
+      {
+        "security_name": "HDFC Bank Ltd",
+        "weighting": 1.95,
+        "type": "equity"
+      },
+      {
+        "security_name": "ICICI Bank Ltd",
+        "weighting": 1.52,
+        "type": "equity"
+      },
+      {
+        "security_name": "Reliance Industries Ltd",
+        "weighting": 1.15,
+        "type": "equity"
+      },
+      {
+        "security_name": "Infosys Ltd",
+        "weighting": 0.73,
+        "type": "equity"
+      },
+      {
+        "security_name": "Axis Bank Ltd",
+        "weighting": 0.63,
+        "type": "equity"
+      },
+      {
+        "security_name": "Hexaware Technologies Ltd Ordinary Shares",
+        "weighting": 0.57,
+        "type": "equity"
+      },
+      {
+        "security_name": "AU Small Finance Bank Ltd",
+        "weighting": 0.53,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bharti Airtel Ltd",
+        "weighting": 0.53,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tech Mahindra Ltd",
+        "weighting": 0.52,
+        "type": "equity"
+      },
+      {
+        "security_name": "Linde India Ltd",
+        "weighting": 0.52,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bajaj Finance Ltd",
+        "weighting": 0.51,
+        "type": "equity"
+      },
+      {
+        "security_name": "Cummins India Ltd",
+        "weighting": 0.5,
+        "type": "equity"
+      },
+      {
+        "security_name": "Divi's Laboratories Ltd",
+        "weighting": 0.5,
+        "type": "equity"
+      },
+      {
+        "security_name": "State Bank of India",
+        "weighting": 0.5,
+        "type": "equity"
+      },
+      {
+        "security_name": "PB Fintech Ltd",
+        "weighting": 0.46,
+        "type": "equity"
+      },
+      {
+        "security_name": "NTPC Ltd",
+        "weighting": 0.46,
+        "type": "equity"
+      },
+      {
+        "security_name": "Sagility India Ltd",
+        "weighting": 0.44,
+        "type": "equity"
+      },
+      {
+        "security_name": "Sun Pharmaceuticals Industries Ltd",
+        "weighting": 0.43,
+        "type": "equity"
+      },
+      {
+        "security_name": "Radico Khaitan Ltd",
+        "weighting": 0.43,
+        "type": "equity"
+      },
+      {
+        "security_name": "Persistent Systems Ltd",
+        "weighting": 0.42,
+        "type": "equity"
+      },
+      {
+        "security_name": "Hitachi Energy India Ltd Ordinary Shares",
+        "weighting": 0.41,
+        "type": "equity"
+      },
+      {
+        "security_name": "Trent Ltd",
+        "weighting": 0.41,
+        "type": "equity"
+      },
+      {
+        "security_name": "Eternal Ltd",
+        "weighting": 0.4,
+        "type": "equity"
+      },
+      {
+        "security_name": "Mahindra & Mahindra Ltd",
+        "weighting": 0.39,
+        "type": "equity"
+      },
+      {
+        "security_name": "TVS Motor Co Ltd",
+        "weighting": 0.39,
+        "type": "equity"
+      },
+      {
+        "security_name": "Kotak Mahindra Bank Ltd",
+        "weighting": 0.39,
+        "type": "equity"
+      },
+      {
+        "security_name": "Jyoti CNC Automation Ltd",
+        "weighting": 0.36,
+        "type": "equity"
+      },
+      {
+        "security_name": "Amber Enterprises India Ltd Ordinary Shares",
+        "weighting": 0.35,
+        "type": "equity"
+      },
+      {
+        "security_name": "Larsen & Toubro Ltd",
+        "weighting": 0.35,
+        "type": "equity"
+      },
+      {
+        "security_name": "Concord Biotech Ltd",
+        "weighting": 0.33,
+        "type": "equity"
+      },
+      {
+        "security_name": "UltraTech Cement Ltd",
+        "weighting": 0.33,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bharat Heavy Electricals Ltd",
+        "weighting": 0.33,
+        "type": "equity"
+      },
+      {
+        "security_name": "Cholamandalam Investment and Finance Co Ltd",
+        "weighting": 0.32,
+        "type": "equity"
+      },
+      {
+        "security_name": "Indian Hotels Co Ltd",
+        "weighting": 0.31,
+        "type": "equity"
+      },
+      {
+        "security_name": "Britannia Industries Ltd",
+        "weighting": 0.3,
+        "type": "equity"
+      },
+      {
+        "security_name": "Havells India Ltd",
+        "weighting": 0.3,
+        "type": "equity"
+      },
+      {
+        "security_name": "Multi Commodity Exchange of India Ltd",
+        "weighting": 0.3,
+        "type": "equity"
+      },
+      {
+        "security_name": "PNB Housing Finance Ltd",
+        "weighting": 0.29,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bharti Hexacom Ltd",
+        "weighting": 0.29,
+        "type": "equity"
+      },
+      {
+        "security_name": "Hindalco Industries Ltd",
+        "weighting": 0.29,
+        "type": "equity"
+      },
+      {
+        "security_name": "Titan Co Ltd",
+        "weighting": 0.28,
+        "type": "equity"
+      },
+      {
+        "security_name": "Max Financial Services Ltd",
+        "weighting": 0.27,
+        "type": "equity"
+      },
+      {
+        "security_name": "Vinati Organics Ltd",
+        "weighting": 0.27,
+        "type": "equity"
+      },
+      {
+        "security_name": "Mrs Bectors Food Specialities Ltd Ordinary Shares",
+        "weighting": 0.26,
+        "type": "equity"
+      },
+      {
+        "security_name": "City Union Bank Ltd",
+        "weighting": 0.25,
+        "type": "equity"
+      },
+      {
+        "security_name": "Rainbow Childrens Medicare Ltd",
+        "weighting": 0.23,
+        "type": "equity"
+      },
+      {
+        "security_name": "Maruti Suzuki India Ltd",
+        "weighting": 0.21,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tega Industries Ltd",
+        "weighting": 0.2,
+        "type": "equity"
+      },
+      {
+        "security_name": "Varun Beverages Ltd",
+        "weighting": 0.2,
+        "type": "equity"
+      },
+      {
+        "security_name": "Schloss Bangalore Ltd",
+        "weighting": 0.18,
+        "type": "equity"
+      },
+      {
+        "security_name": "7.34% Govt Stock 2064",
+        "weighting": 16.8,
+        "type": "bond"
+      },
+      {
+        "security_name": "Jamnagar Utilities & Power Private Limited",
+        "weighting": 3.72,
+        "type": "bond"
+      },
+      {
+        "security_name": "Rec Limited",
+        "weighting": 3.06,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Bank For Agriculture And Rural Development",
+        "weighting": 2.48,
+        "type": "bond"
+      },
+      {
+        "security_name": "JSW Steel Limited",
+        "weighting": 2.07,
+        "type": "bond"
+      },
+      {
+        "security_name": "6.92% Govt Stock 2039",
+        "weighting": 2.03,
+        "type": "bond"
+      },
+      {
+        "security_name": "Muthoot Finance Limited",
+        "weighting": 1.85,
+        "type": "bond"
+      },
+      {
+        "security_name": "Bajaj Finance Limited",
+        "weighting": 1.84,
+        "type": "bond"
+      },
+      {
+        "security_name": "Indian Railway Finance Corporation Limited",
+        "weighting": 1.84,
+        "type": "bond"
+      },
+      {
+        "security_name": "Nomura Capital (India) Pvt. Ltd.",
+        "weighting": 1.84,
+        "type": "bond"
+      },
+      {
+        "security_name": "Tata Capital Housing Finance Limited",
+        "weighting": 1.84,
+        "type": "bond"
+      },
+      {
+        "security_name": "Piramal Finance Limited",
+        "weighting": 1.73,
+        "type": "bond"
+      },
+      {
+        "security_name": "SANSAR AUG 2024 V TRUST",
+        "weighting": 1.7,
+        "type": "bond"
+      },
+      {
+        "security_name": "Shriram Finance Limited",
+        "weighting": 1.6,
+        "type": "bond"
+      },
+      {
+        "security_name": "VAJRA 015 TRUST",
+        "weighting": 1.56,
+        "type": "bond"
+      },
+      {
+        "security_name": "Reliance Industries Limited",
+        "weighting": 1.54,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Housing Bank",
+        "weighting": 1.49,
+        "type": "bond"
+      },
+      {
+        "security_name": "Small Industries Development Bank Of India",
+        "weighting": 1.48,
+        "type": "bond"
+      },
+      {
+        "security_name": "Indian Railway Finance Corporation Limited",
+        "weighting": 1.24,
+        "type": "bond"
+      },
+      {
+        "security_name": "Small Industries Development Bank Of India",
+        "weighting": 1.24,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Housing Bank",
+        "weighting": 1.24,
+        "type": "bond"
+      },
+      {
+        "security_name": "Bharti Telecom Limited",
+        "weighting": 1.24,
+        "type": "bond"
+      },
+      {
+        "security_name": "Rec Limited",
+        "weighting": 1.23,
+        "type": "bond"
+      },
+      {
+        "security_name": "Indostar Capital Finance Limited",
+        "weighting": 1.22,
+        "type": "bond"
+      },
+      {
+        "security_name": "Motilal Oswal Home Finance Limited",
+        "weighting": 1.22,
+        "type": "bond"
+      },
+      {
+        "security_name": "Indian Railway Finance Corporation Limited",
+        "weighting": 1.21,
+        "type": "bond"
+      },
+      {
+        "security_name": "Hindustan Petroleum Corporation Limited",
+        "weighting": 0.99,
+        "type": "bond"
+      },
+      {
+        "security_name": "Export Import Bank Of India",
+        "weighting": 0.99,
+        "type": "bond"
+      },
+      {
+        "security_name": "Indostar Capital Finance Limited",
+        "weighting": 0.91,
+        "type": "bond"
+      },
+      {
+        "security_name": "6.33% Gsec Mat - 05/05/2035",
+        "weighting": 0.85,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Bank For Agriculture And Rural Development",
+        "weighting": 0.8,
+        "type": "bond"
+      },
+      {
+        "security_name": "6.79% Govt Stock 2034",
+        "weighting": 0.69,
+        "type": "bond"
+      },
+      {
+        "security_name": "INDIA UNIVERSAL TRUST AL2",
+        "weighting": 0.64,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.38% Govt Stock 2027",
+        "weighting": 0.62,
+        "type": "bond"
+      },
+      {
+        "security_name": "6.79% Govt Stock 2031",
+        "weighting": 0.62,
+        "type": "bond"
+      },
+      {
+        "security_name": "Rec Limited",
+        "weighting": 0.62,
+        "type": "bond"
+      },
+      {
+        "security_name": "Ultratech Cement Limited",
+        "weighting": 0.62,
+        "type": "bond"
+      },
+      {
+        "security_name": "LIC Housing Finance Ltd",
+        "weighting": 0.61,
+        "type": "bond"
+      },
+      {
+        "security_name": "Ntpc Limited",
+        "weighting": 0.6,
+        "type": "bond"
+      },
+      {
+        "security_name": "Power Finance Corporation Limited",
+        "weighting": 0.37,
+        "type": "bond"
+      },
+      {
+        "security_name": "Indian Railway Finance Corporation Limited",
+        "weighting": 0.32,
+        "type": "bond"
+      },
+      {
+        "security_name": "360 One Prime Limited",
+        "weighting": 0.18,
+        "type": "bond"
+      },
+      {
+        "security_name": "07.61 RJ Sdl 2027",
+        "weighting": 0.12,
+        "type": "bond"
+      },
+      {
+        "security_name": "Nirma Limited",
+        "weighting": 0.11,
+        "type": "bond"
+      },
+      {
+        "security_name": "08.08 KA Sdl 2028",
+        "weighting": 0.06,
+        "type": "bond"
+      }
+    ]
+  },
+  "fund_7": {
+    "fund_id": "F00000Z7MD",
+    "holdingList": [
+      {
+        "security_name": "182 Days Tbill",
+        "weighting": 4.45,
+        "type": "bond"
+      },
+      {
+        "security_name": "182 DTB 31072025",
+        "weighting": 2.23,
+        "type": "bond"
+      },
+      {
+        "security_name": "364 DTB 15012026",
+        "weighting": 0.87,
+        "type": "bond"
+      },
+      {
+        "security_name": "364 DTB 24072025",
+        "weighting": 0.13,
+        "type": "bond"
+      }
+    ]
+  },
+  "fund_8": {
+    "fund_id": "F00000Z7OP",
+    "holdingList": [
+      {
+        "security_name": "HDFC Bank Ltd",
+        "weighting": 8.94,
+        "type": "equity"
+      },
+      {
+        "security_name": "ICICI Bank Ltd",
+        "weighting": 8.71,
+        "type": "equity"
+      },
+      {
+        "security_name": "Reliance Industries Ltd",
+        "weighting": 5.58,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tata Consultancy Services Ltd",
+        "weighting": 3.91,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bharti Airtel Ltd",
+        "weighting": 3.11,
+        "type": "equity"
+      },
+      {
+        "security_name": "Multi Commodity Exchange of India Ltd",
+        "weighting": 2.77,
+        "type": "equity"
+      },
+      {
+        "security_name": "Varun Beverages Ltd",
+        "weighting": 2.68,
+        "type": "equity"
+      },
+      {
+        "security_name": "TVS Motor Co Ltd",
+        "weighting": 2.65,
+        "type": "equity"
+      },
+      {
+        "security_name": "InterGlobe Aviation Ltd",
+        "weighting": 2.42,
+        "type": "equity"
+      },
+      {
+        "security_name": "Solar Industries India Ltd",
+        "weighting": 2.3,
+        "type": "equity"
+      },
+      {
+        "security_name": "Dixon Technologies (India) Ltd",
+        "weighting": 2.22,
+        "type": "equity"
+      },
+      {
+        "security_name": "Max Healthcare Institute Ltd Ordinary Shares",
+        "weighting": 2.18,
+        "type": "equity"
+      },
+      {
+        "security_name": "JK Cement Ltd",
+        "weighting": 2.11,
+        "type": "equity"
+      },
+      {
+        "security_name": "Sun Pharmaceuticals Industries Ltd",
+        "weighting": 2.1,
+        "type": "equity"
+      },
+      {
+        "security_name": "Larsen & Toubro Ltd",
+        "weighting": 2.02,
+        "type": "equity"
+      },
+      {
+        "security_name": "Maruti Suzuki India Ltd",
+        "weighting": 2.01,
+        "type": "equity"
+      },
+      {
+        "security_name": "Eternal Ltd",
+        "weighting": 1.97,
+        "type": "equity"
+      },
+      {
+        "security_name": "ICICI Lombard General Insurance Co Ltd",
+        "weighting": 1.97,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bajaj Finance Ltd",
+        "weighting": 1.94,
+        "type": "equity"
+      },
+      {
+        "security_name": "Persistent Systems Ltd",
+        "weighting": 1.94,
+        "type": "equity"
+      },
+      {
+        "security_name": "Muthoot Finance Ltd",
+        "weighting": 1.61,
+        "type": "equity"
+      },
+      {
+        "security_name": "Titan Co Ltd",
+        "weighting": 1.41,
+        "type": "equity"
+      },
+      {
+        "security_name": "NTPC Ltd",
+        "weighting": 1.38,
+        "type": "equity"
+      },
+      {
+        "security_name": "Global Health Ltd",
+        "weighting": 1.33,
+        "type": "equity"
+      },
+      {
+        "security_name": "Mankind Pharma Ltd",
+        "weighting": 1.26,
+        "type": "equity"
+      },
+      {
+        "security_name": "United Spirits Ltd",
+        "weighting": 1.21,
+        "type": "equity"
+      },
+      {
+        "security_name": "Vishal Mega Mart Ltd",
+        "weighting": 1.2,
+        "type": "equity"
+      },
+      {
+        "security_name": "UNO Minda Ltd",
+        "weighting": 1.19,
+        "type": "equity"
+      },
+      {
+        "security_name": "Sagility India Ltd",
+        "weighting": 1.18,
+        "type": "equity"
+      },
+      {
+        "security_name": "Blue Star Ltd",
+        "weighting": 1.16,
+        "type": "equity"
+      },
+      {
+        "security_name": "Havells India Ltd",
+        "weighting": 1.13,
+        "type": "equity"
+      },
+      {
+        "security_name": "Britannia Industries Ltd",
+        "weighting": 1.13,
+        "type": "equity"
+      },
+      {
+        "security_name": "Axis Bank Ltd",
+        "weighting": 1.06,
+        "type": "equity"
+      },
+      {
+        "security_name": "Trent Ltd",
+        "weighting": 1.03,
+        "type": "equity"
+      },
+      {
+        "security_name": "Hindustan Aeronautics Ltd Ordinary Shares",
+        "weighting": 1.03,
+        "type": "equity"
+      },
+      {
+        "security_name": "Hexaware Technologies Ltd Ordinary Shares",
+        "weighting": 0.96,
+        "type": "equity"
+      },
+      {
+        "security_name": "Dr Reddy's Laboratories Ltd",
+        "weighting": 0.94,
+        "type": "equity"
+      },
+      {
+        "security_name": "Cummins India Ltd",
+        "weighting": 0.91,
+        "type": "equity"
+      },
+      {
+        "security_name": "Pidilite Industries Ltd",
+        "weighting": 0.9,
+        "type": "equity"
+      },
+      {
+        "security_name": "Endurance Technologies Ltd",
+        "weighting": 0.88,
+        "type": "equity"
+      },
+      {
+        "security_name": "Syngene International Ltd",
+        "weighting": 0.84,
+        "type": "equity"
+      },
+      {
+        "security_name": "Affle 3i Ltd",
+        "weighting": 0.84,
+        "type": "equity"
+      },
+      {
+        "security_name": "KPIT Technologies Ltd",
+        "weighting": 0.82,
+        "type": "equity"
+      },
+      {
+        "security_name": "Sona BLW Precision Forgings Ltd",
+        "weighting": 0.79,
+        "type": "equity"
+      },
+      {
+        "security_name": "HDFC Life Insurance Co Ltd",
+        "weighting": 0.76,
+        "type": "equity"
+      },
+      {
+        "security_name": "Triveni Turbine Ltd",
+        "weighting": 0.71,
+        "type": "equity"
+      },
+      {
+        "security_name": "Astral Ltd",
+        "weighting": 0.7,
+        "type": "equity"
+      },
+      {
+        "security_name": "International Gemmological Institute (India) Ltd",
+        "weighting": 0.64,
+        "type": "equity"
+      },
+      {
+        "security_name": "SRF Ltd",
+        "weighting": 0.63,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tega Industries Ltd",
+        "weighting": 0.63,
+        "type": "equity"
+      },
+      {
+        "security_name": "Brigade Enterprises Ltd",
+        "weighting": 0.6,
+        "type": "equity"
+      },
+      {
+        "security_name": "CG Power & Industrial Solutions Ltd",
+        "weighting": 0.52,
+        "type": "equity"
+      },
+      {
+        "security_name": "Container Corporation of India Ltd",
+        "weighting": 0.51,
+        "type": "equity"
+      },
+      {
+        "security_name": "Info Edge (India) Ltd",
+        "weighting": 0.5,
+        "type": "equity"
+      },
+      {
+        "security_name": "Neuland Laboratories Ltd",
+        "weighting": 0.47,
+        "type": "equity"
+      },
+      {
+        "security_name": "Akums Drugs and Pharmaceuticals Ltd",
+        "weighting": 0.45,
+        "type": "equity"
+      },
+      {
+        "security_name": "364 DTB 30-Oct-2025",
+        "weighting": 0.17,
+        "type": "bond"
+      }
+    ]
+  },
+  "fund_9": {
+    "fund_id": "F00000Z8GX",
+    "holdingList": [
+      {
+        "security_name": "Embassy Office Parks REIT",
+        "weighting": 4.93,
+        "type": "equity"
+      },
+      {
+        "security_name": "Capital Infra Trust InvITs",
+        "weighting": 2.9,
+        "type": "equity"
+      },
+      {
+        "security_name": "Mindspace Business Parks REIT Unit",
+        "weighting": 1.11,
+        "type": "equity"
+      },
+      {
+        "security_name": "Brookfield India Real Estate Trust",
+        "weighting": 0.95,
+        "type": "equity"
+      },
+      {
+        "security_name": "7.26% Govt Stock 2032",
+        "weighting": 12.37,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.18% Govt Stock 2037",
+        "weighting": 6.89,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.41% Govt Stock 2036",
+        "weighting": 4.69,
+        "type": "bond"
+      },
+      {
+        "security_name": "Jamnagar Utilities & Power Private Limited",
+        "weighting": 4.39,
+        "type": "bond"
+      },
+      {
+        "security_name": "07.60 GJ Sgs 2035",
+        "weighting": 3.88,
+        "type": "bond"
+      },
+      {
+        "security_name": "07.64 MP Sgs 2033",
+        "weighting": 3.87,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.23% Govt Stock 2039",
+        "weighting": 3.85,
+        "type": "bond"
+      },
+      {
+        "security_name": "LIC Housing Finance Ltd",
+        "weighting": 3.84,
+        "type": "bond"
+      },
+      {
+        "security_name": "HDFC Bank Limited",
+        "weighting": 3.8,
+        "type": "bond"
+      },
+      {
+        "security_name": "Embassy Office Parks Reit",
+        "weighting": 3.74,
+        "type": "bond"
+      },
+      {
+        "security_name": "6.54% Govt Stock 2032",
+        "weighting": 3.72,
+        "type": "bond"
+      },
+      {
+        "security_name": "Pnb Housing Finance Limited",
+        "weighting": 3.72,
+        "type": "bond"
+      },
+      {
+        "security_name": "SK Finance Limited",
+        "weighting": 3.66,
+        "type": "bond"
+      },
+      {
+        "security_name": "Muthoot Finance Limited",
+        "weighting": 3.65,
+        "type": "bond"
+      },
+      {
+        "security_name": "07.71 GJ Sgs 2034",
+        "weighting": 2.35,
+        "type": "bond"
+      },
+      {
+        "security_name": "07.71 GJ Sgs 2033",
+        "weighting": 2.34,
+        "type": "bond"
+      },
+      {
+        "security_name": "Cholamandalam Investment And Finance Company Limited",
+        "weighting": 2.27,
+        "type": "bond"
+      },
+      {
+        "security_name": "Shriram Finance Limited",
+        "weighting": 2.26,
+        "type": "bond"
+      },
+      {
+        "security_name": "LIC Housing Finance Ltd",
+        "weighting": 2.26,
+        "type": "bond"
+      },
+      {
+        "security_name": "Sikka Ports & Terminals Limited",
+        "weighting": 2.2,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.74% MP Sdl 2043",
+        "weighting": 1.57,
+        "type": "bond"
+      },
+      {
+        "security_name": "07.74 MH Sgs 2033",
+        "weighting": 1.56,
+        "type": "bond"
+      },
+      {
+        "security_name": "Housing And Urban Development Corporation Limited",
+        "weighting": 1.55,
+        "type": "bond"
+      },
+      {
+        "security_name": "07.66 GJ Sgs 2030",
+        "weighting": 1.02,
+        "type": "bond"
+      },
+      {
+        "security_name": "07.69 GJ Sdl 2027",
+        "weighting": 0.76,
+        "type": "bond"
+      },
+      {
+        "security_name": "Cholamandalam Investment And Finance Company Limited",
+        "weighting": 0.15,
+        "type": "bond"
+      }
+    ]
+  },
+  "fund_10": {
+    "fund_id": "F00000Z8PP",
+    "holdingList": [
+      {
+        "security_name": "7.32% Govt Stock 2030",
+        "weighting": 4.35,
+        "type": "bond"
+      },
+      {
+        "security_name": "6.79% Govt Stock 2034",
+        "weighting": 3.51,
+        "type": "bond"
+      },
+      {
+        "security_name": "Small Industries Development Bank Of India",
+        "weighting": 2.74,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Bank For Agriculture And Rural Development",
+        "weighting": 2.73,
+        "type": "bond"
+      },
+      {
+        "security_name": "Bajaj Finance Limited",
+        "weighting": 2.66,
+        "type": "bond"
+      },
+      {
+        "security_name": "Power Finance Corporation Ltd.",
+        "weighting": 2.65,
+        "type": "bond"
+      },
+      {
+        "security_name": "Rec Limited",
+        "weighting": 2.6,
+        "type": "bond"
+      },
+      {
+        "security_name": "Sundaram Finance Ltd.",
+        "weighting": 2.58,
+        "type": "bond"
+      },
+      {
+        "security_name": "Embassy Office Parks REIT",
+        "weighting": 2.56,
+        "type": "bond"
+      },
+      {
+        "security_name": "6.33% Government Of India",
+        "weighting": 2.33,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.02% Govt Stock 2031",
+        "weighting": 2.21,
+        "type": "bond"
+      },
+      {
+        "security_name": "Rural Electrification Corporation Limited",
+        "weighting": 2.09,
+        "type": "bond"
+      },
+      {
+        "security_name": "Bajaj Housing Finance Limited",
+        "weighting": 2.04,
+        "type": "bond"
+      },
+      {
+        "security_name": "Export-Import Bank Of India",
+        "weighting": 2.0,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.44% Power Finance Corporation Limited (15/01/2030) **",
+        "weighting": 2.0,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.48% National Bank For Agriculture And Rural Development",
+        "weighting": 1.99,
+        "type": "bond"
+      },
+      {
+        "security_name": "Hindustan Zinc Limited**",
+        "weighting": 1.97,
+        "type": "bond"
+      },
+      {
+        "security_name": "Bajaj Finance Ltd.",
+        "weighting": 1.95,
+        "type": "bond"
+      },
+      {
+        "security_name": "Indian Railway Finance Corp Ltd.",
+        "weighting": 1.86,
+        "type": "bond"
+      },
+      {
+        "security_name": "6.75% Govt Stock 2029",
+        "weighting": 1.76,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.04% Govt Stock 2029",
+        "weighting": 1.51,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Highways Authority Of India",
+        "weighting": 1.4,
+        "type": "bond"
+      },
+      {
+        "security_name": "Indian Oil Corporation Limited",
+        "weighting": 1.39,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Housing Bank",
+        "weighting": 1.39,
+        "type": "bond"
+      },
+      {
+        "security_name": "LIC Housing Finance Limited",
+        "weighting": 1.39,
+        "type": "bond"
+      },
+      {
+        "security_name": "LIC Housing Finance Limited",
+        "weighting": 1.39,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.26% Govt Stock 2033",
+        "weighting": 1.38,
+        "type": "bond"
+      },
+      {
+        "security_name": "Kotak Mahindra Prime Limited",
+        "weighting": 1.38,
+        "type": "bond"
+      },
+      {
+        "security_name": "Power Grid Corporation Of India Limited",
+        "weighting": 1.37,
+        "type": "bond"
+      },
+      {
+        "security_name": "Small Industries Development Bank Of India",
+        "weighting": 1.36,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.1% Govt Stock 2034",
+        "weighting": 1.36,
+        "type": "bond"
+      },
+      {
+        "security_name": "Export-Import Bank Of India",
+        "weighting": 1.33,
+        "type": "bond"
+      },
+      {
+        "security_name": "Sundaram Finance Limited",
+        "weighting": 1.33,
+        "type": "bond"
+      },
+      {
+        "security_name": "Small Industries Development Bank of India",
+        "weighting": 1.33,
+        "type": "bond"
+      },
+      {
+        "security_name": "Indian Railway Finance Corporation Limited",
+        "weighting": 1.32,
+        "type": "bond"
+      },
+      {
+        "security_name": "Export Import Bank Of India",
+        "weighting": 1.32,
+        "type": "bond"
+      },
+      {
+        "security_name": "Indian Railway Finance Corporation Limited",
+        "weighting": 1.31,
+        "type": "bond"
+      },
+      {
+        "security_name": "Indian Railway Finance Corporation Limited",
+        "weighting": 1.3,
+        "type": "bond"
+      },
+      {
+        "security_name": "LIC Housing Finance Ltd",
+        "weighting": 1.29,
+        "type": "bond"
+      },
+      {
+        "security_name": "Bajaj Housing Finance Ltd.",
+        "weighting": 1.29,
+        "type": "bond"
+      },
+      {
+        "security_name": "HDFC Bank Limited",
+        "weighting": 1.26,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Bank For Agriculture And Rural Development",
+        "weighting": 1.24,
+        "type": "bond"
+      },
+      {
+        "security_name": "INDIA UNIVERSAL TRUST AL2",
+        "weighting": 1.09,
+        "type": "bond"
+      },
+      {
+        "security_name": "Kotak Mahindra Prime Limited",
+        "weighting": 1.08,
+        "type": "bond"
+      },
+      {
+        "security_name": "07.38 GJ Sdl 26042030",
+        "weighting": 1.07,
+        "type": "bond"
+      },
+      {
+        "security_name": "Power Finance Corporation Limited",
+        "weighting": 1.06,
+        "type": "bond"
+      },
+      {
+        "security_name": "National Bank For Agriculture And Rural Development",
+        "weighting": 1.06,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.74% LIC Housing Finance Limited",
+        "weighting": 0.94,
+        "type": "bond"
+      },
+      {
+        "security_name": "INDIA UNIVERSAL TRUST AL1",
+        "weighting": 0.9,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.72% Maharashtra Sdl 10jan2035",
+        "weighting": 0.7,
+        "type": "bond"
+      },
+      {
+        "security_name": "INDIA UNIVERSAL TRUST AL1",
+        "weighting": 0.7,
+        "type": "bond"
+      },
+      {
+        "security_name": "Bajaj Finance Limited",
+        "weighting": 0.7,
+        "type": "bond"
+      },
+      {
+        "security_name": "Ntpc Limited",
+        "weighting": 0.69,
+        "type": "bond"
+      },
+      {
+        "security_name": "Kotak Mahindra Prime Limited",
+        "weighting": 0.69,
+        "type": "bond"
+      },
+      {
+        "security_name": "Indian Railway Finance Corporation Limited",
+        "weighting": 0.69,
+        "type": "bond"
+      },
+      {
+        "security_name": "Indian Oil Corporation Limited",
+        "weighting": 0.69,
+        "type": "bond"
+      },
+      {
+        "security_name": "Power Finance Corporation Ltd.",
+        "weighting": 0.68,
+        "type": "bond"
+      },
+      {
+        "security_name": "Power Finance Corporation Ltd.",
+        "weighting": 0.67,
+        "type": "bond"
+      },
+      {
+        "security_name": "Power Finance Corp Ltd.",
+        "weighting": 0.67,
+        "type": "bond"
+      },
+      {
+        "security_name": "Small Industries Development Bank Of India",
+        "weighting": 0.67,
+        "type": "bond"
+      },
+      {
+        "security_name": "Export-Import Bank of India",
+        "weighting": 0.67,
+        "type": "bond"
+      },
+      {
+        "security_name": "Rural Electrification Corporation Limited",
+        "weighting": 0.66,
+        "type": "bond"
+      },
+      {
+        "security_name": "06.84 GJ Sdl 2031 08 Sep",
+        "weighting": 0.66,
+        "type": "bond"
+      },
+      {
+        "security_name": "Small Industries Development Bank Of India",
+        "weighting": 0.66,
+        "type": "bond"
+      },
+      {
+        "security_name": "Export-Import Bank of India",
+        "weighting": 0.66,
+        "type": "bond"
+      },
+      {
+        "security_name": "REC Ltd.",
+        "weighting": 0.66,
+        "type": "bond"
+      },
+      {
+        "security_name": "Small Industries Development Bank Of India",
+        "weighting": 0.66,
+        "type": "bond"
+      },
+      {
+        "security_name": "Bajaj Finance Limited",
+        "weighting": 0.65,
+        "type": "bond"
+      },
+      {
+        "security_name": "Embassy Office Parks REIT",
+        "weighting": 0.51,
+        "type": "bond"
+      },
+      {
+        "security_name": "Ncd Small Industries Development Bank Of India",
+        "weighting": 0.27,
+        "type": "bond"
+      }
+    ]
+  },
+  "fund_11": {
+    "fund_id": "F00001CMMO",
+    "holdingList": [
+      {
+        "security_name": "6.33% Gsec Mat - 05/05/2035",
+        "weighting": 45.39,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.34% Govt Stock 2064",
+        "weighting": 29.28,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.18% Govt Stock 2037",
+        "weighting": 11.82,
+        "type": "bond"
+      },
+      {
+        "security_name": "7.23% Govt Stock 2039",
+        "weighting": 5.94,
+        "type": "bond"
+      },
+      {
+        "security_name": "6.9% Govt Stock 2065",
+        "weighting": 5.53,
+        "type": "bond"
+      },
+      {
+        "security_name": "08.38 GJ Sdl 2029",
+        "weighting": 0.05,
+        "type": "bond"
+      }
+    ]
+  },
+  "fund_12": {
+    "fund_id": "F00001E67T",
+    "holdingList": [
+      {
+        "security_name": "Larsen & Toubro Ltd",
+        "weighting": 8.05,
+        "type": "equity"
+      },
+      {
+        "security_name": "Jio Financial Services Ltd",
+        "weighting": 7.45,
+        "type": "equity"
+      },
+      {
+        "security_name": "Reliance Industries Ltd",
+        "weighting": 6.74,
+        "type": "equity"
+      },
+      {
+        "security_name": "Adani Enterprises Ltd",
+        "weighting": 6.09,
+        "type": "equity"
+      },
+      {
+        "security_name": "Life Insurance Corporation of India",
+        "weighting": 5.94,
+        "type": "equity"
+      },
+      {
+        "security_name": "Grasim Industries Ltd",
+        "weighting": 5.68,
+        "type": "equity"
+      },
+      {
+        "security_name": "Avenue Supermarts Ltd",
+        "weighting": 5.68,
+        "type": "equity"
+      },
+      {
+        "security_name": "DLF Ltd",
+        "weighting": 5.23,
+        "type": "equity"
+      },
+      {
+        "security_name": "HDFC Life Insurance Co Ltd",
+        "weighting": 4.73,
+        "type": "equity"
+      },
+      {
+        "security_name": "Sun Pharmaceuticals Industries Ltd",
+        "weighting": 3.77,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bajaj Auto Ltd",
+        "weighting": 3.73,
+        "type": "equity"
+      },
+      {
+        "security_name": "ITC Ltd",
+        "weighting": 3.41,
+        "type": "equity"
+      },
+      {
+        "security_name": "Oil & Natural Gas Corp Ltd",
+        "weighting": 3.2,
+        "type": "equity"
+      },
+      {
+        "security_name": "Future on Tata Power Co Ltd",
+        "weighting": 2.98,
+        "type": "equity"
+      },
+      {
+        "security_name": "Future on Colgate-Palmolive (India) Ltd",
+        "weighting": 2.39,
+        "type": "equity"
+      },
+      {
+        "security_name": "HFCL Ltd",
+        "weighting": 2.35,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tata Consumer Products Ltd",
+        "weighting": 2.24,
+        "type": "equity"
+      },
+      {
+        "security_name": "Samvardhana Motherson International Ltd",
+        "weighting": 2.21,
+        "type": "equity"
+      },
+      {
+        "security_name": "Divi's Laboratories Ltd",
+        "weighting": 2.14,
+        "type": "equity"
+      },
+      {
+        "security_name": "Dr Reddy's Laboratories Ltd",
+        "weighting": 2.07,
+        "type": "equity"
+      },
+      {
+        "security_name": "Adani Power Ltd",
+        "weighting": 1.83,
+        "type": "equity"
+      },
+      {
+        "security_name": "GAIL (India) Ltd",
+        "weighting": 1.71,
+        "type": "equity"
+      },
+      {
+        "security_name": "Aurobindo Pharma Ltd",
+        "weighting": 1.66,
+        "type": "equity"
+      },
+      {
+        "security_name": "Future on State Bank of India",
+        "weighting": 1.49,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tata Power Co Ltd",
+        "weighting": 1.37,
+        "type": "equity"
+      },
+      {
+        "security_name": "International Gemmological Institute (India) Ltd",
+        "weighting": 1.33,
+        "type": "equity"
+      },
+      {
+        "security_name": "Future on HDFC Life Insurance Co Ltd",
+        "weighting": 1.23,
+        "type": "equity"
+      },
+      {
+        "security_name": "Future on Aurobindo Pharma Ltd",
+        "weighting": 0.85,
+        "type": "equity"
+      },
+      {
+        "security_name": "91 Days Tbill Red 05-06-2025",
+        "weighting": 1.52,
+        "type": "bond"
+      },
+      {
+        "security_name": "India (Republic of)",
+        "weighting": 1.13,
+        "type": "bond"
+      },
+      {
+        "security_name": "91 Days Tbill Red 21-08-2025",
+        "weighting": 1.13,
+        "type": "bond"
+      },
+      {
+        "security_name": "91 Days Tbill (Md 28/08/2025)",
+        "weighting": 1.13,
+        "type": "bond"
+      },
+      {
+        "security_name": "91 Days Tbill Red 12-06-2025",
+        "weighting": 0.57,
+        "type": "bond"
+      },
+      {
+        "security_name": "91 Days Tbill Red 19-06-2025",
+        "weighting": 0.57,
+        "type": "bond"
+      },
+      {
+        "security_name": "India (Republic of)",
+        "weighting": 0.11,
+        "type": "bond"
+      }
+    ]
+  },
+  "fund_13": {
+    "fund_id": "F00001EBDO",
+    "holdingList": [
+      {
+        "security_name": "Max Financial Services Ltd",
+        "weighting": 3.54,
+        "type": "equity"
+      },
+      {
+        "security_name": "Persistent Systems Ltd",
+        "weighting": 3.49,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bharti Hexacom Ltd",
+        "weighting": 3.44,
+        "type": "equity"
+      },
+      {
+        "security_name": "Coforge Ltd",
+        "weighting": 2.96,
+        "type": "equity"
+      },
+      {
+        "security_name": "The Federal Bank Ltd",
+        "weighting": 2.94,
+        "type": "equity"
+      },
+      {
+        "security_name": "Muthoot Finance Ltd",
+        "weighting": 2.73,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tube Investments of India Ltd Ordinary Shares",
+        "weighting": 2.67,
+        "type": "equity"
+      },
+      {
+        "security_name": "PB Fintech Ltd",
+        "weighting": 2.59,
+        "type": "equity"
+      },
+      {
+        "security_name": "Max Healthcare Institute Ltd Ordinary Shares",
+        "weighting": 2.46,
+        "type": "equity"
+      },
+      {
+        "security_name": "Hitachi Energy India Ltd Ordinary Shares",
+        "weighting": 2.45,
+        "type": "equity"
+      },
+      {
+        "security_name": "Indian Hotels Co Ltd",
+        "weighting": 2.16,
+        "type": "equity"
+      },
+      {
+        "security_name": "Nippon Life India Asset Management Ltd Ordinary Shares",
+        "weighting": 2.14,
+        "type": "equity"
+      },
+      {
+        "security_name": "Fortis Healthcare Ltd",
+        "weighting": 1.78,
+        "type": "equity"
+      },
+      {
+        "security_name": "Indian Bank",
+        "weighting": 1.7,
+        "type": "equity"
+      },
+      {
+        "security_name": "KEI Industries Ltd",
+        "weighting": 1.66,
+        "type": "equity"
+      },
+      {
+        "security_name": "Oil India Ltd",
+        "weighting": 1.66,
+        "type": "equity"
+      },
+      {
+        "security_name": "Info Edge (India) Ltd",
+        "weighting": 1.63,
+        "type": "equity"
+      },
+      {
+        "security_name": "KPIT Technologies Ltd",
+        "weighting": 1.58,
+        "type": "equity"
+      },
+      {
+        "security_name": "Coromandel International Ltd",
+        "weighting": 1.56,
+        "type": "equity"
+      },
+      {
+        "security_name": "Nexus Select Trust Reits",
+        "weighting": 1.52,
+        "type": "equity"
+      },
+      {
+        "security_name": "Lupin Ltd",
+        "weighting": 1.37,
+        "type": "equity"
+      },
+      {
+        "security_name": "Abbott India Ltd",
+        "weighting": 1.37,
+        "type": "equity"
+      },
+      {
+        "security_name": "AIA Engineering Ltd",
+        "weighting": 1.36,
+        "type": "equity"
+      },
+      {
+        "security_name": "Cummins India Ltd",
+        "weighting": 1.32,
+        "type": "equity"
+      },
+      {
+        "security_name": "Hindustan Petroleum Corp Ltd",
+        "weighting": 1.31,
+        "type": "equity"
+      },
+      {
+        "security_name": "360 One Wam Ltd Ordinary Shares",
+        "weighting": 1.26,
+        "type": "equity"
+      },
+      {
+        "security_name": "Supreme Industries Ltd",
+        "weighting": 1.26,
+        "type": "equity"
+      },
+      {
+        "security_name": "Ipca Laboratories Ltd",
+        "weighting": 1.19,
+        "type": "equity"
+      },
+      {
+        "security_name": "Motilal Oswal Financial Services Ltd",
+        "weighting": 1.07,
+        "type": "equity"
+      },
+      {
+        "security_name": "Ajanta Pharma Ltd",
+        "weighting": 1.01,
+        "type": "equity"
+      },
+      {
+        "security_name": "Trent Ltd",
+        "weighting": 1.0,
+        "type": "equity"
+      },
+      {
+        "security_name": "ICICI Lombard General Insurance Co Ltd",
+        "weighting": 0.97,
+        "type": "equity"
+      },
+      {
+        "security_name": "Godrej Industries Ltd",
+        "weighting": 0.91,
+        "type": "equity"
+      },
+      {
+        "security_name": "Cigniti Technologies Ltd",
+        "weighting": 0.91,
+        "type": "equity"
+      },
+      {
+        "security_name": "Aadhar Housing Finance Ltd",
+        "weighting": 0.83,
+        "type": "equity"
+      },
+      {
+        "security_name": "Mankind Pharma Ltd",
+        "weighting": 0.8,
+        "type": "equity"
+      },
+      {
+        "security_name": "Laurus Labs Ltd",
+        "weighting": 0.78,
+        "type": "equity"
+      },
+      {
+        "security_name": "Eternal Ltd",
+        "weighting": 0.77,
+        "type": "equity"
+      },
+      {
+        "security_name": "Metro Brands Ltd",
+        "weighting": 0.73,
+        "type": "equity"
+      },
+      {
+        "security_name": "Poly Medicure Ltd",
+        "weighting": 0.73,
+        "type": "equity"
+      },
+      {
+        "security_name": "Endurance Technologies Ltd",
+        "weighting": 0.68,
+        "type": "equity"
+      },
+      {
+        "security_name": "Phoenix Mills Ltd",
+        "weighting": 0.66,
+        "type": "equity"
+      },
+      {
+        "security_name": "REC Ltd",
+        "weighting": 0.62,
+        "type": "equity"
+      },
+      {
+        "security_name": "TD Power Systems Ltd",
+        "weighting": 0.62,
+        "type": "equity"
+      },
+      {
+        "security_name": "Blue Star Ltd",
+        "weighting": 0.59,
+        "type": "equity"
+      },
+      {
+        "security_name": "Awfis Space Solutions Ltd",
+        "weighting": 0.59,
+        "type": "equity"
+      },
+      {
+        "security_name": "Balkrishna Industries Ltd",
+        "weighting": 0.58,
+        "type": "equity"
+      },
+      {
+        "security_name": "Astral Ltd",
+        "weighting": 0.58,
+        "type": "equity"
+      },
+      {
+        "security_name": "India Shelter Finance Corporation Ltd",
+        "weighting": 0.57,
+        "type": "equity"
+      },
+      {
+        "security_name": "Dalmia Bharat Ltd",
+        "weighting": 0.56,
+        "type": "equity"
+      },
+      {
+        "security_name": "Ajax Engineering Ltd",
+        "weighting": 0.55,
+        "type": "equity"
+      },
+      {
+        "security_name": "CARE Ratings Ltd",
+        "weighting": 0.52,
+        "type": "equity"
+      },
+      {
+        "security_name": "Acutaas Chemicals Ltd",
+        "weighting": 0.52,
+        "type": "equity"
+      },
+      {
+        "security_name": "NMDC Ltd",
+        "weighting": 0.51,
+        "type": "equity"
+      },
+      {
+        "security_name": "Power Finance Corp Ltd",
+        "weighting": 0.5,
+        "type": "equity"
+      },
+      {
+        "security_name": "GE Vernova T&D India Ltd",
+        "weighting": 0.49,
+        "type": "equity"
+      },
+      {
+        "security_name": "Colgate-Palmolive (India) Ltd",
+        "weighting": 0.46,
+        "type": "equity"
+      },
+      {
+        "security_name": "Computer Age Management Services Ltd Ordinary Shares",
+        "weighting": 0.46,
+        "type": "equity"
+      },
+      {
+        "security_name": "KRN Heat Exchanger and Refrigeration Ltd",
+        "weighting": 0.45,
+        "type": "equity"
+      },
+      {
+        "security_name": "OneSource Specialty Pharma Ltd",
+        "weighting": 0.43,
+        "type": "equity"
+      },
+      {
+        "security_name": "Syngene International Ltd",
+        "weighting": 0.42,
+        "type": "equity"
+      },
+      {
+        "security_name": "Safari Industries (India) Ltd",
+        "weighting": 0.42,
+        "type": "equity"
+      },
+      {
+        "security_name": "Shilpa Medicare Ltd",
+        "weighting": 0.41,
+        "type": "equity"
+      },
+      {
+        "security_name": "Petronet LNG Ltd",
+        "weighting": 0.41,
+        "type": "equity"
+      },
+      {
+        "security_name": "ACC Ltd",
+        "weighting": 0.4,
+        "type": "equity"
+      },
+      {
+        "security_name": "Gillette India Ltd",
+        "weighting": 0.39,
+        "type": "equity"
+      },
+      {
+        "security_name": "Schloss Bangalore Ltd",
+        "weighting": 0.39,
+        "type": "equity"
+      },
+      {
+        "security_name": "Newgen Software Technologies Ltd",
+        "weighting": 0.38,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bharat Bijlee Ltd",
+        "weighting": 0.38,
+        "type": "equity"
+      },
+      {
+        "security_name": "Intellect Design Arena Ltd",
+        "weighting": 0.38,
+        "type": "equity"
+      },
+      {
+        "security_name": "Sobha Ltd",
+        "weighting": 0.38,
+        "type": "equity"
+      },
+      {
+        "security_name": "TBO Tek Ltd",
+        "weighting": 0.36,
+        "type": "equity"
+      },
+      {
+        "security_name": "LIC Housing Finance Ltd",
+        "weighting": 0.33,
+        "type": "equity"
+      },
+      {
+        "security_name": "Neuland Laboratories Ltd",
+        "weighting": 0.31,
+        "type": "equity"
+      },
+      {
+        "security_name": "ICICI Prudential Life Insurance Co Ltd",
+        "weighting": 0.3,
+        "type": "equity"
+      },
+      {
+        "security_name": "Navin Fluorine International Ltd",
+        "weighting": 0.3,
+        "type": "equity"
+      },
+      {
+        "security_name": "Krishna Institute of Medical Sciences Ltd",
+        "weighting": 0.29,
+        "type": "equity"
+      },
+      {
+        "security_name": "POWERGRID Infrastructure Investment Trust Units",
+        "weighting": 0.28,
+        "type": "equity"
+      },
+      {
+        "security_name": "Varun Beverages Ltd",
+        "weighting": 0.28,
+        "type": "equity"
+      },
+      {
+        "security_name": "Page Industries Ltd",
+        "weighting": 0.27,
+        "type": "equity"
+      },
+      {
+        "security_name": "Lemon Tree Hotels Ltd",
+        "weighting": 0.27,
+        "type": "equity"
+      },
+      {
+        "security_name": "Gujarat Gas Ltd",
+        "weighting": 0.26,
+        "type": "equity"
+      },
+      {
+        "security_name": "3M India Ltd",
+        "weighting": 0.26,
+        "type": "equity"
+      },
+      {
+        "security_name": "Kirloskar Oil Engines Ltd",
+        "weighting": 0.26,
+        "type": "equity"
+      },
+      {
+        "security_name": "Azad Engineering Ltd",
+        "weighting": 0.26,
+        "type": "equity"
+      },
+      {
+        "security_name": "Nucleus Software Exports Ltd",
+        "weighting": 0.26,
+        "type": "equity"
+      },
+      {
+        "security_name": "Embassy Office Parks REIT",
+        "weighting": 0.25,
+        "type": "equity"
+      },
+      {
+        "security_name": "Jupiter Life Line Hospitals Ltd",
+        "weighting": 0.25,
+        "type": "equity"
+      },
+      {
+        "security_name": "Cholamandalam Financial Holdings Ltd",
+        "weighting": 0.24,
+        "type": "equity"
+      },
+      {
+        "security_name": "Multi Commodity Exchange of India Ltd",
+        "weighting": 0.24,
+        "type": "equity"
+      },
+      {
+        "security_name": "Rainbow Childrens Medicare Ltd",
+        "weighting": 0.23,
+        "type": "equity"
+      },
+      {
+        "security_name": "Shivalik Bimetal Controls Ltd",
+        "weighting": 0.23,
+        "type": "equity"
+      },
+      {
+        "security_name": "Jindal Stainless Ltd",
+        "weighting": 0.23,
+        "type": "equity"
+      },
+      {
+        "security_name": "Piramal Pharma Ltd",
+        "weighting": 0.23,
+        "type": "equity"
+      },
+      {
+        "security_name": "Brigade Enterprises Ltd",
+        "weighting": 0.22,
+        "type": "equity"
+      },
+      {
+        "security_name": "Garware Technical Fibres Ltd",
+        "weighting": 0.22,
+        "type": "equity"
+      },
+      {
+        "security_name": "Oracle Financial Services Software Ltd",
+        "weighting": 0.21,
+        "type": "equity"
+      },
+      {
+        "security_name": "Fine Organic Industries Ltd Ordinary Shares",
+        "weighting": 0.18,
+        "type": "equity"
+      },
+      {
+        "security_name": "Container Corporation of India Ltd",
+        "weighting": 0.15,
+        "type": "equity"
+      },
+      {
+        "security_name": "Xpro India Ltd",
+        "weighting": 0.14,
+        "type": "equity"
+      },
+      {
+        "security_name": "Rolex Rings Ltd",
+        "weighting": 0.14,
+        "type": "equity"
+      },
+      {
+        "security_name": "Carraro India Ltd",
+        "weighting": 0.14,
+        "type": "equity"
+      },
+      {
+        "security_name": "Honasa Consumer Ltd",
+        "weighting": 0.14,
+        "type": "equity"
+      },
+      {
+        "security_name": "EMA Partners India Ltd",
+        "weighting": 0.12,
+        "type": "equity"
+      },
+      {
+        "security_name": "Gopal Snacks Ltd",
+        "weighting": 0.1,
+        "type": "equity"
+      },
+      {
+        "security_name": "KSB Ltd",
+        "weighting": 0.1,
+        "type": "equity"
+      },
+      {
+        "security_name": "Onward Technologies Ltd",
+        "weighting": 0.1,
+        "type": "equity"
+      },
+      {
+        "security_name": "Sagility India Ltd",
+        "weighting": 0.04,
+        "type": "equity"
+      },
+      {
+        "security_name": "Dixon Technologies (India) Ltd",
+        "weighting": 0.03,
+        "type": "equity"
+      },
+      {
+        "security_name": "India (Republic of)",
+        "weighting": 0.93,
+        "type": "bond"
+      },
+      {
+        "security_name": "182 DTB 12062025",
+        "weighting": 0.75,
+        "type": "bond"
+      },
+      {
+        "security_name": "India (Republic of)",
+        "weighting": 0.47,
+        "type": "bond"
+      },
+      {
+        "security_name": "364 DTB 15082025",
+        "weighting": 0.43,
+        "type": "bond"
+      },
+      {
+        "security_name": "91 Days Treasury Bill 26-Jun-2025",
+        "weighting": 0.41,
+        "type": "bond"
+      },
+      {
+        "security_name": "India (Republic of)",
+        "weighting": 0.4,
+        "type": "bond"
+      },
+      {
+        "security_name": "91 Days Tbill Red 19-06-2025",
+        "weighting": 0.37,
+        "type": "bond"
+      },
+      {
+        "security_name": "182 Days Tbill",
+        "weighting": 0.31,
+        "type": "bond"
+      },
+      {
+        "security_name": "91 Days Tbill Red 05-06-2025",
+        "weighting": 0.21,
+        "type": "bond"
+      },
+      {
+        "security_name": "182 DTB 19062025",
+        "weighting": 0.16,
+        "type": "bond"
+      },
+      {
+        "security_name": "182 DTB 05062025",
+        "weighting": 0.1,
+        "type": "bond"
+      }
+    ]
+  },
+  "fund_14": {
+    "fund_id": "F00001FWKI",
+    "holdingList": [
+      {
+        "security_name": "Reliance Industries Ltd",
+        "weighting": 9.6,
+        "type": "equity"
+      },
+      {
+        "security_name": "Jio Financial Services Ltd",
+        "weighting": 6.6,
+        "type": "equity"
+      },
+      {
+        "security_name": "HFCL Ltd",
+        "weighting": 6.53,
+        "type": "equity"
+      },
+      {
+        "security_name": "Samvardhana Motherson International Ltd",
+        "weighting": 6.33,
+        "type": "equity"
+      },
+      {
+        "security_name": "Future on HDFC Life Insurance Co Ltd",
+        "weighting": 6.08,
+        "type": "equity"
+      },
+      {
+        "security_name": "DLF Ltd",
+        "weighting": 5.62,
+        "type": "equity"
+      },
+      {
+        "security_name": "S.P. Apparels Ltd",
+        "weighting": 5.14,
+        "type": "equity"
+      },
+      {
+        "security_name": "Life Insurance Corporation of India",
+        "weighting": 5.14,
+        "type": "equity"
+      },
+      {
+        "security_name": "Aurobindo Pharma Ltd",
+        "weighting": 5.03,
+        "type": "equity"
+      },
+      {
+        "security_name": "Alivus Life Sciences Ltd",
+        "weighting": 3.9,
+        "type": "equity"
+      },
+      {
+        "security_name": "Sun TV Network Ltd",
+        "weighting": 3.69,
+        "type": "equity"
+      },
+      {
+        "security_name": "Brooks Laboratories Ltd",
+        "weighting": 3.14,
+        "type": "equity"
+      },
+      {
+        "security_name": "Avenue Supermarts Ltd",
+        "weighting": 2.75,
+        "type": "equity"
+      },
+      {
+        "security_name": "Indian Oil Corp Ltd",
+        "weighting": 2.7,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tata Power Co Ltd",
+        "weighting": 2.61,
+        "type": "equity"
+      },
+      {
+        "security_name": "Future on Aurobindo Pharma Ltd",
+        "weighting": 2.59,
+        "type": "equity"
+      },
+      {
+        "security_name": "Oil & Natural Gas Corp Ltd",
+        "weighting": 2.55,
+        "type": "equity"
+      },
+      {
+        "security_name": "Zydus Wellness Ltd",
+        "weighting": 2.35,
+        "type": "equity"
+      },
+      {
+        "security_name": "Piramal Enterprises Ltd",
+        "weighting": 1.91,
+        "type": "equity"
+      },
+      {
+        "security_name": "Kovai Medical Center & Hospital Ltd",
+        "weighting": 1.65,
+        "type": "equity"
+      },
+      {
+        "security_name": "OneSource Specialty Pharma Ltd",
+        "weighting": 1.55,
+        "type": "equity"
+      },
+      {
+        "security_name": "HDFC Life Insurance Co Ltd",
+        "weighting": 1.35,
+        "type": "equity"
+      },
+      {
+        "security_name": "Strides Pharma Science Ltd",
+        "weighting": 1.31,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bajaj Auto Ltd",
+        "weighting": 1.29,
+        "type": "equity"
+      },
+      {
+        "security_name": "Aditya Birla Lifestyle Brands Limited",
+        "weighting": 1.29,
+        "type": "equity"
+      },
+      {
+        "security_name": "Future on Bajaj Auto Ltd",
+        "weighting": 1.28,
+        "type": "equity"
+      },
+      {
+        "security_name": "SBI Cards and Payment Services Ltd Ordinary Shares",
+        "weighting": 1.2,
+        "type": "equity"
+      },
+      {
+        "security_name": "Laxmi Organic Industries Ltd",
+        "weighting": 1.03,
+        "type": "equity"
+      },
+      {
+        "security_name": "91 Days Tbill Red 21-08-2025",
+        "weighting": 1.11,
+        "type": "bond"
+      },
+      {
+        "security_name": "91 Days Tbill (Md 28/08/2025)",
+        "weighting": 1.11,
+        "type": "bond"
+      },
+      {
+        "security_name": "India (Republic of)",
+        "weighting": 0.9,
+        "type": "bond"
+      },
+      {
+        "security_name": "91 Days Tbill Red 19-06-2025",
+        "weighting": 0.75,
+        "type": "bond"
+      },
+      {
+        "security_name": "91 Days Tbill Red 12-06-2025",
+        "weighting": 0.38,
+        "type": "bond"
+      },
+      {
+        "security_name": "India (Republic of)",
+        "weighting": 0.22,
+        "type": "bond"
+      }
+    ]
+  },
+  "fund_15": {
+    "fund_id": "F00001G3OC",
+    "holdingList": [
+      {
+        "security_name": "Infosys Ltd",
+        "weighting": 27.15,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tata Consultancy Services Ltd",
+        "weighting": 22.14,
+        "type": "equity"
+      },
+      {
+        "security_name": "HCL Technologies Ltd",
+        "weighting": 10.84,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tech Mahindra Ltd",
+        "weighting": 10.26,
+        "type": "equity"
+      },
+      {
+        "security_name": "Wipro Ltd",
+        "weighting": 7.29,
+        "type": "equity"
+      },
+      {
+        "security_name": "Persistent Systems Ltd",
+        "weighting": 6.17,
+        "type": "equity"
+      },
+      {
+        "security_name": "Coforge Ltd",
+        "weighting": 5.85,
+        "type": "equity"
+      },
+      {
+        "security_name": "LTIMindtree Ltd",
+        "weighting": 4.82,
+        "type": "equity"
+      },
+      {
+        "security_name": "Mphasis Ltd",
+        "weighting": 2.99,
+        "type": "equity"
+      },
+      {
+        "security_name": "Oracle Financial Services Software Ltd",
+        "weighting": 2.06,
+        "type": "equity"
+      }
+    ]
+  },
+  "fund_16": {
+    "fund_id": "F00001GFIS",
+    "holdingList": [
+      {
+        "security_name": "HDFC Bank Ltd",
+        "weighting": 5.11,
+        "type": "equity"
+      },
+      {
+        "security_name": "ICICI Bank Ltd",
+        "weighting": 4.37,
+        "type": "equity"
+      },
+      {
+        "security_name": "Reliance Industries Ltd",
+        "weighting": 2.94,
+        "type": "equity"
+      },
+      {
+        "security_name": "Infosys Ltd",
+        "weighting": 2.48,
+        "type": "equity"
+      },
+      {
+        "security_name": "JK Cement Ltd",
+        "weighting": 1.87,
+        "type": "equity"
+      },
+      {
+        "security_name": "Eternal Ltd",
+        "weighting": 1.8,
+        "type": "equity"
+      },
+      {
+        "security_name": "Larsen & Toubro Ltd",
+        "weighting": 1.71,
+        "type": "equity"
+      },
+      {
+        "security_name": "Multi Commodity Exchange of India Ltd",
+        "weighting": 1.7,
+        "type": "equity"
+      },
+      {
+        "security_name": "Ajanta Pharma Ltd",
+        "weighting": 1.63,
+        "type": "equity"
+      },
+      {
+        "security_name": "GE Vernova T&D India Ltd",
+        "weighting": 1.59,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bharti Airtel Ltd",
+        "weighting": 1.53,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tata Consumer Products Ltd",
+        "weighting": 1.53,
+        "type": "equity"
+      },
+      {
+        "security_name": "Indian Bank",
+        "weighting": 1.51,
+        "type": "equity"
+      },
+      {
+        "security_name": "TBO Tek Ltd",
+        "weighting": 1.48,
+        "type": "equity"
+      },
+      {
+        "security_name": "Mahindra & Mahindra Ltd",
+        "weighting": 1.48,
+        "type": "equity"
+      },
+      {
+        "security_name": "Axis Bank Ltd",
+        "weighting": 1.42,
+        "type": "equity"
+      },
+      {
+        "security_name": "UNO Minda Ltd",
+        "weighting": 1.42,
+        "type": "equity"
+      },
+      {
+        "security_name": "Crompton Greaves Consumer Electricals Ltd",
+        "weighting": 1.39,
+        "type": "equity"
+      },
+      {
+        "security_name": "The Federal Bank Ltd",
+        "weighting": 1.38,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bharat Electronics Ltd",
+        "weighting": 1.36,
+        "type": "equity"
+      },
+      {
+        "security_name": "J.B. Chemicals & Pharmaceuticals Ltd",
+        "weighting": 1.34,
+        "type": "equity"
+      },
+      {
+        "security_name": "EIH Ltd",
+        "weighting": 1.34,
+        "type": "equity"
+      },
+      {
+        "security_name": "Max Healthcare Institute Ltd Ordinary Shares",
+        "weighting": 1.32,
+        "type": "equity"
+      },
+      {
+        "security_name": "Brigade Enterprises Ltd",
+        "weighting": 1.29,
+        "type": "equity"
+      },
+      {
+        "security_name": "Max Financial Services Ltd",
+        "weighting": 1.23,
+        "type": "equity"
+      },
+      {
+        "security_name": "Aditya Birla Real Estate Ltd",
+        "weighting": 1.22,
+        "type": "equity"
+      },
+      {
+        "security_name": "KEI Industries Ltd",
+        "weighting": 1.2,
+        "type": "equity"
+      },
+      {
+        "security_name": "PNB Housing Finance Ltd",
+        "weighting": 1.19,
+        "type": "equity"
+      },
+      {
+        "security_name": "TVS Motor Co Ltd",
+        "weighting": 1.19,
+        "type": "equity"
+      },
+      {
+        "security_name": "HDFC Asset Management Co Ltd",
+        "weighting": 1.18,
+        "type": "equity"
+      },
+      {
+        "security_name": "Cummins India Ltd",
+        "weighting": 1.13,
+        "type": "equity"
+      },
+      {
+        "security_name": "Varun Beverages Ltd",
+        "weighting": 1.1,
+        "type": "equity"
+      },
+      {
+        "security_name": "FSN E-Commerce Ventures Ltd",
+        "weighting": 1.09,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tech Mahindra Ltd",
+        "weighting": 1.08,
+        "type": "equity"
+      },
+      {
+        "security_name": "Mphasis Ltd",
+        "weighting": 1.06,
+        "type": "equity"
+      },
+      {
+        "security_name": "Suzlon Energy Ltd",
+        "weighting": 1.06,
+        "type": "equity"
+      },
+      {
+        "security_name": "State Bank of India",
+        "weighting": 1.05,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bajaj Finance Ltd",
+        "weighting": 1.05,
+        "type": "equity"
+      },
+      {
+        "security_name": "KPIT Technologies Ltd",
+        "weighting": 1.04,
+        "type": "equity"
+      },
+      {
+        "security_name": "V-Guard Industries Ltd",
+        "weighting": 0.99,
+        "type": "equity"
+      },
+      {
+        "security_name": "Trent Ltd",
+        "weighting": 0.98,
+        "type": "equity"
+      },
+      {
+        "security_name": "InterGlobe Aviation Ltd",
+        "weighting": 0.97,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tata Power Co Ltd",
+        "weighting": 0.96,
+        "type": "equity"
+      },
+      {
+        "security_name": "K.P.R. Mill Ltd",
+        "weighting": 0.96,
+        "type": "equity"
+      },
+      {
+        "security_name": "Cholamandalam Investment and Finance Co Ltd",
+        "weighting": 0.95,
+        "type": "equity"
+      },
+      {
+        "security_name": "Computer Age Management Services Ltd Ordinary Shares",
+        "weighting": 0.94,
+        "type": "equity"
+      },
+      {
+        "security_name": "Mankind Pharma Ltd",
+        "weighting": 0.93,
+        "type": "equity"
+      },
+      {
+        "security_name": "Shriram Finance Ltd",
+        "weighting": 0.9,
+        "type": "equity"
+      },
+      {
+        "security_name": "Swiggy Ltd",
+        "weighting": 0.87,
+        "type": "equity"
+      },
+      {
+        "security_name": "ICRA Ltd",
+        "weighting": 0.86,
+        "type": "equity"
+      },
+      {
+        "security_name": "Equitas Small Finance Bank Ltd Ordinary Shares",
+        "weighting": 0.82,
+        "type": "equity"
+      },
+      {
+        "security_name": "Praj Industries Ltd",
+        "weighting": 0.81,
+        "type": "equity"
+      },
+      {
+        "security_name": "NTPC Ltd",
+        "weighting": 0.8,
+        "type": "equity"
+      },
+      {
+        "security_name": "Deepak Nitrite Ltd",
+        "weighting": 0.79,
+        "type": "equity"
+      },
+      {
+        "security_name": "Schaeffler India Ltd",
+        "weighting": 0.78,
+        "type": "equity"
+      },
+      {
+        "security_name": "ITC Ltd",
+        "weighting": 0.78,
+        "type": "equity"
+      },
+      {
+        "security_name": "National Aluminium Co Ltd",
+        "weighting": 0.78,
+        "type": "equity"
+      },
+      {
+        "security_name": "Abbott India Ltd",
+        "weighting": 0.74,
+        "type": "equity"
+      },
+      {
+        "security_name": "Jyothy Labs Ltd",
+        "weighting": 0.74,
+        "type": "equity"
+      },
+      {
+        "security_name": "APL Apollo Tubes Ltd",
+        "weighting": 0.74,
+        "type": "equity"
+      },
+      {
+        "security_name": "Waaree Energies Ltd",
+        "weighting": 0.73,
+        "type": "equity"
+      },
+      {
+        "security_name": "Cipla Ltd",
+        "weighting": 0.72,
+        "type": "equity"
+      },
+      {
+        "security_name": "Sun Pharmaceuticals Industries Ltd",
+        "weighting": 0.7,
+        "type": "equity"
+      },
+      {
+        "security_name": "Global Health Ltd",
+        "weighting": 0.7,
+        "type": "equity"
+      },
+      {
+        "security_name": "Kajaria Ceramics Ltd",
+        "weighting": 0.69,
+        "type": "equity"
+      },
+      {
+        "security_name": "Can Fin Homes Ltd",
+        "weighting": 0.69,
+        "type": "equity"
+      },
+      {
+        "security_name": "Piramal Pharma Ltd",
+        "weighting": 0.68,
+        "type": "equity"
+      },
+      {
+        "security_name": "CCL Products (India) Ltd",
+        "weighting": 0.66,
+        "type": "equity"
+      },
+      {
+        "security_name": "Westlife Foodworld Ltd",
+        "weighting": 0.66,
+        "type": "equity"
+      },
+      {
+        "security_name": "CG Power & Industrial Solutions Ltd",
+        "weighting": 0.65,
+        "type": "equity"
+      },
+      {
+        "security_name": "Titan Co Ltd",
+        "weighting": 0.64,
+        "type": "equity"
+      },
+      {
+        "security_name": "Motherson Sumi Wiring India Ltd",
+        "weighting": 0.64,
+        "type": "equity"
+      },
+      {
+        "security_name": "Vinati Organics Ltd",
+        "weighting": 0.55,
+        "type": "equity"
+      },
+      {
+        "security_name": "BSE Ltd",
+        "weighting": 0.51,
+        "type": "equity"
+      },
+      {
+        "security_name": "United Breweries Ltd",
+        "weighting": 0.51,
+        "type": "equity"
+      },
+      {
+        "security_name": "PB Fintech Ltd",
+        "weighting": 0.49,
+        "type": "equity"
+      },
+      {
+        "security_name": "ZF Commercial Vehicle Control Systems India Ltd",
+        "weighting": 0.48,
+        "type": "equity"
+      },
+      {
+        "security_name": "Affle 3i Ltd",
+        "weighting": 0.46,
+        "type": "equity"
+      },
+      {
+        "security_name": "Cera Sanitaryware Ltd",
+        "weighting": 0.45,
+        "type": "equity"
+      },
+      {
+        "security_name": "Engineers India Ltd",
+        "weighting": 0.44,
+        "type": "equity"
+      },
+      {
+        "security_name": "DOMS Industries Ltd",
+        "weighting": 0.44,
+        "type": "equity"
+      },
+      {
+        "security_name": "CreditAccess Grameen Ltd Ordinary Shares",
+        "weighting": 0.43,
+        "type": "equity"
+      },
+      {
+        "security_name": "Supreme Industries Ltd",
+        "weighting": 0.42,
+        "type": "equity"
+      },
+      {
+        "security_name": "Vedant Fashions Ltd",
+        "weighting": 0.37,
+        "type": "equity"
+      },
+      {
+        "security_name": "Power Finance Corp Ltd",
+        "weighting": 0.35,
+        "type": "equity"
+      },
+      {
+        "security_name": "Dixon Technologies (India) Ltd",
+        "weighting": 0.34,
+        "type": "equity"
+      },
+      {
+        "security_name": "Blue Star Ltd",
+        "weighting": 0.34,
+        "type": "equity"
+      },
+      {
+        "security_name": "Torrent Pharmaceuticals Ltd",
+        "weighting": 0.3,
+        "type": "equity"
+      },
+      {
+        "security_name": "HCL Technologies Ltd",
+        "weighting": 0.29,
+        "type": "equity"
+      },
+      {
+        "security_name": "Sonata Software Ltd",
+        "weighting": 0.28,
+        "type": "equity"
+      },
+      {
+        "security_name": "MOIL Ltd",
+        "weighting": 0.27,
+        "type": "equity"
+      },
+      {
+        "security_name": "Torrent Power Ltd",
+        "weighting": 0.24,
+        "type": "equity"
+      },
+      {
+        "security_name": "Phoenix Mills Ltd",
+        "weighting": 0.24,
+        "type": "equity"
+      },
+      {
+        "security_name": "Kaynes Technology India Ltd",
+        "weighting": 0.18,
+        "type": "equity"
+      },
+      {
+        "security_name": "Arvind Ltd",
+        "weighting": 0.17,
+        "type": "equity"
+      }
+    ]
+  },
+  "fund_17": {
+    "fund_id": "F00001GOA2",
+    "holdingList": [
+      {
+        "security_name": "Infosys Ltd",
+        "weighting": 14.49,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bharti Airtel Ltd",
+        "weighting": 12.54,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tata Consultancy Services Ltd",
+        "weighting": 11.95,
+        "type": "equity"
+      },
+      {
+        "security_name": "HCL Technologies Ltd",
+        "weighting": 7.63,
+        "type": "equity"
+      },
+      {
+        "security_name": "Firstsource Solutions Ltd",
+        "weighting": 4.13,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tech Mahindra Ltd",
+        "weighting": 3.98,
+        "type": "equity"
+      },
+      {
+        "security_name": "Mphasis Ltd",
+        "weighting": 3.92,
+        "type": "equity"
+      },
+      {
+        "security_name": "Zensar Technologies Ltd",
+        "weighting": 3.76,
+        "type": "equity"
+      },
+      {
+        "security_name": "Coforge Ltd",
+        "weighting": 3.06,
+        "type": "equity"
+      },
+      {
+        "security_name": "Eternal Ltd",
+        "weighting": 2.95,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bharti Hexacom Ltd",
+        "weighting": 2.95,
+        "type": "equity"
+      },
+      {
+        "security_name": "Info Edge (India) Ltd",
+        "weighting": 2.95,
+        "type": "equity"
+      },
+      {
+        "security_name": "Sonata Software Ltd",
+        "weighting": 2.83,
+        "type": "equity"
+      },
+      {
+        "security_name": "Birlasoft Ltd",
+        "weighting": 2.49,
+        "type": "equity"
+      },
+      {
+        "security_name": "eClerx Services Ltd",
+        "weighting": 2.17,
+        "type": "equity"
+      },
+      {
+        "security_name": "Redington Ltd",
+        "weighting": 1.5,
+        "type": "equity"
+      },
+      {
+        "security_name": "LTIMindtree Ltd",
+        "weighting": 1.48,
+        "type": "equity"
+      },
+      {
+        "security_name": "Hexaware Technologies Ltd Ordinary Shares",
+        "weighting": 1.42,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tata Communications Ltd",
+        "weighting": 1.38,
+        "type": "equity"
+      },
+      {
+        "security_name": "Indus Towers Ltd Ordinary Shares",
+        "weighting": 1.18,
+        "type": "equity"
+      },
+      {
+        "security_name": "PB Fintech Ltd",
+        "weighting": 1.15,
+        "type": "equity"
+      },
+      {
+        "security_name": "Brainbees Solutions Ltd",
+        "weighting": 1.04,
+        "type": "equity"
+      },
+      {
+        "security_name": "Wipro Ltd",
+        "weighting": 0.84,
+        "type": "equity"
+      },
+      {
+        "security_name": "Sagility India Ltd",
+        "weighting": 0.83,
+        "type": "equity"
+      },
+      {
+        "security_name": "Unicommerce eSolutions Ltd",
+        "weighting": 0.68,
+        "type": "equity"
+      },
+      {
+        "security_name": "Affle 3i Ltd",
+        "weighting": 0.63,
+        "type": "equity"
+      },
+      {
+        "security_name": "Zee Entertainment Enterprises Ltd",
+        "weighting": 0.41,
+        "type": "equity"
+      },
+      {
+        "security_name": "PVR INOX Ltd",
+        "weighting": 0.3,
+        "type": "equity"
+      },
+      {
+        "security_name": "Cyient Ltd",
+        "weighting": 0.12,
+        "type": "equity"
+      }
+    ]
+  },
+  "fund_18": {
+    "fund_id": "F00001KCX2",
+    "holdingList": [
+      {
+        "security_name": "Religare Enterprises Ltd",
+        "weighting": 7.28,
+        "type": "equity"
+      },
+      {
+        "security_name": "Choice International Ltd",
+        "weighting": 4.58,
+        "type": "equity"
+      },
+      {
+        "security_name": "Paradeep Phosphates Ltd",
+        "weighting": 3.44,
+        "type": "equity"
+      },
+      {
+        "security_name": "HealthCare Global Enterprises Ltd",
+        "weighting": 3.26,
+        "type": "equity"
+      },
+      {
+        "security_name": "KRBL Ltd",
+        "weighting": 3.13,
+        "type": "equity"
+      },
+      {
+        "security_name": "Coromandel International Ltd",
+        "weighting": 3.09,
+        "type": "equity"
+      },
+      {
+        "security_name": "Garden Reach Shipbuilders & Engineers Ltd",
+        "weighting": 3.01,
+        "type": "equity"
+      },
+      {
+        "security_name": "Marathon Nextgen Realty Ltd",
+        "weighting": 2.99,
+        "type": "equity"
+      },
+      {
+        "security_name": "Nippon Life India Asset Management Ltd Ordinary Shares",
+        "weighting": 2.96,
+        "type": "equity"
+      },
+      {
+        "security_name": "Aditya Birla Sun Life AMC Ltd",
+        "weighting": 2.92,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bajaj Holdings and Investment Ltd",
+        "weighting": 2.87,
+        "type": "equity"
+      },
+      {
+        "security_name": "Page Industries Ltd",
+        "weighting": 2.86,
+        "type": "equity"
+      },
+      {
+        "security_name": "Radico Khaitan Ltd",
+        "weighting": 2.84,
+        "type": "equity"
+      },
+      {
+        "security_name": "India Glycols Ltd",
+        "weighting": 2.8,
+        "type": "equity"
+      },
+      {
+        "security_name": "Paras Defence And Space Technologies Ltd",
+        "weighting": 2.77,
+        "type": "equity"
+      },
+      {
+        "security_name": "Kaveri Seed Co Ltd",
+        "weighting": 2.67,
+        "type": "equity"
+      },
+      {
+        "security_name": "Krishna Institute of Medical Sciences Ltd",
+        "weighting": 2.62,
+        "type": "equity"
+      },
+      {
+        "security_name": "Narayana Hrudayalaya Ltd",
+        "weighting": 2.5,
+        "type": "equity"
+      },
+      {
+        "security_name": "Blue Jet Healthcare Ltd",
+        "weighting": 2.44,
+        "type": "equity"
+      },
+      {
+        "security_name": "Shree Cement Ltd",
+        "weighting": 2.44,
+        "type": "equity"
+      },
+      {
+        "security_name": "Acutaas Chemicals Ltd",
+        "weighting": 2.41,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bharat Dynamics Ltd Ordinary Shares",
+        "weighting": 2.36,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bajaj Finserv Ltd",
+        "weighting": 2.35,
+        "type": "equity"
+      },
+      {
+        "security_name": "Home First Finance Co India Ltd ---",
+        "weighting": 2.34,
+        "type": "equity"
+      },
+      {
+        "security_name": "SBI Cards and Payment Services Ltd Ordinary Shares",
+        "weighting": 2.3,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bajaj Finance Ltd",
+        "weighting": 2.27,
+        "type": "equity"
+      },
+      {
+        "security_name": "LT Foods Ltd",
+        "weighting": 2.15,
+        "type": "equity"
+      },
+      {
+        "security_name": "HDFC Asset Management Co Ltd",
+        "weighting": 2.14,
+        "type": "equity"
+      },
+      {
+        "security_name": "AAVAS Financiers Ltd",
+        "weighting": 2.13,
+        "type": "equity"
+      },
+      {
+        "security_name": "Wockhardt Ltd",
+        "weighting": 2.12,
+        "type": "equity"
+      },
+      {
+        "security_name": "JK Cement Ltd",
+        "weighting": 2.08,
+        "type": "equity"
+      },
+      {
+        "security_name": "Chambal Fertilisers & Chemicals Ltd",
+        "weighting": 2.07,
+        "type": "equity"
+      },
+      {
+        "security_name": "Manappuram Finance Ltd",
+        "weighting": 2.06,
+        "type": "equity"
+      },
+      {
+        "security_name": "India Shelter Finance Corporation Ltd",
+        "weighting": 2.0,
+        "type": "equity"
+      },
+      {
+        "security_name": "Arvind Ltd",
+        "weighting": 1.95,
+        "type": "equity"
+      },
+      {
+        "security_name": "Orient Cement Ltd",
+        "weighting": 1.94,
+        "type": "equity"
+      },
+      {
+        "security_name": "United Spirits Ltd",
+        "weighting": 1.05,
+        "type": "equity"
+      },
+      {
+        "security_name": "Pearl Global Industries Ltd",
+        "weighting": 0.68,
+        "type": "equity"
+      }
+    ]
+  },
+  "fund_19": {
+    "fund_id": "F00001LBWC",
+    "holdingList": [
+      {
+        "security_name": "HDFC Bank Ltd",
+        "weighting": 10.92,
+        "type": "equity"
+      },
+      {
+        "security_name": "ICICI Bank Ltd",
+        "weighting": 7.53,
+        "type": "equity"
+      },
+      {
+        "security_name": "Reliance Industries Ltd",
+        "weighting": 7.11,
+        "type": "equity"
+      },
+      {
+        "security_name": "Infosys Ltd",
+        "weighting": 4.15,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bharti Airtel Ltd",
+        "weighting": 3.68,
+        "type": "equity"
+      },
+      {
+        "security_name": "Larsen & Toubro Ltd",
+        "weighting": 3.18,
+        "type": "equity"
+      },
+      {
+        "security_name": "ITC Ltd",
+        "weighting": 2.87,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tata Consultancy Services Ltd",
+        "weighting": 2.61,
+        "type": "equity"
+      },
+      {
+        "security_name": "Axis Bank Ltd",
+        "weighting": 2.52,
+        "type": "equity"
+      },
+      {
+        "security_name": "State Bank of India",
+        "weighting": 2.3,
+        "type": "equity"
+      },
+      {
+        "security_name": "Kotak Mahindra Bank Ltd",
+        "weighting": 2.25,
+        "type": "equity"
+      },
+      {
+        "security_name": "Mahindra & Mahindra Ltd",
+        "weighting": 1.95,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bajaj Finance Ltd",
+        "weighting": 1.77,
+        "type": "equity"
+      },
+      {
+        "security_name": "Hindustan Unilever Ltd",
+        "weighting": 1.54,
+        "type": "equity"
+      },
+      {
+        "security_name": "Sun Pharmaceuticals Industries Ltd",
+        "weighting": 1.33,
+        "type": "equity"
+      },
+      {
+        "security_name": "HCL Technologies Ltd",
+        "weighting": 1.28,
+        "type": "equity"
+      },
+      {
+        "security_name": "Eternal Ltd",
+        "weighting": 1.22,
+        "type": "equity"
+      },
+      {
+        "security_name": "Maruti Suzuki India Ltd",
+        "weighting": 1.19,
+        "type": "equity"
+      },
+      {
+        "security_name": "NTPC Ltd",
+        "weighting": 1.17,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tata Motors Ltd",
+        "weighting": 1.11,
+        "type": "equity"
+      },
+      {
+        "security_name": "Titan Co Ltd",
+        "weighting": 1.08,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bharat Electronics Ltd",
+        "weighting": 1.02,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tata Steel Ltd",
+        "weighting": 0.98,
+        "type": "equity"
+      },
+      {
+        "security_name": "Power Grid Corp Of India Ltd",
+        "weighting": 0.97,
+        "type": "equity"
+      },
+      {
+        "security_name": "UltraTech Cement Ltd",
+        "weighting": 0.96,
+        "type": "equity"
+      },
+      {
+        "security_name": "Trent Ltd",
+        "weighting": 0.92,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bajaj Finserv Ltd",
+        "weighting": 0.81,
+        "type": "equity"
+      },
+      {
+        "security_name": "Adani Ports & Special Economic Zone Ltd",
+        "weighting": 0.78,
+        "type": "equity"
+      },
+      {
+        "security_name": "InterGlobe Aviation Ltd",
+        "weighting": 0.77,
+        "type": "equity"
+      },
+      {
+        "security_name": "Asian Paints Ltd",
+        "weighting": 0.75,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tech Mahindra Ltd",
+        "weighting": 0.74,
+        "type": "equity"
+      },
+      {
+        "security_name": "Grasim Industries Ltd",
+        "weighting": 0.72,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bajaj Auto Ltd",
+        "weighting": 0.7,
+        "type": "equity"
+      },
+      {
+        "security_name": "JSW Steel Ltd",
+        "weighting": 0.7,
+        "type": "equity"
+      },
+      {
+        "security_name": "Hindustan Aeronautics Ltd Ordinary Shares",
+        "weighting": 0.69,
+        "type": "equity"
+      },
+      {
+        "security_name": "Jio Financial Services Ltd",
+        "weighting": 0.69,
+        "type": "equity"
+      },
+      {
+        "security_name": "Oil & Natural Gas Corp Ltd",
+        "weighting": 0.69,
+        "type": "equity"
+      },
+      {
+        "security_name": "Hindalco Industries Ltd",
+        "weighting": 0.68,
+        "type": "equity"
+      },
+      {
+        "security_name": "Coal India Ltd",
+        "weighting": 0.67,
+        "type": "equity"
+      },
+      {
+        "security_name": "Shriram Finance Ltd",
+        "weighting": 0.66,
+        "type": "equity"
+      },
+      {
+        "security_name": "Nestle India Ltd",
+        "weighting": 0.63,
+        "type": "equity"
+      },
+      {
+        "security_name": "Divi's Laboratories Ltd",
+        "weighting": 0.62,
+        "type": "equity"
+      },
+      {
+        "security_name": "HDFC Life Insurance Co Ltd",
+        "weighting": 0.61,
+        "type": "equity"
+      },
+      {
+        "security_name": "Cipla Ltd",
+        "weighting": 0.61,
+        "type": "equity"
+      },
+      {
+        "security_name": "SBI Life Insurance Co Ltd",
+        "weighting": 0.6,
+        "type": "equity"
+      },
+      {
+        "security_name": "Dr Reddy's Laboratories Ltd",
+        "weighting": 0.56,
+        "type": "equity"
+      },
+      {
+        "security_name": "Vedanta Ltd",
+        "weighting": 0.55,
+        "type": "equity"
+      },
+      {
+        "security_name": "Eicher Motors Ltd",
+        "weighting": 0.54,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tata Consumer Products Ltd",
+        "weighting": 0.53,
+        "type": "equity"
+      },
+      {
+        "security_name": "Wipro Ltd",
+        "weighting": 0.52,
+        "type": "equity"
+      },
+      {
+        "security_name": "Apollo Hospitals Enterprise Ltd",
+        "weighting": 0.51,
+        "type": "equity"
+      },
+      {
+        "security_name": "Indian Hotels Co Ltd",
+        "weighting": 0.5,
+        "type": "equity"
+      },
+      {
+        "security_name": "Cholamandalam Investment and Finance Co Ltd",
+        "weighting": 0.5,
+        "type": "equity"
+      },
+      {
+        "security_name": "Tata Power Co Ltd",
+        "weighting": 0.49,
+        "type": "equity"
+      },
+      {
+        "security_name": "Adani Enterprises Ltd",
+        "weighting": 0.48,
+        "type": "equity"
+      },
+      {
+        "security_name": "TVS Motor Co Ltd",
+        "weighting": 0.48,
+        "type": "equity"
+      },
+      {
+        "security_name": "Britannia Industries Ltd",
+        "weighting": 0.48,
+        "type": "equity"
+      },
+      {
+        "security_name": "Varun Beverages Ltd",
+        "weighting": 0.47,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bharat Petroleum Corp Ltd",
+        "weighting": 0.45,
+        "type": "equity"
+      },
+      {
+        "security_name": "Godrej Consumer Products Ltd",
+        "weighting": 0.43,
+        "type": "equity"
+      },
+      {
+        "security_name": "Power Finance Corp Ltd",
+        "weighting": 0.43,
+        "type": "equity"
+      },
+      {
+        "security_name": "Avenue Supermarts Ltd",
+        "weighting": 0.43,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bajaj Holdings and Investment Ltd",
+        "weighting": 0.43,
+        "type": "equity"
+      },
+      {
+        "security_name": "Hero MotoCorp Ltd",
+        "weighting": 0.41,
+        "type": "equity"
+      },
+      {
+        "security_name": "Info Edge (India) Ltd",
+        "weighting": 0.41,
+        "type": "equity"
+      },
+      {
+        "security_name": "IndusInd Bank Ltd",
+        "weighting": 0.4,
+        "type": "equity"
+      },
+      {
+        "security_name": "Indian Oil Corp Ltd",
+        "weighting": 0.39,
+        "type": "equity"
+      },
+      {
+        "security_name": "GAIL (India) Ltd",
+        "weighting": 0.38,
+        "type": "equity"
+      },
+      {
+        "security_name": "DLF Ltd",
+        "weighting": 0.38,
+        "type": "equity"
+      },
+      {
+        "security_name": "REC Ltd",
+        "weighting": 0.37,
+        "type": "equity"
+      },
+      {
+        "security_name": "Pidilite Industries Ltd",
+        "weighting": 0.35,
+        "type": "equity"
+      },
+      {
+        "security_name": "LTIMindtree Ltd",
+        "weighting": 0.35,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bank of Baroda",
+        "weighting": 0.34,
+        "type": "equity"
+      },
+      {
+        "security_name": "Samvardhana Motherson International Ltd",
+        "weighting": 0.33,
+        "type": "equity"
+      },
+      {
+        "security_name": "ICICI Lombard General Insurance Co Ltd",
+        "weighting": 0.33,
+        "type": "equity"
+      },
+      {
+        "security_name": "United Spirits Ltd",
+        "weighting": 0.33,
+        "type": "equity"
+      },
+      {
+        "security_name": "CG Power & Industrial Solutions Ltd",
+        "weighting": 0.32,
+        "type": "equity"
+      },
+      {
+        "security_name": "Adani Power Ltd",
+        "weighting": 0.32,
+        "type": "equity"
+      },
+      {
+        "security_name": "Macrotech Developers Ltd",
+        "weighting": 0.29,
+        "type": "equity"
+      },
+      {
+        "security_name": "Shree Cement Ltd",
+        "weighting": 0.29,
+        "type": "equity"
+      },
+      {
+        "security_name": "Canara Bank",
+        "weighting": 0.28,
+        "type": "equity"
+      },
+      {
+        "security_name": "Havells India Ltd",
+        "weighting": 0.28,
+        "type": "equity"
+      },
+      {
+        "security_name": "Ambuja Cements Ltd",
+        "weighting": 0.27,
+        "type": "equity"
+      },
+      {
+        "security_name": "Punjab National Bank",
+        "weighting": 0.27,
+        "type": "equity"
+      },
+      {
+        "security_name": "Jindal Steel & Power Ltd",
+        "weighting": 0.27,
+        "type": "equity"
+      },
+      {
+        "security_name": "Torrent Pharmaceuticals Ltd",
+        "weighting": 0.24,
+        "type": "equity"
+      },
+      {
+        "security_name": "ABB India Ltd",
+        "weighting": 0.23,
+        "type": "equity"
+      },
+      {
+        "security_name": "Adani Energy Solutions Ltd",
+        "weighting": 0.23,
+        "type": "equity"
+      },
+      {
+        "security_name": "Adani Green Energy Ltd",
+        "weighting": 0.23,
+        "type": "equity"
+      },
+      {
+        "security_name": "Siemens Ltd",
+        "weighting": 0.21,
+        "type": "equity"
+      },
+      {
+        "security_name": "Dabur India Ltd",
+        "weighting": 0.21,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bosch Ltd",
+        "weighting": 0.2,
+        "type": "equity"
+      },
+      {
+        "security_name": "JSW Energy Ltd",
+        "weighting": 0.19,
+        "type": "equity"
+      },
+      {
+        "security_name": "ICICI Prudential Life Insurance Co Ltd",
+        "weighting": 0.19,
+        "type": "equity"
+      },
+      {
+        "security_name": "Indian Railway Finance Corp Ltd Ordinary Shares",
+        "weighting": 0.18,
+        "type": "equity"
+      },
+      {
+        "security_name": "Zydus Lifesciences Ltd",
+        "weighting": 0.17,
+        "type": "equity"
+      },
+      {
+        "security_name": "Siemens Engy Ind",
+        "weighting": 0.17,
+        "type": "equity"
+      },
+      {
+        "security_name": "Hyundai Motor India Ltd",
+        "weighting": 0.17,
+        "type": "equity"
+      },
+      {
+        "security_name": "Life Insurance Corporation of India",
+        "weighting": 0.16,
+        "type": "equity"
+      },
+      {
+        "security_name": "Swiggy Ltd",
+        "weighting": 0.1,
+        "type": "equity"
+      },
+      {
+        "security_name": "Bajaj Housing Finance Ltd",
+        "weighting": 0.08,
+        "type": "equity"
+      }
+    ]
+  }
+}

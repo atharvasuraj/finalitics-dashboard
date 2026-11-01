@@ -1,0 +1,2 @@
+-r requirements-data.txt
+google-genai==2.34.0

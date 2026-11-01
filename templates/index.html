@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalitics Platform by KVAGI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .main-content {
+            padding: 40px;
+        }
+
+        .upload-section {
+            background: #f8f9fa;
+            border: 2px dashed #dee2e6;
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .upload-section:hover {
+            border-color: #3498db;
+            background: #e3f2fd;
+        }
+
+        .upload-section.dragover {
+            border-color: #2ecc71;
+            background: #d5f4e6;
+        }
+
+        .file-input {
+            display: none;
+        }
+
+        .upload-btn {
+            background: #3498db;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 10px;
+        }
+
+        .upload-btn:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+        }
+
+        .sample-btn {
+            background: #e74c3c;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 10px;
+        }
+
+        .sample-btn:hover {
+            background: #c0392b;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3);
+        }
+
+        .nav-btn {
+            background: #27ae60;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 0 10px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .nav-btn:hover {
+            background: #219a52;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(39, 174, 96, 0.3);
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .results {
+            display: none;
+            margin-top: 30px;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .metric-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #3498db;
+        }
+
+        .metric-card h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #3498db;
+        }
+
+        .analysis-section {
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            padding: 30px;
+            margin-top: 30px;
+        }
+
+        .analysis-section h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+        }
+
+        .fund-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+        }
+
+        .fund-title {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border: 1px solid #f5c6cb;
+        }
+
+        .success {
+            background: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border: 1px solid #c3e6cb;
+        }
+
+        .feature-section {
+            margin-top: 40px;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .header p {
+                font-size: 1rem;
+            }
+            
+            .main-content {
+                padding: 20px;
+            }
+            
+            .metrics-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Personal Mutual Fund Modal Styles */
+        #personalMFModal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 9999;
+        }
+
+        #personalMFModal > div {
+            background: white;
+            max-width: 400px;
+            margin: 80px auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        #personalMFModal h2 {
+            margin-bottom: 20px;
+        }
+
+        #personalMFModal label {
+            margin-top: 10px;
+            display: block;
+        }
+
+        #personalMFModal input {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+        }
+
+        #personalMFModal .nav-btn {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        #personalMFModal .error {
+            margin-top: 10px;
+        }
+
+        #personalMFModal .success {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Finalitics Platform</h1>
+            <p>by KVAGI - Advanced Investment Analysis Platform</p>
+            <div class="nav-buttons" style="margin-top: 20px;">
+                <button class="nav-btn" onclick="window.location.href='/'">
+                    📊 Portfolio Analysis
+                </button>
+                <button class="nav-btn" onclick="window.location.href='/stock-offerings-page'">
+                    🚀 Stock Offerings
+                </button>
+                <button class="nav-btn" onclick="openPersonalMFModal()">
+                    🧑‍💼 Personal Mutual Fund
+                </button>
+                <button class="nav-btn" onclick="openPortfolioAnalyserTab()">
+                    📈 Portfolio Analyser
+                </button>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="upload-section" id="uploadSection">
+                <h2 style="margin-bottom: 20px; color: #2c3e50;">Upload Your Portfolio Data</h2>
+                <p style="margin-bottom: 20px; color: #6c757d;">Upload a JSON or CSV file containing your mutual fund portfolio data</p>
+                
+                <input type="file" id="fileInput" class="file-input" accept=".json,.csv">
+                <button class="upload-btn" onclick="document.getElementById('fileInput').click()">
+                    📁 Choose File
+                </button>
+                <button class="sample-btn" onclick="loadSampleData()">
+                    🎯 Try Sample Data
+                </button>
+                
+                <div style="margin-top: 20px; font-size: 0.9rem; color: #6c757d;">
+                    <p>Supported formats: JSON, CSV</p>
+                    <p>Maximum file size: 16MB</p>
+                </div>
+            </div>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Analyzing your portfolio... Please wait.</p>
+            </div>
+
+            <div class="results" id="results">
+                <h2 style="color: #2c3e50; margin-bottom: 20px;">📈 Portfolio Analysis Results</h2>
+                
+                <div class="metrics-grid" id="metricsGrid">
+                    <!-- Dynamic metrics will be inserted here -->
+                </div>
+
+                <div class="analysis-section">
+                    <h2>🤖 AI-Powered Analysis</h2>
+                    <div id="aiAnalysis">
+                        <!-- AI analysis will be inserted here -->
+                    </div>
+                </div>
+
+                <div class="analysis-section">
+                    <h2>📊 Detailed Fund Metrics</h2>
+                    <div id="fundDetails">
+                        <!-- Fund details will be inserted here -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature-section">
+                <h2 style="color: #2c3e50; margin-bottom: 20px; text-align: center;">🚀 Platform Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <span class="feature-icon">📊</span>
+                        <h3>Comprehensive Analysis</h3>
+                        <p>CAGR, Volatility, Sharpe Ratio, Alpha, Beta, and R-Squared calculations for each fund</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">🎯</span>
+                        <h3>Portfolio Overlap Detection</h3>
+                        <p>Identify redundant holdings across funds and optimize diversification</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">🤖</span>
+                        <h3>AI-Powered Insights</h3>
+                        <p>Get actionable recommendations from our advanced AI analyst</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">⚡</span>
+                        <h3>Real-time Processing</h3>
+                        <p>Fast analysis with immediate results and beautiful visualizations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Personal Mutual Fund Modal -->
+    <div id="personalMFModal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.5); z-index:9999;">
+        <div style="background:white; max-width:400px; margin:80px auto; padding:30px; border-radius:15px; box-shadow:0 10px 30px rgba(0,0,0,0.2); position:relative;">
+            <h2 style="margin-bottom:20px;">Personal Mutual Fund Allocation</h2>
+            <label>High Risk (%)</label>
+            <input type="number" id="highRiskPct" min="0" max="100" value="33" style="width:100%;margin-bottom:10px;">
+            <label>Medium Risk (%)</label>
+            <input type="number" id="mediumRiskPct" min="0" max="100" value="33" style="width:100%;margin-bottom:10px;">
+            <label>Low Risk (%)</label>
+            <input type="number" id="lowRiskPct" min="0" max="100" value="34" style="width:100%;margin-bottom:10px;">
+            <button class="nav-btn" style="width:100%;margin-top:10px;" onclick="submitPersonalMF()">Create Portfolio</button>
+            <button class="nav-btn" style="background:#e74c3c;width:100%;margin-top:10px;" onclick="closePersonalMFModal()">Cancel</button>
+            <div id="personalMFResult" style="margin-top:20px;"></div>
+            <div style="margin-top:20px;">
+                <img id="personalMFPieChartImg" src="" style="display:none;max-width:100%;border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0,0.1);" alt="Portfolio Allocation Pie Chart">
+                <div id="personalMFPieTable" style="margin-top:20px;display:none;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const fileInput = document.getElementById('fileInput');
+        const uploadSection = document.getElementById('uploadSection');
+        const loading = document.getElementById('loading');
+        const results = document.getElementById('results');
+
+        // File input change handler
+        fileInput.addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                uploadFile(file);
+            }
+        });
+
+        // Drag and drop functionality
+        uploadSection.addEventListener('dragover', function(e) {
+            e.preventDefault();
+            uploadSection.classList.add('dragover');
+        });
+
+        uploadSection.addEventListener('dragleave', function(e) {
+            e.preventDefault();
+            uploadSection.classList.remove('dragover');
+        });
+
+        uploadSection.addEventListener('drop', function(e) {
+            e.preventDefault();
+            uploadSection.classList.remove('dragover');
+            
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                uploadFile(files[0]);
+            }
+        });
+
+        async function uploadFile(file) {
+            const formData = new FormData();
+            formData.append('file', file);
+
+            showLoading();
+
+            try {
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    displayResults(data);
+                } else {
+                    showError(data.error || 'An error occurred during file upload');
+                }
+            } catch (error) {
+                showError('Network error: ' + error.message);
+            }
+
+            hideLoading();
+        }
+
+        async function loadSampleData() {
+            showLoading();
+
+            try {
+                const response = await fetch('/sample-data');
+                const data = await response.json();
+
+                if (response.ok) {
+                    displayResults(data);
+                } else {
+                    showError('Failed to load sample data');
+                }
+            } catch (error) {
+                showError('Network error: ' + error.message);
+            }
+
+            hideLoading();
+        }
+
+        function showLoading() {
+            loading.style.display = 'block';
+            results.style.display = 'none';
+        }
+
+        function hideLoading() {
+            loading.style.display = 'none';
+        }
+
+        function displayResults(data) {
+            const { quantitative_data, ai_analysis } = data;
+            
+            // Display portfolio-level metrics
+            displayMetrics(quantitative_data);
+            
+            // Display AI analysis
+            document.getElementById('aiAnalysis').innerHTML = ai_analysis;
+            
+            // Display fund details
+            displayFundDetails(quantitative_data.funds);
+            
+            results.style.display = 'block';
+        }
+
+        function displayMetrics(data) {
+            const metricsGrid = document.getElementById('metricsGrid');
+            const portfolioAnalysis = data.portfolio_analysis;
+            
+            metricsGrid.innerHTML = `
+                <div class="metric-card">
+                    <h3>Total Funds</h3>
+                    <div class="metric-value">${portfolioAnalysis.total_funds}</div>
+                </div>
+                <div class="metric-card">
+                    <h3>Portfolio Overlap</h3>
+                    <div class="metric-value">${portfolioAnalysis.portfolio_overlap.overlap_percentage.toFixed(1)}%</div>
+                </div>
+                <div class="metric-card">
+                    <h3>Common Holdings</h3>
+                    <div class="metric-value">${portfolioAnalysis.portfolio_overlap.common_holdings.length}</div>
+                </div>
+                <div class="metric-card">
+                    <h3>Analysis Date</h3>
+                    <div class="metric-value">${new Date(data.timestamp).toLocaleDateString()}</div>
+                </div>
+            `;
+        }
+
+        function displayFundDetails(funds) {
+            const fundDetails = document.getElementById('fundDetails');
+            let html = '';
+
+            Object.entries(funds).forEach(([fundKey, fund]) => {
+                html += `
+                    <div class="fund-section">
+                        <h3 class="fund-title">${fundKey.toUpperCase()} (${fund.fund_id})</h3>
+                        <div class="metrics-grid">
+                            <div class="metric-card">
+                                <h3>CAGR</h3>
+                                <div class="metric-value">${fund.cagr}%</div>
+                            </div>
+                            <div class="metric-card">
+                                <h3>Volatility</h3>
+                                <div class="metric-value">${fund.volatility}%</div>
+                            </div>
+                            <div class="metric-card">
+                                <h3>Max Drawdown</h3>
+                                <div class="metric-value">${fund.max_drawdown}%</div>
+                            </div>
+                            <div class="metric-card">
+                                <h3>Sharpe Ratio</h3>
+                                <div class="metric-value">${fund.sharpe_ratio}</div>
+                            </div>
+                            <div class="metric-card">
+                                <h3>Alpha</h3>
+                                <div class="metric-value">${fund.alpha}%</div>
+                            </div>
+                            <div class="metric-card">
+                                <h3>Beta</h3>
+                                <div class="metric-value">${fund.beta}</div>
+                            </div>
+                            <div class="metric-card">
+                                <h3>R-Squared</h3>
+                                <div class="metric-value">${fund.r_squared}%</div>
+                            </div>
+                            <div class="metric-card">
+                                <h3>Holdings</h3>
+                                <div class="metric-value">${fund.holdings_count}</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            fundDetails.innerHTML = html;
+        }
+
+        function showError(message) {
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'error';
+            errorDiv.innerHTML = `<strong>Error:</strong> ${message}`;
+            
+            const mainContent = document.querySelector('.main-content');
+            mainContent.insertBefore(errorDiv, mainContent.firstChild);
+            
+            setTimeout(() => {
+                errorDiv.remove();
+            }, 5000);
+        }
+
+        function openPersonalMFModal() {
+            document.getElementById('personalMFModal').style.display = 'block';
+            document.getElementById('personalMFResult').innerHTML = '';
+        }
+        function closePersonalMFModal() {
+            document.getElementById('personalMFModal').style.display = 'none';
+        }
+
+        function openPortfolioAnalyserTab() {
+            window.open('/portfolio-analyser', '_blank');
+        }
+
+        let personalMFPieChart = null;
+
+        function submitPersonalMF() {
+            const high = parseInt(document.getElementById('highRiskPct').value) || 0;
+            const medium = parseInt(document.getElementById('mediumRiskPct').value) || 0;
+            const low = parseInt(document.getElementById('lowRiskPct').value) || 0;
+            if (high + medium + low !== 100) {
+                document.getElementById('personalMFResult').innerHTML = '<div class="error">Total allocation must be 100%</div>';
+                document.getElementById('personalMFPieChartImg').style.display = 'none';
+                document.getElementById('personalMFPieTable').style.display = 'none';
+                return;
+            }
+            document.getElementById('personalMFResult').innerHTML = '<div class="loading"><div class="spinner"></div>Creating portfolio...</div>';
+            document.getElementById('personalMFPieChartImg').style.display = 'none';
+            document.getElementById('personalMFPieTable').style.display = 'none';
+
+            fetch('/personal-mf', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({high, medium, low})
+            })
+            .then(res => res.json())
+            .then(data => {
+                // Build HTML for new tab
+                let html = `
+                    <html>
+                    <head>
+                        <title>Personal Mutual Fund Results</title>
+                        <style>
+                            body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f8f9fa; margin: 0; padding: 0; }
+                            .container { max-width: 800px; margin: 40px auto; background: white; border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); padding: 30px; }
+                            h2 { color: #2c3e50; margin-bottom: 20px; }
+                            table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+                            th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+                            th { background: #f1f3f6; }
+                            tr:nth-child(even) { background: #f9f9f9; }
+                            .pie-img { display:block; margin:30px auto; max-width:100%; border-radius:10px; box-shadow:0 2px 10px rgba(0,0,0,0.1);}
+                            .error { background: #f8d7da; color: #721c24; padding: 15px; border-radius: 5px; margin: 20px 0; border: 1px solid #f5c6cb; }
+                            .success { background: #d4edda; color: #155724; padding: 15px; border-radius: 5px; margin: 20px 0; border: 1px solid #c3e6cb; }
+                            .back-btn { margin-top: 30px; padding: 10px 24px; background: #3498db; color: white; border: none; border-radius: 6px; cursor: pointer; }
+                            .back-btn:hover { background: #217dbb; }
+                        </style>
+                    </head>
+                    <body>
+                        <div class="container">
+                            <h2>Personal Mutual Fund Results</h2>
+                `;
+                if (data.error) {
+                    html += `<div class="error">${data.error}</div>`;
+                } else {
+                    html += `
+                        <div class="success">
+                            <p><strong>Portfolio Profit (3 Years):</strong> ₹${data.profit.toLocaleString(undefined, {maximumFractionDigits:2})}</p>
+                            <p><strong>Initial Investment:</strong> ₹${data.initial_investment.toLocaleString(undefined, {maximumFractionDigits:2})}</p>
+                            <p><strong>Final Value:</strong> ₹${data.final_value.toLocaleString(undefined, {maximumFractionDigits:2})}</p>
+                            <p><strong>Annualized Return:</strong> ${data.annual_return.toFixed(2)}%</p>
+                            <h4>Allocation:</h4>
+                            <ul>
+                                <li>High Risk: ₹${data.allocations.high.toLocaleString(undefined, {maximumFractionDigits:2})}</li>
+                                <li>Medium Risk: ₹${data.allocations.medium.toLocaleString(undefined, {maximumFractionDigits:2})}</li>
+                                <li>Low Risk: ₹${data.allocations.low.toLocaleString(undefined, {maximumFractionDigits:2})}</li>
+                            </ul>
+                            <h4>Sample Stocks:</h4>
+                            <ul>
+                                <li>High Risk: ${data.samples.high.join(', ')}</li>
+                                <li>Medium Risk: ${data.samples.medium.join(', ')}</li>
+                                <li>Low Risk: ${data.samples.low.join(', ')}</li>
+                            </ul>
+                        </div>
+                    `;
+                    // Pie chart image
+                    // Replace with line graph image
+                    if (data.portfolio_line_chart) {
+                        html += `<img class="pie-img" src="data:image/png;base64,${data.portfolio_line_chart}" alt="Portfolio Value Over 3 Years">`;
+                    }
+                    // Allocation table
+                    const allocations = data.stock_allocations || [];
+                    if (allocations.length > 0) {
+                        html += `<table>
+                            <thead>
+                                <tr>
+                                    <th>Stock</th>
+                                    <th>Amount (₹)</th>
+                                    <th>Percentage (%)</th>
+                                </tr>
+                            </thead>
+                            <tbody>`;
+                        allocations.forEach(a => {
+                            html += `<tr>
+                                <td>${a.symbol}</td>
+                                <td>${a.amount.toLocaleString()}</td>
+                                <td>${a.percentage}</td>
+                            </tr>`;
+                        });
+                        html += `</tbody></table>`;
+                    }
+                }
+                html += `<button class="back-btn" onclick="window.close()">Close Tab</button></div></body></html>`;
+
+                // Open in new tab
+                const newTab = window.open();
+                newTab.document.write(html);
+                newTab.document.close();
+            })
+            .catch(err => {
+                let html = `
+                    <html>
+                    <head><title>Error</title></head>
+                    <body>
+                        <div class="error">Error: ${err}</div>
+                        <button onclick="window.close()">Close Tab</button>
+                    </body>
+                    </html>
+                `;
+                const newTab = window.open();
+                newTab.document.write(html);
+                newTab.document.close();
+            });
+        }
+    </script>
+</body>
+</html>

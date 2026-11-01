@@ -1,0 +1,35 @@
+TAP version 13
+# Subtest: late old commentary cannot overwrite a new analysis; duplicate and stale completion states are ignored
+ok 1 - late old commentary cannot overwrite a new analysis; duplicate and stale completion states are ignored
+  ---
+  duration_ms: 1.184958
+  ...
+# Subtest: late calculation and CSV imports are discarded after edits
+ok 2 - late calculation and CSV imports are discarded after edits
+  ---
+  duration_ms: 0.147333
+  ...
+# Subtest: errors restore request state
+ok 3 - errors restore request state
+  ---
+  duration_ms: 0.323625
+  ...
+# Subtest: CSV aliases merge into a single stock and preserve other weights
+ok 4 - CSV aliases merge into a single stock and preserve other weights
+  ---
+  duration_ms: 0.445667
+  ...
+# Subtest: incomplete weights and aliases are identified; disabled alternative is ignored
+ok 5 - incomplete weights and aliases are identified; disabled alternative is ignored
+  ---
+  duration_ms: 0.298667
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 65.583666

@@ -1,0 +1,109 @@
+{
+  "verified_at_utc": "2026-10-31T08:16:04.167057+00:00",
+  "base_revision": "fc55e2930c8e2a0d43762f9b5122d365faf808cd",
+  "checkout_head": "fc55e2930c8e2a0d43762f9b5122d365faf808cd",
+  "working_tree_note": "Restoration may be uncommitted; source_sha256 identifies the files actually verified.",
+  "python": "3.12.14",
+  "network": "Python DNS and TCP connection calls blocked before importing app",
+  "llm_key": "GOOGLE_API_KEY removed; application has no LLM integration",
+  "sample_upload_match": true,
+  "source_sha256": {
+    "app.py": "e5cd0b8a3b52abd9bfb9675db64ecf83ed4e47e011dac09bd905f978d6463752",
+    "portfolio.py": "50294dd62f5512e8368ec1c91f7046ccc411666888313101f54d84cb729b9401",
+    "scripts/prepare_data.py": "2172091fc4f559cace8348130b9804e73a2dcc08f0f8a13fe74916da73650906",
+    "scripts/verify_snapshot.py": "242195c934fae5dac0665a0f98d0d6eade9b6b8f37d9455f3e8d5ea5092c84dd",
+    "static/portfolio.js": "2ebf1f12e2c7c8a0e29535d81215d00f33f67b1bfd9a50e0c42f4b6f63b392b7",
+    "static/portfolio.css": "acefec303db89946d598c4fa0a688f125732051944415488228c6c652df1dad3",
+    "templates/portfolio_analyser.html": "ed0aa7ace3c4ea808dd7ace6ff05ae2730b9b96a7aaf75c74d6f4204839463d4",
+    "templates/legacy.html": "3a4c17a1d1fcc3ff2b44039ce82ee00e98717bec60e7293bd83e54e9bf59965a",
+    "samples/portfolio.csv": "75fcb0a7d3be7690e54292492dd11ba62365c1765e3356ad0269385717318adf",
+    "requirements.txt": "dc9353bac0fef01fb58be11d655d8a80c1e4aef2d6975ce8d963b854034459cd",
+    "requirements-data.txt": "b764f3db9de6cab2a98c019aa520ffad4570401458141e07bdfd577dc5515415",
+    "requirements-dev.txt": "c9b2e36fc36eaaf2410a89c98e105a7b9c58d8c84d25804bfab6589c8c9ff52b",
+    "requirements-lock.txt": "8d9ada3524ec2e33809434364f801c2d4477a0c50df20e61919bb760eb0a9fa1",
+    "tests/conftest.py": "e6fc73254cedb2663995a3f71ab397566504c885aba2518e2648119c4c579c92",
+    "tests/test_portfolio.py": "0b86991b0293b6df76c00553f6ab3af28660dd9cacabcdea0f5849fe021a4eb0",
+    "tests/test_app.py": "a18753dff80e5d45ef6b932f4a44859f21b2ba577ef5de3d309756b7b565adef"
+  },
+  "result": {
+    "allocations": [
+      {
+        "symbol": "HDFCBANK.NS",
+        "weight_percent": 30.0
+      },
+      {
+        "symbol": "INFY.NS",
+        "weight_percent": 30.0
+      },
+      {
+        "symbol": "RELIANCE.NS",
+        "weight_percent": 40.0
+      }
+    ],
+    "assumptions": [
+      "Initial allocation, then buy and hold with no rebalancing; weights drift over time.",
+      "Fractional holdings; no contributions, withdrawals, fees, taxes, or slippage.",
+      "Adjusted stock prices provide a dividend/split-adjusted return proxy, not a cash-account reconstruction or mutual-fund NAV.",
+      "Portfolio index starts at 100; it is not a rupee balance.",
+      "Volatility uses sample daily-return standard deviation and 252 observations per year; CAGR uses elapsed calendar days / 365.25.",
+      "Illustrative stocks and dates; historical returns do not establish a profitable strategy or predict future returns."
+    ],
+    "dataset": {
+      "adjustment": "Provider dividend/split-adjusted closing-price return proxy; no additional adjustment or dividend cash flows added.",
+      "coverage": {
+        "HDFCBANK.NS": {
+          "end": "2024-12-31",
+          "observations": 739,
+          "start": "2022-01-03"
+        },
+        "INFY.NS": {
+          "end": "2024-12-31",
+          "observations": 739,
+          "start": "2022-01-03"
+        },
+        "RELIANCE.NS": {
+          "end": "2024-12-31",
+          "observations": 739,
+          "start": "2022-01-03"
+        }
+      },
+      "currency": "INR",
+      "exchange_timezone": "Asia/Kolkata",
+      "parameters": {
+        "actions": true,
+        "auto_adjust": false,
+        "back_adjust": false,
+        "interval": "1d",
+        "keepna": true,
+        "prepost": false,
+        "repair": false,
+        "rounding": false
+      },
+      "price_field": "Adj Close",
+      "provider": "Yahoo Finance",
+      "requested_end_exclusive": "2025-01-01",
+      "requested_start": "2022-01-01",
+      "retrieved_at_utc": "2026-10-31T08:05:54.783819+00:00",
+      "schema_version": 1,
+      "sha256": "6b1277ad97d9590c41b794caddee1496e12a7100bca96aba5a7864620a700aab",
+      "source_url": "https://finance.yahoo.com/",
+      "symbols": [
+        "RELIANCE.NS",
+        "HDFCBANK.NS",
+        "INFY.NS"
+      ],
+      "yfinance_version": "1.7.0"
+    },
+    "metrics": {
+      "annualized_volatility": 0.1703055831047704,
+      "cagr": 0.040810615609649936,
+      "max_drawdown": 0.16878973498657635,
+      "total_return": 0.12715682778667747
+    },
+    "period": {
+      "end": "2024-12-31",
+      "observations": 739,
+      "start": "2022-01-03"
+    }
+  }
+}

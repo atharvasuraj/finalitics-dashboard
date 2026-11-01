@@ -1,0 +1,111 @@
+TAP version 13
+# Subtest: real controller calculates saved example and renders the report without a runtime error
+ok 1 - real controller calculates saved example and renders the report without a runtime error
+  ---
+  duration_ms: 21.398167
+  ...
+# Subtest: an API input error remains readable and the same Calculate control can recover
+ok 2 - an API input error remains readable and the same Calculate control can recover
+  ---
+  duration_ms: 7.156042
+  ...
+# Subtest: a render exception hides the partial report and never enables AI or export
+ok 3 - a render exception hides the partial report and never enables AI or export
+  ---
+  duration_ms: 5.074875
+  ...
+# Subtest: resetting while Calculate is pending prevents the late response from rendering
+ok 4 - resetting while Calculate is pending prevents the late response from rendering
+  ---
+  duration_ms: 13.372791
+  ...
+# Subtest: both chart inspectors keep the selected date through tabs, resize and print restoration
+ok 5 - both chart inspectors keep the selected date through tabs, resize and print restoration
+  ---
+  duration_ms: 11.01175
+  ...
+# Subtest: only the explicit saved-example query automatically requests a calculation
+ok 6 - only the explicit saved-example query automatically requests a calculation
+  ---
+  duration_ms: 10.762
+  ...
+# Subtest: an incomplete cached template gets a visible initialization failure
+ok 7 - an incomplete cached template gets a visible initialization failure
+  ---
+  duration_ms: 4.063084
+  ...
+# Subtest: late old commentary cannot overwrite a new analysis; duplicate and stale completion states are ignored
+ok 8 - late old commentary cannot overwrite a new analysis; duplicate and stale completion states are ignored
+  ---
+  duration_ms: 2.1055
+  ...
+# Subtest: late calculation and CSV imports are discarded after edits
+ok 9 - late calculation and CSV imports are discarded after edits
+  ---
+  duration_ms: 0.386541
+  ...
+# Subtest: errors restore request state
+ok 10 - errors restore request state
+  ---
+  duration_ms: 1.184708
+  ...
+# Subtest: CSV aliases merge into a single stock and preserve other weights
+ok 11 - CSV aliases merge into a single stock and preserve other weights
+  ---
+  duration_ms: 0.734875
+  ...
+# Subtest: incomplete weights and aliases are identified; disabled alternative is ignored
+ok 12 - incomplete weights and aliases are identified; disabled alternative is ignored
+  ---
+  duration_ms: 0.461083
+  ...
+# Subtest: home preview uses returned metrics and allocations; controls, cursor and resize share the date
+ok 13 - home preview uses returned metrics and allocations; controls, cursor and resize share the date
+  ---
+  duration_ms: 15.542375
+  ...
+# Subtest: failed preview request leaves unavailable placeholders, disabled controls and no synthetic chart
+ok 14 - failed preview request leaves unavailable placeholders, disabled controls and no synthetic chart
+  ---
+  duration_ms: 4.997375
+  ...
+# Subtest: incomplete or nonfinite preview data is rejected rather than partly displayed
+    # Subtest: invalid fixture 1
+    ok 1 - invalid fixture 1
+      ---
+      duration_ms: 3.409958
+      ...
+    # Subtest: invalid fixture 2
+    ok 2 - invalid fixture 2
+      ---
+      duration_ms: 4.330833
+      ...
+    # Subtest: invalid fixture 3
+    ok 3 - invalid fixture 3
+      ---
+      duration_ms: 3.401917
+      ...
+    # Subtest: invalid fixture 4
+    ok 4 - invalid fixture 4
+      ---
+      duration_ms: 5.756333
+      ...
+    1..4
+ok 15 - incomplete or nonfinite preview data is rejected rather than partly displayed
+  ---
+  duration_ms: 19.858791
+  ...
+# Subtest: preview timeout aborts the request and clears busy state and its timer
+ok 16 - preview timeout aborts the request and clears busy state and its timer
+  ---
+  duration_ms: 6.837167
+  ...
+1..16
+# tests 20
+# suites 0
+# pass 20
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 157.821041

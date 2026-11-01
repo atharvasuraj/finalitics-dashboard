@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="{{ asset_url('favicon.svg') }}"
+    />
+    <meta name="theme-color" content="#f5f4ef" />
+    <title>Workspace · Finalitics</title>
+    <link rel="stylesheet" href="{{ asset_url('dashboard.css') }}" />
+    <script type="module" src="{{ asset_url('dashboard.js') }}"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to workspace</a>
+    <div class="app-shell">
+      <aside class="rail no-print">
+        <a class="brand" href="/" aria-label="Finalitics home"
+          ><span class="brand-mark">f</span>finalitics<span class="brand-dot"
+            >.</span
+          ></a
+        >
+        <a class="back-home" href="/">← Back to the big picture</a>
+        <p class="rail-label">YOUR WORKSPACE</p>
+        <nav aria-label="Workspace">
+          <button id="navBuild" class="nav-item active" aria-current="step">
+            <span class="nav-icon">◒</span
+            ><span
+              >Build a portfolio<small>Choose your starting mix</small></span
+            ><b>01</b>
+          </button>
+          <button id="navExplore" class="nav-item" disabled>
+            <span class="nav-icon">↗</span
+            ><span
+              >Explore the results<small
+                >Follow the historical journey</small
+              ></span
+            ><b>02</b>
+          </button>
+          <button id="navNotes" class="nav-item" disabled>
+            <span class="nav-icon">✦</span
+            ><span
+              >Make sense of it<small>Optional Gemini commentary</small></span
+            ><b>03</b>
+          </button>
+        </nav>
+        <div class="rail-insight">
+          <span class="insight-symbol">↔</span>
+          <p>A different mix.<br />A different perspective.</p>
+          <small>Compare allocations over the same historical dates.</small>
+        </div>
+        <div class="rail-bottom">
+          <span class="live-dot"></span> REAL HISTORY. OPEN QUESTIONS.<a
+            href="/portfolio-analyser"
+            >Foundation calculator ↗</a
+          ><a href="/legacy">Project history & limitations ↗</a>
+        </div>
+      </aside>
+      <main id="main">
+        <header class="workspace-header">
+          <div class="breadcrumb">Finalitics <span>/</span> Portfolio lab</div>
+          <div class="header-actions">
+            <span id="dataBadge" class="pill">Saved data · 2022–2024</span
+            ><button id="printReport" class="icon-button" disabled>
+              Export report <span>↗</span>
+            </button>
+          </div>
+        </header>
+        <section id="buildStage" aria-labelledby="buildTitle">
+          <div class="page-heading">
+            <div>
+              <p class="eyebrow">01 / BUILD YOUR PERSPECTIVE</p>
+              <h1 id="buildTitle" tabindex="-1">
+                A little change.<br /><em>A different journey.</em>
+              </h1>
+              <p>
+                Start with a mix. Try another. See how both would have
+                travelled.
+              </p>
+            </div>
+            <button id="quickStart" class="example-button">
+              <span class="play-icon">↗</span
+              ><span
+                >Take the guided example<small
+                  >3 stocks · saved data · no key needed</small
+                ></span
+              >
+            </button>
+          </div>
+          <div class="builder-grid">
+            <section class="panel builder" aria-labelledby="builderTitle">
+              <div class="section-title">
+                <div>
+                  <p class="eyebrow">THE STARTING POINT</p>
+                  <h2 id="builderTitle">Your allocation</h2>
+                </div>
+                <span class="tag">NSE / INR</span>
+              </div>
+              <div class="source-row">
+                <label for="source"
+                  >Data source<select id="source">
+                    <option value="saved">Saved example · 2022–2024</option>
+                    <option value="historical">
+                      Your stocks · retrieve history
+                    </option>
+                  </select></label
+                >
+                <details class="date-settings">
+                  <summary>Dates & settings <span>↗</span></summary>
+                  <div class="date-fields">
+                    <label
+                      >From<input
+                        id="start"
+                        type="date"
+                        value="2022-01-01" /></label
+                    ><label
+                      >Through, inclusive<input
+                        id="end"
+                        type="date"
+                        value="2024-12-31"
+                    /></label>
+                  </div>
+                </details>
+              </div>
+              <p id="sourceHint" class="muted source-hint"></p>
+              <div class="editor-toolbar">
+                <span>INITIAL WEIGHTS · TOTAL 100%</span
+                ><button id="equalWeight" class="text-button">
+                  Equal weight ↔
+                </button>
+              </div>
+              <div class="table-wrap">
+                <table class="editor-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Stock symbol</th>
+                      <th scope="col">
+                        <i class="key-dot current-key"></i>Current %
+                      </th>
+                      <th scope="col" id="altHeading">
+                        <i class="key-dot alternative-key"></i>Alternative %
+                      </th>
+                      <th scope="col"><span class="sr-only">Remove</span></th>
+                    </tr>
+                  </thead>
+                  <tbody id="editor"></tbody>
+                </table>
+              </div>
+              <div class="editor-bottom">
+                <button id="add" class="add-button">＋ Add a stock</button
+                ><span id="stockLimit" class="muted"></span>
+              </div>
+              <label class="toggle"
+                ><input id="useAlternative" type="checkbox" checked /><span
+                  class="switch-track"
+                  aria-hidden="true"
+                ></span
+                ><span
+                  >Compare another mix<small
+                    >Keep the stocks. Change the starting weights.</small
+                  ></span
+                ></label
+              >
+              <details class="import-settings">
+                <summary>Import an allocation CSV <span>↓</span></summary>
+                <div class="import-content">
+                  <label for="csvTarget"
+                    >Replace weights in<select id="csvTarget">
+                      <option value="current">Current allocation</option>
+                      <option value="alternative">
+                        Alternative allocation
+                      </option>
+                    </select></label
+                  ><label for="csv"
+                    >Symbol,Weight CSV<input
+                      id="csv"
+                      type="file"
+                      accept=".csv" /></label
+                  ><a href="/sample-portfolio.csv">Download sample format ↗</a>
+                </div>
+              </details>
+              <p id="status" role="status" aria-live="polite"></p>
+              <p id="error" role="alert" hidden></p>
+              <div class="builder-actions">
+                <button id="calculate" class="primary">
+                  Calculate comparison <span>↗</span></button
+                ><button id="reset" class="text-button">Reset example</button>
+              </div>
+            </section>
+            <aside class="mix-column">
+              <section class="mix-card">
+                <div class="mix-card-heading">
+                  <p class="eyebrow">YOUR CURRENT MIX</p>
+                  <span class="tiny-status">LIVE PREVIEW</span>
+                </div>
+                <div
+                  class="mix-ring"
+                  id="mixRing"
+                  role="img"
+                  aria-label="Current initial allocation"
+                >
+                  <div>
+                    <strong id="mixTotal">100%</strong
+                    ><span id="mixCount">3 stocks</span>
+                  </div>
+                </div>
+                <div id="mixLegend"></div>
+                <p id="totals" role="status"></p>
+                <p id="allocationHint" class="muted" aria-live="polite"></p>
+              </section>
+              <section class="benchmark-note">
+                <div class="benchmark-icon">↗</div>
+                <div>
+                  <span class="eyebrow">A SHARED YARDSTICK</span>
+                  <h3>Meet your benchmark.</h3>
+                  <p>
+                    NIFTYBEES, an INR NIFTY ETF. Your mixes and the ETF start at
+                    100 on matching observed dates.
+                  </p>
+                  <small
+                    >Includes ETF fees and tracking effects. It is not the
+                    official NIFTY total-return index.</small
+                  >
+                </div>
+              </section>
+            </aside>
+          </div>
+          <div class="build-footnote">
+            <span>01 <b>Allocate</b></span
+            ><i>→</i><span>02 <b>Compare</b></span
+            ><i>→</i><span>03 <b>Understand</b></span>
+            <p>No forecasts. Just a closer look at what happened.</p>
+          </div>
+        </section>
+        <section id="exploreStage" hidden aria-labelledby="exploreTitle">
+          <div class="page-heading report-heading">
+            <div>
+              <p class="eyebrow">02 / FOLLOW THE JOURNEY</p>
+              <h1 id="exploreTitle" tabindex="-1">
+                Your mix.<br /><em>In perspective.</em>
+              </h1>
+              <p id="period"></p>
+            </div>
+            <button id="editMix" class="secondary">← Edit allocation</button>
+          </div>
+          <p id="stale" role="status" hidden>
+            Inputs changed. Calculate again to update these results.
+          </p>
+          <div id="empty" class="panel">
+            Build an allocation to start your comparison.
+          </div>
+          <div id="results" hidden>
+            <div
+              class="report-tabs no-print"
+              role="tablist"
+              aria-label="Report views"
+            >
+              <button
+                id="tabOverview"
+                role="tab"
+                aria-selected="true"
+                aria-controls="overviewView"
+              >
+                Overview <span>↗</span></button
+              ><button
+                id="tabRisk"
+                role="tab"
+                aria-selected="false"
+                aria-controls="riskView"
+              >
+                Risk & allocation <span>◒</span></button
+              ><button
+                id="tabScenarios"
+                role="tab"
+                aria-selected="false"
+                aria-controls="scenariosView"
+              >
+                Compare mixes <span>↔</span></button
+              ><button
+                id="tabNotes"
+                role="tab"
+                aria-selected="false"
+                aria-controls="notesView"
+              >
+                AI interpretation <span>✦</span>
+              </button>
+            </div>
+            <section
+              id="overviewView"
+              class="report-view"
+              role="tabpanel"
+              aria-labelledby="tabOverview"
+            >
+              <div class="section-kicker">
+                <span>CURRENT ALLOCATION</span
+                ><span>BUY & HOLD · NO REBALANCING</span>
+              </div>
+              <div id="metrics" class="metrics"></div>
+              <section class="panel performance-panel">
+                <div class="section-title">
+                  <div>
+                    <p class="eyebrow">THE HISTORICAL JOURNEY</p>
+                    <h2>A shared start. Different paths.</h2>
+                  </div>
+                  <span class="tag">INDEX / 100</span>
+                </div>
+                <div id="legend"></div>
+                <div id="performance" class="chart"></div>
+                <div class="chart-inspector">
+                  <label for="inspect"
+                    >Explore a trading date
+                    <span>Drag, hover or use arrow keys</span></label
+                  ><input id="inspect" type="range" min="0" value="0" /><output
+                    id="inspection"
+                  ></output>
+                </div>
+              </section>
+            </section>
+            <section
+              id="riskView"
+              class="report-view"
+              role="tabpanel"
+              aria-labelledby="tabRisk"
+              hidden
+            >
+              <div class="view-intro">
+                <p class="eyebrow">LOOK BENEATH THE RETURN</p>
+                <h2>The bumps matter, too.</h2>
+                <p>
+                  Drawdown measures the fall from a previous peak. A new high
+                  brings it back to zero.
+                </p>
+              </div>
+              <div class="panel">
+                <div class="section-title">
+                  <h2>Drawdown through time</h2>
+                  <span class="tag">FALL FROM PEAK / %</span>
+                </div>
+                <div id="riskLegend"></div>
+                <div id="drawdown" class="chart"></div>
+                <label class="risk-date-label" for="riskInspect"
+                  >Explore a trading date</label
+                ><input
+                  id="riskInspect"
+                  type="range"
+                  min="0"
+                  value="0"
+                /><output id="riskInspection"></output>
+              </div>
+              <div class="panel allocation-panel">
+                <div class="section-title">
+                  <div>
+                    <p class="eyebrow">BEFORE THE JOURNEY</p>
+                    <h2>How the mix began</h2>
+                  </div>
+                  <select
+                    id="allocationView"
+                    aria-label="Allocation chart portfolio"
+                  >
+                    <option value="current">Current</option>
+                    <option value="alternative">Alternative</option>
+                  </select>
+                </div>
+                <div id="allocationChart"></div>
+                <details class="allocation-details">
+                  <summary>View starting weights as a table</summary>
+                  <div class="table-wrap">
+                    <table id="reportAllocations"></table>
+                  </div>
+                </details>
+              </div>
+            </section>
+            <section
+              id="scenariosView"
+              class="report-view"
+              role="tabpanel"
+              aria-labelledby="tabScenarios"
+              hidden
+            >
+              <div class="view-intro">
+                <p class="eyebrow">SAME STOCKS. DIFFERENT WEIGHTS.</p>
+                <h2>A change of perspective.</h2>
+                <p>
+                  Compare return alongside volatility and drawdown. A higher
+                  return tells only part of the story.
+                </p>
+              </div>
+              <div id="scenarioCards" class="scenario-cards"></div>
+              <div class="panel">
+                <div class="section-title">
+                  <h2>The complete comparison</h2>
+                  <span class="tag">MATCHING DATES</span>
+                </div>
+                <div class="table-wrap"><table id="comparison"></table></div>
+                <p id="difference" class="difference-callout"></p>
+              </div>
+            </section>
+            <section
+              id="notesView"
+              class="report-view"
+              role="tabpanel"
+              aria-labelledby="tabNotes"
+              hidden
+            >
+              <section class="notes-hero">
+                <div class="ai-art" aria-hidden="true">
+                  <span>✦</span><i></i><i></i>
+                </div>
+                <div>
+                  <p class="eyebrow">03 / A SECOND LOOK</p>
+                  <h2>The numbers.<br /><em>In human language.</em></h2>
+                  <p>
+                    Ask Gemini to explain the calculated performance, risk and
+                    trade-offs. Your results are ready with or without it.
+                  </p>
+                  <button id="interpret" class="primary">
+                    Generate interpretation <span>✦</span>
+                  </button>
+                </div>
+              </section>
+              <p class="ai-privacy">
+                Sends calculated facts and limitations to Google only when
+                requested. Numerical sourcing is checked; qualitative
+                interpretation is not independently certified.
+              </p>
+              <p id="aiStatus" role="status" aria-live="polite"></p>
+              <div id="commentary"></div>
+            </section>
+            <section class="print-assumptions">
+              <h2>Method summary</h2>
+              <p>
+                Buy and hold; adjusted-price proxy; no rebalancing, flows, fees
+                or taxes. Matching observed dates. Historical results are not
+                forecasts.
+              </p>
+            </section>
+            <details class="panel method-details">
+              <summary>
+                <span
+                  ><span class="method-icon">⌘</span> Method, coverage & data
+                  provenance</span
+                ><span>＋</span>
+              </summary>
+              <ul id="assumptions"></ul>
+              <pre id="coverage"></pre>
+            </details>
+          </div>
+        </section>
+        <footer>
+          <span class="footer-wordmark">finalitics.</span>
+          <p>Real history. Clear assumptions. Your perspective.</p>
+          <details>
+            <summary>Team & project history ↗</summary>
+            <p>
+              May–July 2025 KVGAI Tech internship: Atharva Suraj Krishnan, Kevin
+              Felix Dcunha (nabujika), Omkar Shrikanth (OmkarShr). Collaborative
+              work without strict ownership divisions; Kevin and Omkar wrote
+              more original code. Restoration and dashboard development:
+              October–November 2026. Original history and notebooks are
+              preserved.
+            </p>
+          </details>
+          <small
+            >Historical analysis. No forecasts or investment
+            recommendations.</small
+          >
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

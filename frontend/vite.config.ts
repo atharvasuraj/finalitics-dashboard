@@ -1,0 +1,18 @@
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    proxy: {
+      '/upload': 'http://localhost:5001',
+      '/sample-data': 'http://localhost:5001',
+      '/stock-offerings': 'http://localhost:5001',
+      '/health': 'http://localhost:5001'
+    }
+  },
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});

@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A clearer perspective on your portfolio. Explore real historical data, compare allocations, and understand the trade-offs with Finalitics."
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="{{ asset_url('favicon.svg') }}"
+    />
+    <meta name="theme-color" content="#f5f4ef" />
+    <title>Finalitics — A clearer perspective.</title>
+    <link rel="stylesheet" href="{{ asset_url('home.css') }}" />
+    <script type="module" src="{{ asset_url('home.js') }}"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="home-page">
+      <header class="home-nav">
+        <a class="wordmark" href="/" aria-label="Finalitics home"
+          ><span class="brand-symbol" aria-hidden="true">f</span>finalitics<span
+            class="brand-period"
+            >.</span
+          ></a
+        >
+        <nav aria-label="Main navigation">
+          <a href="#approach">The approach</a>
+          <a href="#method">Under the hood</a>
+        </nav>
+        <a class="button button-small button-dark" href="/dashboard"
+          >Open workspace <span aria-hidden="true">↗</span></a
+        >
+      </header>
+      <main id="main">
+        <section class="hero" aria-labelledby="home-title">
+          <div class="hero-topline">
+            <span
+              ><i aria-hidden="true"></i> A PORTFOLIO LAB FOR CURIOUS
+              MINDS</span
+            ><span class="edition">NSE / INR · HISTORICAL ANALYSIS</span>
+          </div>
+          <div class="hero-layout">
+            <div class="hero-copy">
+              <h1 id="home-title">
+                A clearer<br />perspective<br />on your <em>mix.</em>
+              </h1>
+              <p class="hero-description">
+                A return tells one part of the story.<br />Explore the journey,
+                compare the risks, and see your portfolio with a little more
+                perspective.
+              </p>
+              <div class="hero-actions">
+                <a class="button button-blue" href="/dashboard?example=1"
+                  >Explore the saved example
+                  <span aria-hidden="true">↗</span></a
+                ><a class="quiet-link" href="/dashboard"
+                  >Build my own <span aria-hidden="true">→</span></a
+                >
+              </div>
+              <p class="hero-footnote">
+                Real price history. Clear assumptions. No crystal ball.
+              </p>
+            </div>
+            <aside class="hero-aside" aria-label="Saved example snapshot">
+              <div class="orbit-art" aria-hidden="true">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="orbit orbit-three"></div>
+                <span class="orbit-label label-one">RETURN</span
+                ><span class="orbit-label label-two">RISK</span
+                ><span class="orbit-label label-three">PERSPECTIVE</span>
+                <div class="orbit-center">f<span>.</span></div>
+                <i class="satellite satellite-one"></i
+                ><i class="satellite satellite-two"></i>
+              </div>
+              <div class="aside-caption">
+                <span class="tiny-arrow" aria-hidden="true">↙</span>
+                <p>
+                  Different weights.<br />Different journeys.<br /><strong
+                    >One shared starting point.</strong
+                  >
+                </p>
+              </div>
+            </aside>
+          </div>
+        </section>
+        <section class="preview-section" aria-labelledby="preview-title">
+          <div class="preview-heading">
+            <div>
+              <p class="eyebrow">TAKE A CLOSER LOOK</p>
+              <h2 id="preview-title">
+                Same ingredients.<br /><em>Different outcomes.</em>
+              </h2>
+            </div>
+            <p>
+              A real saved example, ready to explore.<br />Switch the
+              allocation. Follow the line.
+            </p>
+          </div>
+          <div id="homePreview" class="portfolio-preview" aria-busy="true">
+            <div class="preview-toolbar">
+              <div
+                class="mode-switch"
+                role="group"
+                aria-label="Preview allocation"
+              >
+                <button
+                  id="previewCurrent"
+                  type="button"
+                  aria-pressed="true"
+                  disabled
+                >
+                  The original mix <span>40 / 30 / 30</span></button
+                ><button
+                  id="previewAlternative"
+                  type="button"
+                  aria-pressed="false"
+                  disabled
+                >
+                  Another perspective <span>20 / 40 / 40</span>
+                </button>
+              </div>
+              <span id="previewDataset" class="dataset-chip"
+                ><i aria-hidden="true"></i> SAVED EXAMPLE · LOADING</span
+              >
+            </div>
+            <div class="preview-body">
+              <div class="preview-stat">
+                <span class="stat-label">TOTAL RETURN</span
+                ><strong id="previewReturn">—</strong>
+                <p id="previewCaption">
+                  Reliance 40%<br />HDFC Bank 30% · Infosys 30%
+                </p>
+                <div class="stat-divider"></div>
+                <span class="stat-label">LARGEST PEAK-TO-TROUGH FALL</span
+                ><b id="previewDrawdown">—</b>
+                <p class="stat-disclaimer">
+                  Historical result, not a prediction.
+                </p>
+              </div>
+              <div class="preview-plot">
+                <div class="plot-heading">
+                  <span
+                    ><i class="line-key current-key" aria-hidden="true"></i
+                    ><span id="previewLineName">Current allocation</span></span
+                  ><span
+                    ><i class="line-key benchmark-key" aria-hidden="true"></i
+                    >NIFTY ETF reference</span
+                  ><span>INDEX · START = 100</span>
+                </div>
+                <div
+                  id="homeChart"
+                  class="home-chart"
+                  aria-label="Saved portfolio and benchmark performance"
+                >
+                  <p class="chart-loading" role="status">
+                    Loading the saved historical series…
+                  </p>
+                </div>
+                <div class="chart-inspector">
+                  <label for="homeInspect">Explore a trading date</label
+                  ><output id="homeReadout" for="homeInspect"
+                    >Waiting for the local saved dataset.</output
+                  ><input
+                    id="homeInspect"
+                    type="range"
+                    min="0"
+                    max="1"
+                    value="0"
+                    aria-describedby="homeReadout"
+                    disabled
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="preview-footer">
+              <span id="previewCoverage" role="status"
+                >Historical coverage pending.</span
+              ><a href="/dashboard?example=1"
+                >See the full comparison <span aria-hidden="true">↗</span></a
+              >
+            </div>
+          </div>
+          <noscript
+            ><p class="data-note">
+              Enable JavaScript to load the saved preview. No calculated results
+              are shown until the local dataset is available.
+            </p></noscript
+          >
+          <p class="data-note">
+            Illustrative allocations of Reliance, HDFC Bank and Infosys. The
+            benchmark is NIFTYBEES, an investable INR ETF with fees and tracking
+            effects—not the official NIFTY total-return index.
+          </p>
+        </section>
+        <section
+          id="approach"
+          class="approach-section"
+          aria-labelledby="approach-title"
+        >
+          <div class="section-heading">
+            <p class="eyebrow">LESS NOISE. MORE CONTEXT.</p>
+            <h2 id="approach-title">
+              From “how much?”<br />to <em>“what does it mean?”</em>
+            </h2>
+          </div>
+          <div class="approach-grid">
+            <article>
+              <span class="feature-number">01 / BUILD</span>
+              <div class="feature-glyph mix-glyph" aria-hidden="true">
+                <i></i><i></i><i></i>
+              </div>
+              <h3>Make it your mix.</h3>
+              <p>
+                Choose NSE stocks, set the weights, or bring a CSV. Watch the
+                allocation take shape before you run the numbers.
+              </p>
+            </article>
+            <article>
+              <span class="feature-number">02 / EXPLORE</span>
+              <div class="feature-glyph paths-glyph" aria-hidden="true">
+                <svg viewBox="0 0 100 52">
+                  <path d="M0 43 18 29 34 35 52 14 66 22 82 6 100 10" />
+                  <path d="M0 43 18 35 34 39 52 26 66 31 82 19 100 23" />
+                </svg>
+              </div>
+              <h3>Look beyond the headline.</h3>
+              <p>
+                Compare performance, volatility and drawdown on matching dates.
+                Put an alternative allocation beside a market reference.
+              </p>
+            </article>
+            <article>
+              <span class="feature-number">03 / UNDERSTAND</span>
+              <div class="feature-glyph notes-glyph" aria-hidden="true">
+                ✳<span>f.</span>
+              </div>
+              <h3>Get a second perspective.</h3>
+              <p>
+                Ask Gemini for plain-language interpretation. Server-supplied
+                numerical facts stay separate from the model’s qualitative take.
+              </p>
+            </article>
+          </div>
+        </section>
+        <section
+          id="method"
+          class="method-section"
+          aria-labelledby="method-title"
+        >
+          <div class="method-head">
+            <p class="eyebrow">BUILT WITH THE ASSUMPTIONS SHOWING</p>
+            <h2 id="method-title">
+              Confidence comes<br />from <em>clarity.</em>
+            </h2>
+            <p>
+              No secret score. No invented performance.<br />Just historical
+              calculations you can inspect.
+            </p>
+          </div>
+          <div class="method-list">
+            <details>
+              <summary>
+                <span>01</span> Real history. Repeatable results.
+                <b aria-hidden="true">+</b>
+              </summary>
+              <p>
+                Historical Yahoo Finance data is cached locally for
+                exact-request reuse. The saved example works offline once its
+                stock and benchmark data are prepared. Retrieval failures are
+                explicit; no generated prices are substituted.
+              </p>
+            </details>
+            <details>
+              <summary>
+                <span>02</span> A common starting line.
+                <b aria-hidden="true">+</b>
+              </summary>
+              <p>
+                Current, alternative and benchmark series use matching observed
+                dates and start at an index of 100. At least 252 common
+                observations are required. Missing quotes are not
+                forward-filled, and coverage exclusions are disclosed.
+              </p>
+            </details>
+            <details>
+              <summary>
+                <span>03</span> Buy and hold. Read the fine print.
+                <b aria-hidden="true">+</b>
+              </summary>
+              <p>
+                Fractional initial weights; no rebalancing, cash flows, fees,
+                taxes or slippage. Adjusted prices are a vendor return proxy,
+                not actual account cash flows or fund NAVs. Past results do not
+                establish future returns.
+              </p>
+            </details>
+            <details>
+              <summary>
+                <span>04</span> AI-assisted. Not AI-decided.
+                <b aria-hidden="true">+</b>
+              </summary>
+              <p>
+                Gemini interpretation is optional and user initiated. Numerical
+                sourcing is validated against calculated server facts;
+                qualitative interpretation is not independently certified. The
+                historical workspace remains useful without a Gemini key.
+              </p>
+            </details>
+          </div>
+        </section>
+        <section class="closing-section">
+          <p class="eyebrow">YOUR NEXT QUESTION STARTS HERE</p>
+          <h2>Meet your portfolio.<br /><em>Again.</em></h2>
+          <a class="button button-lime" href="/dashboard"
+            >Open the workspace <span aria-hidden="true">↗</span></a
+          ><span class="closing-note"
+            >No forecasting. No investment recommendations.<br />Just a better
+            view of the past.</span
+          >
+        </section>
+      </main>
+      <footer class="home-footer">
+        <a class="wordmark" href="/"
+          >finalitics<span class="brand-period">.</span></a
+        ><span>A portfolio lab, built for perspective.</span>
+        <details>
+          <summary>Team & project history</summary>
+          <p>
+            Original May–July 2025 KVGAI Tech internship collaboration: Atharva
+            Suraj Krishnan, Kevin Felix Dcunha (nabujika), and Omkar Shrikanth
+            (OmkarShr). Kevin and Omkar wrote more of the original code;
+            responsibilities were collaborative. Restoration, validation,
+            dashboard and interface development are October–November 2026 work.
+            Original source and team credit are preserved.
+          </p>
+        </details>
+        <small>Historical analysis · NSE / INR</small>
+      </footer>
+    </div>
+  </body>
+</html>

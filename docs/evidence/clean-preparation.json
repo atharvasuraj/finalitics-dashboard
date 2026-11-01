@@ -1,0 +1,32 @@
+{
+  "clean_environment_python": "3.12.14",
+  "installed": "requirements-data.txt constrained by requirements-lock.txt, after runtime-only verification",
+  "command": "python scripts/prepare_data.py --output /private/tmp/kvgai-clean-data",
+  "success": true,
+  "observations_per_stock": {
+    "HDFCBANK.NS": {
+      "start": "2022-01-03",
+      "end": "2024-12-31",
+      "observations": 739
+    },
+    "INFY.NS": {
+      "start": "2022-01-03",
+      "end": "2024-12-31",
+      "observations": 739
+    },
+    "RELIANCE.NS": {
+      "start": "2022-01-03",
+      "end": "2024-12-31",
+      "observations": 739
+    }
+  },
+  "clean_snapshot_sha256": "4a8c125d35e1e7b9470a2d20ac3fbff0f2cf43a344ae12592ccf7c8c5c82539b",
+  "matches_original_snapshot": false,
+  "metrics": {
+    "total_return": 0.1271567803789151,
+    "cagr": 0.04081060098091105,
+    "annualized_volatility": 0.17030562334952615,
+    "max_drawdown": 0.16878980019909506
+  },
+  "notes": "Provider dependency emitted nonfatal deprecation warnings. No filling, synthetic fallback, or data replacement was used."
+}

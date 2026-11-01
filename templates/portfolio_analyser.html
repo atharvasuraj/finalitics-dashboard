@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Historical Portfolio Analyser · Finalitics</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='portfolio.css') }}">
+  <script src="{{ url_for('static', filename='portfolio.js') }}" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1>Historical Portfolio Analyser</h1>
+    <p class="subtitle">Finalitics · KVGAI Tech internship team project, restored in 2026</p>
+    <p>Explore an illustrative stock allocation using saved 2022–2024 adjusted prices. This demonstration runs offline after data preparation.</p>
+    <section class="upload-section" aria-label="Portfolio input">
+      <button id="sampleButton" type="button">Load sample portfolio</button>
+      <a href="/sample-portfolio.csv" download>Download sample CSV</a>
+      <form id="uploadForm">
+        <label for="portfolioFile">Portfolio CSV (up to 1 MB)</label>
+        <input type="file" id="portfolioFile" name="file" accept=".csv,text/csv" required>
+        <button id="uploadButton" type="submit">Analyse uploaded CSV</button>
+      </form>
+      <p>Columns: <code>Symbol,Weight</code>. Supported stocks: <code>RELIANCE.NS</code>, <code>HDFCBANK.NS</code>, <code>INFY.NS</code>. The <code>.NS</code> suffix is optional.</p>
+      <p>Weights are nonnegative percentages totaling 100. Totals within 0.01 percentage points are scaled to exactly 100; other totals are rejected.</p>
+    </section>
+    <p id="loading" role="status" hidden>Analysing saved historical data…</p>
+    <p id="error" class="error" role="alert" hidden></p>
+    <section id="results" aria-label="Analysis results" hidden>
+      <h2>Historical results</h2>
+      <p id="period"></p>
+      <div id="metrics" class="metrics"></div>
+      <img id="chart" class="chart-img" alt="Historical buy-and-hold stock portfolio index starting at 100">
+      <h2>Initial allocation</h2>
+      <table><thead><tr><th scope="col">Stock</th><th scope="col">Initial weight</th></tr></thead><tbody id="allocations"></tbody></table>
+      <h2>Saved data</h2>
+      <p id="dataset"></p>
+      <details><summary>Dataset checksum and coverage</summary><pre id="provenance"></pre></details>
+    </section>
+    <section>
+      <h2>Calculation assumptions</h2>
+      <p><code>I(t) = 100 × Σ[wᵢ × Pᵢ(t) / Pᵢ(t₀)]</code></p>
+      <ul>{% for assumption in assumptions %}<li>{{ assumption }}</li>{% endfor %}</ul>
+      <p>Maximum drawdown is shown as a positive loss magnitude. No forecasts or investment recommendations are produced.</p>
+    </section>
+    <footer>
+      <p>2025 collaborative prototype: Atharva Suraj Krishnan, Kevin Felix Dcunha (<a href="https://github.com/nabujika">nabujika</a>), and Omkar Shrikanth (<a href="https://github.com/OmkarShr">OmkarShr</a>). Restoration and validation are later work.</p>
+      <a href="/legacy">Legacy offerings and limitations</a>
+    </footer>
+  </main>
+</body>
+</html>

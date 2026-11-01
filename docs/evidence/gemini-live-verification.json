@@ -1,0 +1,17 @@
+{
+  "verified_at_utc": "2026-10-31T11:19:16.098132+00:00",
+  "model": "gemini-3.5-flash-lite",
+  "elapsed_seconds": 2.0,
+  "example": "Saved current 40/30/30, alternative 20/40/40, NIFTY ETF; no personal holdings",
+  "status": "ready",
+  "numerical_validation": "passed",
+  "sections": {
+    "performance": "The current portfolio generated positive cumulative gains over the evaluation window with modest annualized growth. Historical outcomes reflect standard buy and hold assumptions without accounting for external friction costs. Current total return: 12.72%; Current CAGR: 4.08%; Period start: 2022-01-03; Period end: 2024-12-31.",
+    "risk": "Volatility and peak decline metrics indicate notable drawdown exposure during the historical timeframe. Observations are constrained by the selected historical window and do not imply future safety. Current annualized volatility: 17.03%; Current maximum drawdown: 16.88%; Period observations: 739.",
+    "comparison": "The alternative allocation exhibited slightly higher cumulative growth alongside increased drawdown compared to the current portfolio, while the benchmark reference outperformed both asset groupings over the identical period. Current total return: 12.72%; Alternative total return: 13.39%; Benchmark total return: 38.67%; Benchmark weight NIFTYBEES NS: 100.00%."
+  },
+  "limitations": "Single live response; qualitative correctness and reliability not certified.",
+  "tested_source_sha256": "4ae4a2dac8c1acd9c10c3019358628018bf2df696b316974e21d6585b7f12046",
+  "source_sha256": "81ea002fdecf8ca2e42e5f3405a79bcf03924fb46a17becfc8b3cd4fd1433b99",
+  "post_test_change": "Default model changed to the explicitly selected model used in this successful live test; no further generation or validation changes."
+}

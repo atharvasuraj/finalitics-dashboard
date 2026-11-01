@@ -1,0 +1,41 @@
+{
+  "/": {
+    "status": 200,
+    "json": "HTML renders"
+  },
+  "/portfolio-analyser": {
+    "status": 200,
+    "json": "HTML renders"
+  },
+  "/stock-offerings-page": {
+    "status": 200,
+    "json": "HTML renders"
+  },
+  "/stock-offerings": {
+    "status": 200,
+    "json": {
+      "baskets": {},
+      "error": "Unable to fetch stock data. Please check your internet connection.",
+      "total_stocks_analyzed": 0
+    }
+  },
+  "/health": {
+    "status": 200,
+    "json": {
+      "status": "healthy",
+      "timestamp": "2026-10-31T13:35:22.437104"
+    }
+  },
+  "POST /personal-mf": {
+    "status": 500,
+    "json": {
+      "error": "Error: [Errno 2] No such file or directory: 'ind_nifty100list.csv'"
+    }
+  },
+  "POST /portfolio-analyser-upload (invalid)": {
+    "status": 400,
+    "json": {
+      "error": "CSV must have Symbol and Weight columns"
+    }
+  }
+}
