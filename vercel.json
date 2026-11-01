@@ -6,5 +6,8 @@
       "maxDuration": 60,
       "excludeFiles": "{frontend/**,tests/**,docs/**,**/*.ipynb,**/__pycache__/**,.venv/**}"
     }
+  },
+  "git": {
+    "deploymentEnabled": false
   }
 }

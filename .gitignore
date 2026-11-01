@@ -74,3 +74,4 @@ instance/
 .vercel/
 .env.*
 !.env.example
+.vercel
