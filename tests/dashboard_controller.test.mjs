@@ -245,3 +245,15 @@ test('an incomplete cached template gets a visible initialization failure', asyn
   assert.equal(elements.get('interpret').disabled, true);
   assert.equal(elements.get('printReport').disabled, true);
 });
+
+test('browser observer warnings do not invalidate a calculated report', async () => {
+  const elements = await fixture(async () => ({ok:true,json:async()=>structuredClone(sample)}));
+  await import('../static/dashboard.js?controller-browser-warning');
+  elements.get('calculate').click();
+  await settle();
+  elements.windowListeners.error({error:null,message:'ResizeObserver loop completed with undelivered notifications.'});
+  elements.windowListeners.unhandledrejection({reason:new DOMException('Transition aborted','AbortError')});
+  assert.equal(elements.get('results').hidden,false);
+  assert.equal(document.body.dataset.reportReady,'true');
+  assert.equal(elements.get('printReport').disabled,false);
+});
