@@ -29,10 +29,17 @@ function controllerFailure(error) {
   document.body.dataset.reportReady = "false";
 }
 
-window.addEventListener("error", (event) => controllerFailure(event.error));
-window.addEventListener("unhandledrejection", (event) =>
-  controllerFailure(event.reason),
-);
+// Browser-generated observer/transition warnings may have no Error object.
+// Only controller exceptions should invalidate a calculated financial report.
+function isControllerError(error) {
+  return error instanceof Error && String(error.stack).includes('dashboard.js');
+}
+window.addEventListener("error", (event) => {
+  if (isControllerError(event.error)) controllerFailure(event.error);
+});
+window.addEventListener("unhandledrejection", (event) => {
+  if (isControllerError(event.reason)) controllerFailure(event.reason);
+});
 
 function initializeDashboard() {
   const $ = (id) => document.getElementById(id);
